@@ -1,0 +1,1784 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Protocol xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="1.9">
+  <Preview ID="CACC_Palliative" Type="Protocol" ApprovalStatus="Approved" Diagnosis="" TreatmentSite="" AssignedUsers="jasonh" Description="3 Plans, WBRT, POP Lats and AP" LastModified=" December 18 2018 13:40:24:578" ApprovalHistory="jasonh Created [ September 08 2014 11:13:30:327 ];jasonh Approved [ September 16 2014 09:39:09:636 ];jasonh Unapproved [ May 17 2018 11:09:28:488 ];jasonh Approved [ May 17 2018 11:12:00:670 ]"/>
+  <StructureTemplate>
+    <Structures>
+      <Structure ID="BODY" Name="Body Outline">
+        <Identification>
+          <VolumeID/>
+          <VolumeCode>C44.9</VolumeCode>
+          <VolumeType>BODY</VolumeType>
+          <VolumeCodeTable>ICD-O-2</VolumeCodeTable>
+          <StructureCode Code="BODY" CodeScheme="99VMS_STRUCTCODE" CodeSchemeVersion="1.0"/>
+        </Identification>
+        <TypeIndex>2</TypeIndex>
+        <ColorAndStyle>Skin Rendering</ColorAndStyle>
+        <SearchCTLow>-900</SearchCTLow>
+        <SearchCTHigh>1200</SearchCTHigh>
+        <DVHLineStyle>0</DVHLineStyle>
+        <DVHLineColor>-16777216</DVHLineColor>
+        <DVHLineWidth>1</DVHLineWidth>
+        <EUDAlpha xsi:nil="true"/>
+        <TCPAlpha xsi:nil="true"/>
+        <TCPBeta xsi:nil="true"/>
+        <TCPGamma xsi:nil="true"/>
+      </Structure>
+      <Structure ID="EyeR" Name="Right Eye">
+        <Identification>
+          <VolumeID/>
+          <VolumeCode/>
+          <VolumeType>Organ</VolumeType>
+          <VolumeCodeTable/>
+          <StructureCode Code="12514" CodeScheme="FMA" CodeSchemeVersion="3.2"/>
+        </Identification>
+        <TypeIndex>2</TypeIndex>
+        <ColorAndStyle>Transluce - D-Bl</ColorAndStyle>
+        <SearchCTLow>1000</SearchCTLow>
+        <SearchCTHigh>1000</SearchCTHigh>
+        <DVHLineStyle>0</DVHLineStyle>
+        <DVHLineColor>-16777216</DVHLineColor>
+        <DVHLineWidth>1</DVHLineWidth>
+        <EUDAlpha xsi:nil="true"/>
+        <TCPAlpha xsi:nil="true"/>
+        <TCPBeta xsi:nil="true"/>
+        <TCPGamma xsi:nil="true"/>
+      </Structure>
+      <Structure ID="EyeL" Name="Left Eye">
+        <Identification>
+          <VolumeID/>
+          <VolumeCode/>
+          <VolumeType>Organ</VolumeType>
+          <VolumeCodeTable/>
+          <StructureCode Code="12515" CodeScheme="FMA" CodeSchemeVersion="3.2"/>
+        </Identification>
+        <TypeIndex>2</TypeIndex>
+        <ColorAndStyle>Transluce - Blue</ColorAndStyle>
+        <SearchCTLow>1000</SearchCTLow>
+        <SearchCTHigh>1000</SearchCTHigh>
+        <DVHLineStyle>0</DVHLineStyle>
+        <DVHLineColor>-16777216</DVHLineColor>
+        <DVHLineWidth>1</DVHLineWidth>
+        <EUDAlpha xsi:nil="true"/>
+        <TCPAlpha xsi:nil="true"/>
+        <TCPBeta xsi:nil="true"/>
+        <TCPGamma xsi:nil="true"/>
+      </Structure>
+      <Structure ID="GTV" Name="">
+        <Identification>
+          <VolumeID/>
+          <VolumeCode/>
+          <VolumeType>GTV</VolumeType>
+          <VolumeCodeTable/>
+          <StructureCode Code="GTV" CodeScheme="99VMS_STRUCTCODE" CodeSchemeVersion="1.0"/>
+        </Identification>
+        <TypeIndex>2</TypeIndex>
+        <ColorAndStyle>RGB144 0 0</ColorAndStyle>
+        <SearchCTLow>1000</SearchCTLow>
+        <SearchCTHigh>1000</SearchCTHigh>
+        <DVHLineStyle>0</DVHLineStyle>
+        <DVHLineColor>-16777216</DVHLineColor>
+        <DVHLineWidth>1</DVHLineWidth>
+        <EUDAlpha xsi:nil="true"/>
+        <TCPAlpha xsi:nil="true"/>
+        <TCPBeta xsi:nil="true"/>
+        <TCPGamma xsi:nil="true"/>
+      </Structure>
+      <Structure ID="PTV" Name="PTV">
+        <Identification>
+          <VolumeID/>
+          <VolumeCode/>
+          <VolumeType>PTV</VolumeType>
+          <VolumeCodeTable/>
+          <StructureCode Code="PTV" CodeScheme="99VMS_STRUCTCODE" CodeSchemeVersion="1.0"/>
+        </Identification>
+        <TypeIndex>2</TypeIndex>
+        <ColorAndStyle>Transluce - Cyan</ColorAndStyle>
+        <SearchCTLow xsi:nil="true"/>
+        <SearchCTHigh xsi:nil="true"/>
+        <DVHLineStyle>0</DVHLineStyle>
+        <DVHLineColor>-16777216</DVHLineColor>
+        <DVHLineWidth>1</DVHLineWidth>
+        <EUDAlpha xsi:nil="true"/>
+        <TCPAlpha xsi:nil="true"/>
+        <TCPBeta xsi:nil="true"/>
+        <TCPGamma xsi:nil="true"/>
+      </Structure>
+      <Structure ID="Carina" Name="Carina">
+        <Identification>
+          <VolumeID/>
+          <VolumeCode/>
+          <VolumeType>Organ</VolumeType>
+          <VolumeCodeTable/>
+          <StructureCode Code="7465" CodeScheme="FMA" CodeSchemeVersion="3.2"/>
+        </Identification>
+        <TypeIndex>2</TypeIndex>
+        <ColorAndStyle>Transluce - Yell</ColorAndStyle>
+        <SearchCTLow>1000</SearchCTLow>
+        <SearchCTHigh>1000</SearchCTHigh>
+        <DVHLineStyle>2</DVHLineStyle>
+        <DVHLineColor>-16777216</DVHLineColor>
+        <DVHLineWidth>1</DVHLineWidth>
+        <EUDAlpha xsi:nil="true"/>
+        <TCPAlpha xsi:nil="true"/>
+        <TCPBeta xsi:nil="true"/>
+        <TCPGamma xsi:nil="true"/>
+      </Structure>
+      <Structure ID="Base" Name="">
+        <Identification>
+          <VolumeID/>
+          <VolumeCode/>
+          <VolumeType>Organ</VolumeType>
+          <VolumeCodeTable/>
+          <StructureCode Code="Support" CodeScheme="99VMS_STRUCTCODE" CodeSchemeVersion="1.0"/>
+        </Identification>
+        <TypeIndex>2</TypeIndex>
+        <ColorAndStyle>Transluce - Mag</ColorAndStyle>
+        <SearchCTLow>-1000</SearchCTLow>
+        <SearchCTHigh>-900</SearchCTHigh>
+        <DVHLineStyle>0</DVHLineStyle>
+        <DVHLineColor>-16777216</DVHLineColor>
+        <DVHLineWidth>1</DVHLineWidth>
+        <EUDAlpha xsi:nil="true"/>
+        <TCPAlpha xsi:nil="true"/>
+        <TCPBeta xsi:nil="true"/>
+        <TCPGamma xsi:nil="true"/>
+      </Structure>
+      <Structure ID="LensR" Name="">
+        <Identification>
+          <VolumeID/>
+          <VolumeCode/>
+          <VolumeType>Organ</VolumeType>
+          <VolumeCodeTable/>
+          <StructureCode Code="58242" CodeScheme="FMA" CodeSchemeVersion="3.2"/>
+        </Identification>
+        <TypeIndex>2</TypeIndex>
+        <ColorAndStyle>Transluce - D-Gr</ColorAndStyle>
+        <SearchCTLow>1000</SearchCTLow>
+        <SearchCTHigh>1000</SearchCTHigh>
+        <DVHLineStyle>0</DVHLineStyle>
+        <DVHLineColor>-16777216</DVHLineColor>
+        <DVHLineWidth>1</DVHLineWidth>
+        <EUDAlpha xsi:nil="true"/>
+        <TCPAlpha xsi:nil="true"/>
+        <TCPBeta xsi:nil="true"/>
+        <TCPGamma xsi:nil="true"/>
+      </Structure>
+      <Structure ID="LensL" Name="">
+        <Identification>
+          <VolumeID/>
+          <VolumeCode/>
+          <VolumeType>Organ</VolumeType>
+          <VolumeCodeTable/>
+          <StructureCode Code="58243" CodeScheme="FMA" CodeSchemeVersion="3.2"/>
+        </Identification>
+        <TypeIndex>2</TypeIndex>
+        <ColorAndStyle>Transluce - Gree</ColorAndStyle>
+        <SearchCTLow>1000</SearchCTLow>
+        <SearchCTHigh>1000</SearchCTHigh>
+        <DVHLineStyle>0</DVHLineStyle>
+        <DVHLineColor>-16777216</DVHLineColor>
+        <DVHLineWidth>1</DVHLineWidth>
+        <EUDAlpha xsi:nil="true"/>
+        <TCPAlpha xsi:nil="true"/>
+        <TCPBeta xsi:nil="true"/>
+        <TCPGamma xsi:nil="true"/>
+      </Structure>
+    </Structures>
+  </StructureTemplate>
+  <FieldAlignmentRules/>
+  <Phases>
+    <Phase ID="WholeBrain">
+      <Mode>Photon</Mode>
+      <DefaultEnergyKV xsi:nil="true"/>
+      <FractionCount>10</FractionCount>
+      <FractionsPerWeek xsi:nil="true"/>
+      <FractionsPerDay xsi:nil="true"/>
+      <TreatmentUnit>CACCRT101</TreatmentUnit>
+      <TreatmentStyle>Conformal</TreatmentStyle>
+      <ImmobilizationDevice/>
+      <LocalizationTechnique/>
+      <Prescription/>
+      <PlanTemplate>
+        <PrescribedPercentage>1</PrescribedPercentage>
+        <DosePerFraction>3</DosePerFraction>
+        <FractionCount>10</FractionCount>
+        <FieldAlignmentRules/>
+        <PrescriptionSite>
+          <VolumeID/>
+          <VolumeCode/>
+          <VolumeType/>
+          <VolumeCodeTable/>
+        </PrescriptionSite>
+        <Boluses/>
+        <Fields>
+          <Field ID="Rt Lat" FixedSSD="false" UsingCompensator="false" UsingMLC="false" Setup="false" DRRVisible="true">
+            <Type>BeamLinac</Type>
+            <Target>
+              <VolumeID/>
+              <VolumeCode/>
+              <VolumeType/>
+              <VolumeCodeTable/>
+            </Target>
+            <TreatmentUnit>CACCRT101</TreatmentUnit>
+            <Technique>STATIC</Technique>
+            <Energy>
+              <Type>X</Type>
+              <EnergyKV>6000</EnergyKV>
+              <MaxEnergyKV xsi:nil="true"/>
+            </Energy>
+            <PrimaryFluenceMode/>
+            <DRRTemplate>Pelvis.dps</DRRTemplate>
+            <DoseRate>600</DoseRate>
+            <SFED>100</SFED>
+            <Gantry>
+              <Rtn>270</Rtn>
+              <StopRtn xsi:nil="true"/>
+              <RtnDirection>NONE</RtnDirection>
+            </Gantry>
+            <Collimator>
+              <Rtn>300</Rtn>
+              <Mode>AsymmetryX&amp;Y</Mode>
+              <X1>-14</X1>
+              <X2>4</X2>
+              <Y1>-16</Y1>
+              <Y2>7</Y2>
+            </Collimator>
+            <TableRtn>0</TableRtn>
+            <ToleranceTableID>CACC Palliative</ToleranceTableID>
+            <Weight>0.5</Weight>
+            <FieldMargin BEVMarginFlag="false" EllipticalMarginFlag="false" OptimizeCollRtnFlag="false">
+              <Left xsi:nil="true"/>
+              <Right xsi:nil="true"/>
+              <Top xsi:nil="true"/>
+              <Bottom xsi:nil="true"/>
+            </FieldMargin>
+            <SkinFlashMargin xsi:nil="true"/>
+            <FieldBoluses/>
+            <Isocenter Placement="AIO" X="0" Y="0" Z="0"/>
+            <Blocks/>
+            <MLCPlans>
+              <MLCPlan ID="MLC" DynamicFlag="false">
+                <ModelName>Millennium 120</ModelName>
+                <SegmentCount>1</SegmentCount>
+                <MLCMargin BEVMarginFlag="false" EllipticalMarginFlag="false" OptimizeCollRtnFlag="false" JawFittingMode="0">
+                  <Left xsi:nil="true"/>
+                  <Right xsi:nil="true"/>
+                  <Top xsi:nil="true"/>
+                  <Bottom xsi:nil="true"/>
+                </MLCMargin>
+                <ContourMeetPoint>Middle</ContourMeetPoint>
+                <ClosedMeetPoint>Center</ClosedMeetPoint>
+                <Target>
+                  <VolumeID/>
+                  <VolumeCode/>
+                  <VolumeType/>
+                  <VolumeCodeTable/>
+                </Target>
+              </MLCPlan>
+            </MLCPlans>
+            <Wedges/>
+            <Applicators/>
+          </Field>
+          <Field ID="Lt Lat" FixedSSD="false" UsingCompensator="false" UsingMLC="false" Setup="false" DRRVisible="true">
+            <Type>BeamLinac</Type>
+            <Target>
+              <VolumeID/>
+              <VolumeCode/>
+              <VolumeType/>
+              <VolumeCodeTable/>
+            </Target>
+            <TreatmentUnit>CACCRT101</TreatmentUnit>
+            <Technique>STATIC</Technique>
+            <Energy>
+              <Type>X</Type>
+              <EnergyKV>6000</EnergyKV>
+              <MaxEnergyKV xsi:nil="true"/>
+            </Energy>
+            <PrimaryFluenceMode/>
+            <DRRTemplate>Pelvis.dps</DRRTemplate>
+            <DoseRate>600</DoseRate>
+            <SFED>100</SFED>
+            <Gantry>
+              <Rtn>90</Rtn>
+              <StopRtn xsi:nil="true"/>
+              <RtnDirection>NONE</RtnDirection>
+            </Gantry>
+            <Collimator>
+              <Rtn>240</Rtn>
+              <Mode>AsymmetryX&amp;Y</Mode>
+              <X1>-14</X1>
+              <X2>4</X2>
+              <Y1>-7</Y1>
+              <Y2>16</Y2>
+            </Collimator>
+            <TableRtn>0</TableRtn>
+            <ToleranceTableID>CACC Palliative</ToleranceTableID>
+            <Weight>0.5</Weight>
+            <FieldMargin BEVMarginFlag="false" EllipticalMarginFlag="false" OptimizeCollRtnFlag="false">
+              <Left xsi:nil="true"/>
+              <Right xsi:nil="true"/>
+              <Top xsi:nil="true"/>
+              <Bottom xsi:nil="true"/>
+            </FieldMargin>
+            <SkinFlashMargin xsi:nil="true"/>
+            <FieldBoluses/>
+            <Isocenter Placement="AIO" X="0" Y="0" Z="0"/>
+            <Blocks/>
+            <MLCPlans>
+              <MLCPlan ID="MLC" DynamicFlag="false">
+                <ModelName>Millennium 120</ModelName>
+                <SegmentCount>1</SegmentCount>
+                <MLCMargin BEVMarginFlag="false" EllipticalMarginFlag="false" OptimizeCollRtnFlag="false" JawFittingMode="0">
+                  <Left xsi:nil="true"/>
+                  <Right xsi:nil="true"/>
+                  <Top xsi:nil="true"/>
+                  <Bottom xsi:nil="true"/>
+                </MLCMargin>
+                <ContourMeetPoint>Middle</ContourMeetPoint>
+                <ClosedMeetPoint>Center</ClosedMeetPoint>
+                <Target>
+                  <VolumeID/>
+                  <VolumeCode/>
+                  <VolumeType/>
+                  <VolumeCodeTable/>
+                </Target>
+              </MLCPlan>
+            </MLCPlans>
+            <Wedges/>
+            <Applicators/>
+          </Field>
+		            <Field ID="Ant Ref" FixedSSD="false" UsingCompensator="false" UsingMLC="false" Setup="true" DRRVisible="true">
+            <Type>BeamLinac</Type>
+            <Target>
+              <VolumeID>P</VolumeID>
+              <VolumeCode/>
+              <VolumeType/>
+              <VolumeCodeTable/>
+            </Target>
+            <TreatmentUnit>CACCRT101</TreatmentUnit>
+            <Technique>STATIC</Technique>
+            <Energy>
+              <Type>X</Type>
+              <EnergyKV>6000</EnergyKV>
+              <MaxEnergyKV xsi:nil="true"/>
+            </Energy>
+            <PrimaryFluenceMode/>
+            <DRRTemplate>Pelvis.dps</DRRTemplate>
+            <DoseRate>600</DoseRate>
+            <SFED>100</SFED>
+            <Gantry>
+              <Rtn>0</Rtn>
+              <StopRtn xsi:nil="true"/>
+              <RtnDirection>NONE</RtnDirection>
+            </Gantry>
+            <Collimator>
+              <Rtn>0</Rtn>
+              <Mode>AsymmetryX&amp;Y</Mode>
+              <X1>-15</X1>
+              <X2>15</X2>
+              <Y1>-15</Y1>
+              <Y2>15</Y2>
+            </Collimator>
+            <TableRtn>0</TableRtn>
+            <ToleranceTableID>CACC Palliative</ToleranceTableID>
+            <Weight>0</Weight>
+            <FieldMargin BEVMarginFlag="false" EllipticalMarginFlag="false" OptimizeCollRtnFlag="false">
+              <Left>0</Left>
+              <Right xsi:nil="true"/>
+              <Top xsi:nil="true"/>
+              <Bottom xsi:nil="true"/>
+            </FieldMargin>
+            <SkinFlashMargin xsi:nil="true"/>
+            <FieldBoluses/>
+            <Isocenter Placement="AIO" X="0" Y="0" Z="0"/>
+            <Blocks/>
+            <MLCPlans/>
+            <Wedges/>
+            <Applicators/>
+          </Field>
+          <Field ID="Lt Lat Ref" FixedSSD="false" UsingCompensator="false" UsingMLC="false" Setup="true" DRRVisible="true">
+            <Type>BeamLinac</Type>
+            <Target>
+              <VolumeID>P</VolumeID>
+              <VolumeCode/>
+              <VolumeType/>
+              <VolumeCodeTable/>
+            </Target>
+            <TreatmentUnit>CACCRT101</TreatmentUnit>
+            <Technique>STATIC</Technique>
+            <Energy>
+              <Type>X</Type>
+              <EnergyKV>6000</EnergyKV>
+              <MaxEnergyKV xsi:nil="true"/>
+            </Energy>
+            <PrimaryFluenceMode/>
+            <DRRTemplate>Pelvis.dps</DRRTemplate>
+            <DoseRate>600</DoseRate>
+            <SFED>100</SFED>
+            <Gantry>
+              <Rtn>90</Rtn>
+              <StopRtn xsi:nil="true"/>
+              <RtnDirection>NONE</RtnDirection>
+            </Gantry>
+            <Collimator>
+              <Rtn>0</Rtn>
+              <Mode>AsymmetryX&amp;Y</Mode>
+              <X1>-15</X1>
+              <X2>15</X2>
+              <Y1>-15</Y1>
+              <Y2>15</Y2>
+            </Collimator>
+            <TableRtn>0</TableRtn>
+            <ToleranceTableID>CACC Palliative</ToleranceTableID>
+            <Weight>0</Weight>
+            <FieldMargin BEVMarginFlag="false" EllipticalMarginFlag="false" OptimizeCollRtnFlag="false">
+              <Left>0</Left>
+              <Right xsi:nil="true"/>
+              <Top xsi:nil="true"/>
+              <Bottom xsi:nil="true"/>
+            </FieldMargin>
+            <SkinFlashMargin xsi:nil="true"/>
+            <FieldBoluses/>
+            <Isocenter Placement="AIO" X="0" Y="0" Z="0"/>
+            <Blocks/>
+            <MLCPlans/>
+            <Wedges/>
+            <Applicators/>
+			</Field>
+			          <Field ID="Rt Lat Ref" FixedSSD="false" UsingCompensator="false" UsingMLC="false" Setup="true" DRRVisible="true">
+            <Type>BeamLinac</Type>
+            <Target>
+              <VolumeID>P</VolumeID>
+              <VolumeCode/>
+              <VolumeType/>
+              <VolumeCodeTable/>
+            </Target>
+            <TreatmentUnit>CACCRT101</TreatmentUnit>
+            <Technique>STATIC</Technique>
+            <Energy>
+              <Type>X</Type>
+              <EnergyKV>6000</EnergyKV>
+              <MaxEnergyKV xsi:nil="true"/>
+            </Energy>
+            <PrimaryFluenceMode/>
+            <DRRTemplate>Pelvis.dps</DRRTemplate>
+            <DoseRate>600</DoseRate>
+            <SFED>100</SFED>
+            <Gantry>
+              <Rtn>270</Rtn>
+              <StopRtn xsi:nil="true"/>
+              <RtnDirection>NONE</RtnDirection>
+            </Gantry>
+            <Collimator>
+              <Rtn>0</Rtn>
+              <Mode>AsymmetryX&amp;Y</Mode>
+              <X1>-15</X1>
+              <X2>15</X2>
+              <Y1>-15</Y1>
+              <Y2>15</Y2>
+            </Collimator>
+            <TableRtn>0</TableRtn>
+            <ToleranceTableID>CACC Palliative</ToleranceTableID>
+            <Weight>0</Weight>
+            <FieldMargin BEVMarginFlag="false" EllipticalMarginFlag="false" OptimizeCollRtnFlag="false">
+              <Left>0</Left>
+              <Right xsi:nil="true"/>
+              <Top xsi:nil="true"/>
+              <Bottom xsi:nil="true"/>
+            </FieldMargin>
+            <SkinFlashMargin xsi:nil="true"/>
+            <FieldBoluses/>
+            <Isocenter Placement="AIO" X="0" Y="0" Z="0"/>
+            <Blocks/>
+            <MLCPlans/>
+            <Wedges/>
+            <Applicators/>
+          </Field>
+          <Field ID="Home" FixedSSD="false" UsingCompensator="false" UsingMLC="false" Setup="true" DRRVisible="true">
+            <Type>BeamLinac</Type>
+            <Target>
+              <VolumeID>P</VolumeID>
+              <VolumeCode/>
+              <VolumeType/>
+              <VolumeCodeTable/>
+            </Target>
+            <TreatmentUnit>CACCRT101</TreatmentUnit>
+            <Technique>STATIC</Technique>
+            <Energy>
+              <Type>X</Type>
+              <EnergyKV>6000</EnergyKV>
+              <MaxEnergyKV xsi:nil="true"/>
+            </Energy>
+            <PrimaryFluenceMode/>
+            <DRRTemplate>Pelvis.dps</DRRTemplate>
+            <DoseRate>600</DoseRate>
+            <SFED>100</SFED>
+            <Gantry>
+              <Rtn>0</Rtn>
+              <StopRtn xsi:nil="true"/>
+              <RtnDirection>NONE</RtnDirection>
+            </Gantry>
+            <Collimator>
+              <Rtn>0</Rtn>
+              <Mode>AsymmetryX&amp;Y</Mode>
+              <X1>-15</X1>
+              <X2>15</X2>
+              <Y1>-15</Y1>
+              <Y2>15</Y2>
+            </Collimator>
+            <TableRtn>0</TableRtn>
+            <ToleranceTableID>CACC Palliative</ToleranceTableID>
+            <Weight>0</Weight>
+            <FieldMargin BEVMarginFlag="false" EllipticalMarginFlag="false" OptimizeCollRtnFlag="false">
+              <Left>0</Left>
+              <Right xsi:nil="true"/>
+              <Top xsi:nil="true"/>
+              <Bottom xsi:nil="true"/>
+            </FieldMargin>
+            <SkinFlashMargin xsi:nil="true"/>
+            <FieldBoluses/>
+            <Isocenter Placement="AIO" X="0" Y="0" Z="0"/>
+            <Blocks/>
+            <MLCPlans/>
+            <Wedges/>
+            <Applicators/>
+          </Field>
+        </Fields>
+      </PlanTemplate>
+      <ObjectiveTemplate>
+        <Type>Helios</Type>
+        <Helios DefaultFixedJaws="false" Interpolate="false" UseColors="false">
+          <DefaultSmoothingX>40</DefaultSmoothingX>
+          <DefaultSmoothingY>30</DefaultSmoothingY>
+          <DefaultMinimizeDose>0</DefaultMinimizeDose>
+          <DefaultOptimizationType>Beamlet</DefaultOptimizationType>
+          <MaxIterations>1000</MaxIterations>
+          <MaxTime>100</MaxTime>
+          <NormalTissueObjective>
+            <Use>false</Use>
+            <Priority>150</Priority>
+            <DistanceFromTargetBorder>1</DistanceFromTargetBorder>
+            <StartDose>105</StartDose>
+            <EndDose>60</EndDose>
+            <FallOff>0.05</FallOff>
+            <Auto>false</Auto>
+          </NormalTissueObjective>
+          <Geos>
+            <InitialFieldDistribution>Coplanar</InitialFieldDistribution>
+            <MinimumNumberOfFields>5</MinimumNumberOfFields>
+            <MaximumNumberOfFields>9</MaximumNumberOfFields>
+            <MaximumElevationAngleForNonCoplanarFields>90</MaximumElevationAngleForNonCoplanarFields>
+            <MaximumCollimatorVariation>0</MaximumCollimatorVariation>
+            <LocalGeometricOptimizationMode>Simplex</LocalGeometricOptimizationMode>
+          </Geos>
+          <Imat UseMU="false" JawTracking="false">
+            <MUWeight>50</MUWeight>
+            <MinMU>0</MinMU>
+            <MaxMU>2000</MaxMU>
+          </Imat>
+        </Helios>
+        <ObjectivesAllStructures/>
+      </ObjectiveTemplate>
+	  
+    </Phase>
+    <Phase ID="Lat POP">
+      <Mode>Photon</Mode>
+      <DefaultEnergyKV xsi:nil="true"/>
+      <FractionCount>1</FractionCount>
+      <FractionsPerWeek xsi:nil="true"/>
+      <FractionsPerDay xsi:nil="true"/>
+      <TreatmentUnit>CACCRT101</TreatmentUnit>
+      <TreatmentStyle>Conformal</TreatmentStyle>
+      <ImmobilizationDevice/>
+      <LocalizationTechnique/>
+      <Prescription/>
+      <PlanTemplate>
+        <PrescribedPercentage>1</PrescribedPercentage>
+        <DosePerFraction>1</DosePerFraction>
+        <FractionCount>1</FractionCount>
+        <FieldAlignmentRules/>
+        <PrescriptionSite>
+          <VolumeID/>
+          <VolumeCode/>
+          <VolumeType/>
+          <VolumeCodeTable/>
+        </PrescriptionSite>
+        <Boluses/>
+        <Fields>
+          <Field ID="Rt Lat" FixedSSD="false" UsingCompensator="false" UsingMLC="false" Setup="false" DRRVisible="true">
+            <Type>BeamLinac</Type>
+            <Target>
+              <VolumeID/>
+              <VolumeCode/>
+              <VolumeType/>
+              <VolumeCodeTable/>
+            </Target>
+            <TreatmentUnit>CACCRT101</TreatmentUnit>
+            <Technique>STATIC</Technique>
+            <Energy>
+              <Type>X</Type>
+              <EnergyKV>6000</EnergyKV>
+              <MaxEnergyKV xsi:nil="true"/>
+            </Energy>
+            <PrimaryFluenceMode/>
+            <DRRTemplate>Pelvis.dps</DRRTemplate>
+            <DoseRate>600</DoseRate>
+            <SFED>100</SFED>
+            <Gantry>
+              <Rtn>270</Rtn>
+              <StopRtn xsi:nil="true"/>
+              <RtnDirection>NONE</RtnDirection>
+            </Gantry>
+            <Collimator>
+              <Rtn>0</Rtn>
+              <Mode>AsymmetryX&amp;Y</Mode>
+              <X1>-5</X1>
+              <X2>5</X2>
+              <Y1>-5</Y1>
+              <Y2>5</Y2>
+            </Collimator>
+            <TableRtn>0</TableRtn>
+            <ToleranceTableID>CACC Palliative</ToleranceTableID>
+            <Weight>0.5</Weight>
+            <FieldMargin BEVMarginFlag="false" EllipticalMarginFlag="false" OptimizeCollRtnFlag="false">
+              <Left xsi:nil="true"/>
+              <Right xsi:nil="true"/>
+              <Top xsi:nil="true"/>
+              <Bottom xsi:nil="true"/>
+            </FieldMargin>
+            <SkinFlashMargin xsi:nil="true"/>
+            <FieldBoluses/>
+            <Isocenter Placement="AIO" X="0" Y="0" Z="0"/>
+            <Blocks/>
+            <MLCPlans>
+              <MLCPlan ID="MLC" DynamicFlag="false">
+                <ModelName>Millennium 120</ModelName>
+                <SegmentCount>1</SegmentCount>
+                <MLCMargin BEVMarginFlag="false" EllipticalMarginFlag="false" OptimizeCollRtnFlag="false" JawFittingMode="0">
+                  <Left xsi:nil="true"/>
+                  <Right xsi:nil="true"/>
+                  <Top xsi:nil="true"/>
+                  <Bottom xsi:nil="true"/>
+                </MLCMargin>
+                <ContourMeetPoint>Middle</ContourMeetPoint>
+                <ClosedMeetPoint>Center</ClosedMeetPoint>
+                <Target>
+                  <VolumeID/>
+                  <VolumeCode/>
+                  <VolumeType/>
+                  <VolumeCodeTable/>
+                </Target>
+              </MLCPlan>
+            </MLCPlans>
+            <Wedges/>
+            <Applicators/>
+          </Field>
+          <Field ID="Lt Lat" FixedSSD="false" UsingCompensator="false" UsingMLC="false" Setup="false" DRRVisible="true">
+            <Type>BeamLinac</Type>
+            <Target>
+              <VolumeID/>
+              <VolumeCode/>
+              <VolumeType/>
+              <VolumeCodeTable/>
+            </Target>
+            <TreatmentUnit>CACCRT101</TreatmentUnit>
+            <Technique>STATIC</Technique>
+            <Energy>
+              <Type>X</Type>
+              <EnergyKV>6000</EnergyKV>
+              <MaxEnergyKV xsi:nil="true"/>
+            </Energy>
+            <PrimaryFluenceMode/>
+            <DRRTemplate>Pelvis.dps</DRRTemplate>
+            <DoseRate>600</DoseRate>
+            <SFED>100</SFED>
+            <Gantry>
+              <Rtn>90</Rtn>
+              <StopRtn xsi:nil="true"/>
+              <RtnDirection>NONE</RtnDirection>
+            </Gantry>
+            <Collimator>
+              <Rtn>0</Rtn>
+              <Mode>AsymmetryX&amp;Y</Mode>
+              <X1>-5</X1>
+              <X2>5</X2>
+              <Y1>-5</Y1>
+              <Y2>5</Y2>
+            </Collimator>
+            <TableRtn>0</TableRtn>
+            <ToleranceTableID>CACC Palliative</ToleranceTableID>
+            <Weight>0.5</Weight>
+            <FieldMargin BEVMarginFlag="false" EllipticalMarginFlag="false" OptimizeCollRtnFlag="false">
+              <Left xsi:nil="true"/>
+              <Right xsi:nil="true"/>
+              <Top xsi:nil="true"/>
+              <Bottom xsi:nil="true"/>
+            </FieldMargin>
+            <SkinFlashMargin xsi:nil="true"/>
+            <FieldBoluses/>
+            <Isocenter Placement="AIO" X="0" Y="0" Z="0"/>
+            <Blocks/>
+            <MLCPlans>
+              <MLCPlan ID="MLC" DynamicFlag="false">
+                <ModelName>Millennium 120</ModelName>
+                <SegmentCount>1</SegmentCount>
+                <MLCMargin BEVMarginFlag="false" EllipticalMarginFlag="false" OptimizeCollRtnFlag="false" JawFittingMode="0">
+                  <Left xsi:nil="true"/>
+                  <Right xsi:nil="true"/>
+                  <Top xsi:nil="true"/>
+                  <Bottom xsi:nil="true"/>
+                </MLCMargin>
+                <ContourMeetPoint>Middle</ContourMeetPoint>
+                <ClosedMeetPoint>Center</ClosedMeetPoint>
+                <Target>
+                  <VolumeID/>
+                  <VolumeCode/>
+                  <VolumeType/>
+                  <VolumeCodeTable/>
+                </Target>
+              </MLCPlan>
+            </MLCPlans>
+            <Wedges/>
+            <Applicators/>
+          </Field>
+		            <Field ID="Ant Ref" FixedSSD="false" UsingCompensator="false" UsingMLC="false" Setup="true" DRRVisible="true">
+            <Type>BeamLinac</Type>
+            <Target>
+              <VolumeID>P</VolumeID>
+              <VolumeCode/>
+              <VolumeType/>
+              <VolumeCodeTable/>
+            </Target>
+            <TreatmentUnit>CACCRT101</TreatmentUnit>
+            <Technique>STATIC</Technique>
+            <Energy>
+              <Type>X</Type>
+              <EnergyKV>6000</EnergyKV>
+              <MaxEnergyKV xsi:nil="true"/>
+            </Energy>
+            <PrimaryFluenceMode/>
+            <DRRTemplate>Pelvis.dps</DRRTemplate>
+            <DoseRate>600</DoseRate>
+            <SFED>100</SFED>
+            <Gantry>
+              <Rtn>0</Rtn>
+              <StopRtn xsi:nil="true"/>
+              <RtnDirection>NONE</RtnDirection>
+            </Gantry>
+            <Collimator>
+              <Rtn>0</Rtn>
+              <Mode>AsymmetryX&amp;Y</Mode>
+              <X1>-15</X1>
+              <X2>15</X2>
+              <Y1>-15</Y1>
+              <Y2>15</Y2>
+            </Collimator>
+            <TableRtn>0</TableRtn>
+            <ToleranceTableID>CACC Palliative</ToleranceTableID>
+            <Weight>0</Weight>
+            <FieldMargin BEVMarginFlag="false" EllipticalMarginFlag="false" OptimizeCollRtnFlag="false">
+              <Left>0</Left>
+              <Right xsi:nil="true"/>
+              <Top xsi:nil="true"/>
+              <Bottom xsi:nil="true"/>
+            </FieldMargin>
+            <SkinFlashMargin xsi:nil="true"/>
+            <FieldBoluses/>
+            <Isocenter Placement="AIO" X="0" Y="0" Z="0"/>
+            <Blocks/>
+            <MLCPlans/>
+            <Wedges/>
+            <Applicators/>
+          </Field>
+          <Field ID="Lt Lat Ref" FixedSSD="false" UsingCompensator="false" UsingMLC="false" Setup="true" DRRVisible="true">
+            <Type>BeamLinac</Type>
+            <Target>
+              <VolumeID>P</VolumeID>
+              <VolumeCode/>
+              <VolumeType/>
+              <VolumeCodeTable/>
+            </Target>
+            <TreatmentUnit>CACCRT101</TreatmentUnit>
+            <Technique>STATIC</Technique>
+            <Energy>
+              <Type>X</Type>
+              <EnergyKV>6000</EnergyKV>
+              <MaxEnergyKV xsi:nil="true"/>
+            </Energy>
+            <PrimaryFluenceMode/>
+            <DRRTemplate>Pelvis.dps</DRRTemplate>
+            <DoseRate>600</DoseRate>
+            <SFED>100</SFED>
+            <Gantry>
+              <Rtn>90</Rtn>
+              <StopRtn xsi:nil="true"/>
+              <RtnDirection>NONE</RtnDirection>
+            </Gantry>
+            <Collimator>
+              <Rtn>0</Rtn>
+              <Mode>AsymmetryX&amp;Y</Mode>
+              <X1>-15</X1>
+              <X2>15</X2>
+              <Y1>-15</Y1>
+              <Y2>15</Y2>
+            </Collimator>
+            <TableRtn>0</TableRtn>
+            <ToleranceTableID>CACC Palliative</ToleranceTableID>
+            <Weight>0</Weight>
+            <FieldMargin BEVMarginFlag="false" EllipticalMarginFlag="false" OptimizeCollRtnFlag="false">
+              <Left>0</Left>
+              <Right xsi:nil="true"/>
+              <Top xsi:nil="true"/>
+              <Bottom xsi:nil="true"/>
+            </FieldMargin>
+            <SkinFlashMargin xsi:nil="true"/>
+            <FieldBoluses/>
+            <Isocenter Placement="AIO" X="0" Y="0" Z="0"/>
+            <Blocks/>
+            <MLCPlans/>
+            <Wedges/>
+            <Applicators/>
+			</Field>
+			          <Field ID="Rt Lat Ref" FixedSSD="false" UsingCompensator="false" UsingMLC="false" Setup="true" DRRVisible="true">
+            <Type>BeamLinac</Type>
+            <Target>
+              <VolumeID>P</VolumeID>
+              <VolumeCode/>
+              <VolumeType/>
+              <VolumeCodeTable/>
+            </Target>
+            <TreatmentUnit>CACCRT101</TreatmentUnit>
+            <Technique>STATIC</Technique>
+            <Energy>
+              <Type>X</Type>
+              <EnergyKV>6000</EnergyKV>
+              <MaxEnergyKV xsi:nil="true"/>
+            </Energy>
+            <PrimaryFluenceMode/>
+            <DRRTemplate>Pelvis.dps</DRRTemplate>
+            <DoseRate>600</DoseRate>
+            <SFED>100</SFED>
+            <Gantry>
+              <Rtn>270</Rtn>
+              <StopRtn xsi:nil="true"/>
+              <RtnDirection>NONE</RtnDirection>
+            </Gantry>
+            <Collimator>
+              <Rtn>0</Rtn>
+              <Mode>AsymmetryX&amp;Y</Mode>
+              <X1>-15</X1>
+              <X2>15</X2>
+              <Y1>-15</Y1>
+              <Y2>15</Y2>
+            </Collimator>
+            <TableRtn>0</TableRtn>
+            <ToleranceTableID>CACC Palliative</ToleranceTableID>
+            <Weight>0</Weight>
+            <FieldMargin BEVMarginFlag="false" EllipticalMarginFlag="false" OptimizeCollRtnFlag="false">
+              <Left>0</Left>
+              <Right xsi:nil="true"/>
+              <Top xsi:nil="true"/>
+              <Bottom xsi:nil="true"/>
+            </FieldMargin>
+            <SkinFlashMargin xsi:nil="true"/>
+            <FieldBoluses/>
+            <Isocenter Placement="AIO" X="0" Y="0" Z="0"/>
+            <Blocks/>
+            <MLCPlans/>
+            <Wedges/>
+            <Applicators/>
+          </Field>
+          <Field ID="Home" FixedSSD="false" UsingCompensator="false" UsingMLC="false" Setup="true" DRRVisible="true">
+            <Type>BeamLinac</Type>
+            <Target>
+              <VolumeID>P</VolumeID>
+              <VolumeCode/>
+              <VolumeType/>
+              <VolumeCodeTable/>
+            </Target>
+            <TreatmentUnit>CACCRT101</TreatmentUnit>
+            <Technique>STATIC</Technique>
+            <Energy>
+              <Type>X</Type>
+              <EnergyKV>6000</EnergyKV>
+              <MaxEnergyKV xsi:nil="true"/>
+            </Energy>
+            <PrimaryFluenceMode/>
+            <DRRTemplate>Pelvis.dps</DRRTemplate>
+            <DoseRate>600</DoseRate>
+            <SFED>100</SFED>
+            <Gantry>
+              <Rtn>0</Rtn>
+              <StopRtn xsi:nil="true"/>
+              <RtnDirection>NONE</RtnDirection>
+            </Gantry>
+            <Collimator>
+              <Rtn>0</Rtn>
+              <Mode>AsymmetryX&amp;Y</Mode>
+              <X1>-15</X1>
+              <X2>15</X2>
+              <Y1>-15</Y1>
+              <Y2>15</Y2>
+            </Collimator>
+            <TableRtn>0</TableRtn>
+            <ToleranceTableID>CACC Palliative</ToleranceTableID>
+            <Weight>0</Weight>
+            <FieldMargin BEVMarginFlag="false" EllipticalMarginFlag="false" OptimizeCollRtnFlag="false">
+              <Left>0</Left>
+              <Right xsi:nil="true"/>
+              <Top xsi:nil="true"/>
+              <Bottom xsi:nil="true"/>
+            </FieldMargin>
+            <SkinFlashMargin xsi:nil="true"/>
+            <FieldBoluses/>
+            <Isocenter Placement="AIO" X="0" Y="0" Z="0"/>
+            <Blocks/>
+            <MLCPlans/>
+            <Wedges/>
+            <Applicators/>
+          </Field>
+        </Fields>
+      </PlanTemplate>
+      <ObjectiveTemplate>
+        <Type>Helios</Type>
+        <Helios DefaultFixedJaws="false" Interpolate="false" UseColors="false">
+          <DefaultSmoothingX>40</DefaultSmoothingX>
+          <DefaultSmoothingY>30</DefaultSmoothingY>
+          <DefaultMinimizeDose>0</DefaultMinimizeDose>
+          <DefaultOptimizationType>Beamlet</DefaultOptimizationType>
+          <MaxIterations>1000</MaxIterations>
+          <MaxTime>100</MaxTime>
+          <NormalTissueObjective>
+            <Use>false</Use>
+            <Priority>150</Priority>
+            <DistanceFromTargetBorder>1</DistanceFromTargetBorder>
+            <StartDose>105</StartDose>
+            <EndDose>60</EndDose>
+            <FallOff>0.05</FallOff>
+            <Auto>false</Auto>
+          </NormalTissueObjective>
+          <Geos>
+            <InitialFieldDistribution>Coplanar</InitialFieldDistribution>
+            <MinimumNumberOfFields>5</MinimumNumberOfFields>
+            <MaximumNumberOfFields>9</MaximumNumberOfFields>
+            <MaximumElevationAngleForNonCoplanarFields>90</MaximumElevationAngleForNonCoplanarFields>
+            <MaximumCollimatorVariation>0</MaximumCollimatorVariation>
+            <LocalGeometricOptimizationMode>Simplex</LocalGeometricOptimizationMode>
+          </Geos>
+          <Imat UseMU="false" JawTracking="false">
+            <MUWeight>50</MUWeight>
+            <MinMU>0</MinMU>
+            <MaxMU>2000</MaxMU>
+          </Imat>
+        </Helios>
+        <ObjectivesAllStructures/>
+      </ObjectiveTemplate>
+    </Phase>
+    <Phase ID="AP POP">
+      <Mode>Photon</Mode>
+      <DefaultEnergyKV xsi:nil="true"/>
+      <FractionCount>1</FractionCount>
+      <FractionsPerWeek xsi:nil="true"/>
+      <FractionsPerDay xsi:nil="true"/>
+      <TreatmentUnit>CACCRT101</TreatmentUnit>
+      <TreatmentStyle>Conformal</TreatmentStyle>
+      <ImmobilizationDevice/>
+      <LocalizationTechnique/>
+      <Prescription/>
+      <PlanTemplate>
+        <PrescribedPercentage>1</PrescribedPercentage>
+        <DosePerFraction>1</DosePerFraction>
+        <FractionCount>1</FractionCount>
+        <FieldAlignmentRules/>
+        <PrescriptionSite>
+          <VolumeID/>
+          <VolumeCode/>
+          <VolumeType/>
+          <VolumeCodeTable/>
+        </PrescriptionSite>
+        <Boluses/>
+        <Fields>
+          <Field ID="Ant" FixedSSD="false" UsingCompensator="false" UsingMLC="false" Setup="false" DRRVisible="true">
+            <Type>BeamLinac</Type>
+            <Target>
+              <VolumeID/>
+              <VolumeCode/>
+              <VolumeType/>
+              <VolumeCodeTable/>
+            </Target>
+            <TreatmentUnit>CACCRT101</TreatmentUnit>
+            <Technique>STATIC</Technique>
+            <Energy>
+              <Type>X</Type>
+              <EnergyKV>6000</EnergyKV>
+              <MaxEnergyKV xsi:nil="true"/>
+            </Energy>
+            <PrimaryFluenceMode/>
+            <DRRTemplate>Pelvis.dps</DRRTemplate>
+            <DoseRate>600</DoseRate>
+            <SFED>100</SFED>
+            <Gantry>
+              <Rtn>0</Rtn>
+              <StopRtn xsi:nil="true"/>
+              <RtnDirection>NONE</RtnDirection>
+            </Gantry>
+            <Collimator>
+              <Rtn>0</Rtn>
+              <Mode>AsymmetryX&amp;Y</Mode>
+              <X1>-5</X1>
+              <X2>5</X2>
+              <Y1>-5</Y1>
+              <Y2>5</Y2>
+            </Collimator>
+            <TableRtn>0</TableRtn>
+            <ToleranceTableID>CACC Palliative</ToleranceTableID>
+            <Weight>0.5</Weight>
+            <FieldMargin BEVMarginFlag="false" EllipticalMarginFlag="false" OptimizeCollRtnFlag="false">
+              <Left xsi:nil="true"/>
+              <Right xsi:nil="true"/>
+              <Top xsi:nil="true"/>
+              <Bottom xsi:nil="true"/>
+            </FieldMargin>
+            <SkinFlashMargin xsi:nil="true"/>
+            <FieldBoluses/>
+            <Isocenter Placement="AIO" X="0" Y="0" Z="0"/>
+            <Blocks/>
+            <MLCPlans>
+              <MLCPlan ID="MLC" DynamicFlag="false">
+                <ModelName>Millennium 120</ModelName>
+                <SegmentCount>1</SegmentCount>
+                <MLCMargin BEVMarginFlag="false" EllipticalMarginFlag="false" OptimizeCollRtnFlag="false" JawFittingMode="0">
+                  <Left xsi:nil="true"/>
+                  <Right xsi:nil="true"/>
+                  <Top xsi:nil="true"/>
+                  <Bottom xsi:nil="true"/>
+                </MLCMargin>
+                <ContourMeetPoint>Middle</ContourMeetPoint>
+                <ClosedMeetPoint>Center</ClosedMeetPoint>
+                <Target>
+                  <VolumeID/>
+                  <VolumeCode/>
+                  <VolumeType/>
+                  <VolumeCodeTable/>
+                </Target>
+              </MLCPlan>
+            </MLCPlans>
+            <Wedges/>
+            <Applicators/>
+          </Field>
+          <Field ID="Post" FixedSSD="false" UsingCompensator="false" UsingMLC="false" Setup="false" DRRVisible="true">
+            <Type>BeamLinac</Type>
+            <Target>
+              <VolumeID/>
+              <VolumeCode/>
+              <VolumeType/>
+              <VolumeCodeTable/>
+            </Target>
+            <TreatmentUnit>CACCRT101</TreatmentUnit>
+            <Technique>STATIC</Technique>
+            <Energy>
+              <Type>X</Type>
+              <EnergyKV>6000</EnergyKV>
+              <MaxEnergyKV xsi:nil="true"/>
+            </Energy>
+            <PrimaryFluenceMode/>
+            <DRRTemplate>Pelvis.dps</DRRTemplate>
+            <DoseRate>600</DoseRate>
+            <SFED>100</SFED>
+            <Gantry>
+              <Rtn>180</Rtn>
+              <StopRtn xsi:nil="true"/>
+              <RtnDirection>NONE</RtnDirection>
+            </Gantry>
+            <Collimator>
+              <Rtn>0</Rtn>
+              <Mode>AsymmetryX&amp;Y</Mode>
+              <X1>-5</X1>
+              <X2>5</X2>
+              <Y1>-5</Y1>
+              <Y2>5</Y2>
+            </Collimator>
+            <TableRtn>0</TableRtn>
+            <ToleranceTableID>CACC Palliative</ToleranceTableID>
+            <Weight>0.5</Weight>
+            <FieldMargin BEVMarginFlag="false" EllipticalMarginFlag="false" OptimizeCollRtnFlag="false">
+              <Left xsi:nil="true"/>
+              <Right xsi:nil="true"/>
+              <Top xsi:nil="true"/>
+              <Bottom xsi:nil="true"/>
+            </FieldMargin>
+            <SkinFlashMargin xsi:nil="true"/>
+            <FieldBoluses/>
+            <Isocenter Placement="AIO" X="0" Y="0" Z="0"/>
+            <Blocks/>
+            <MLCPlans>
+              <MLCPlan ID="MLC" DynamicFlag="false">
+                <ModelName>Millennium 120</ModelName>
+                <SegmentCount>1</SegmentCount>
+                <MLCMargin BEVMarginFlag="false" EllipticalMarginFlag="false" OptimizeCollRtnFlag="false" JawFittingMode="0">
+                  <Left xsi:nil="true"/>
+                  <Right xsi:nil="true"/>
+                  <Top xsi:nil="true"/>
+                  <Bottom xsi:nil="true"/>
+                </MLCMargin>
+                <ContourMeetPoint>Middle</ContourMeetPoint>
+                <ClosedMeetPoint>Center</ClosedMeetPoint>
+                <Target>
+                  <VolumeID/>
+                  <VolumeCode/>
+                  <VolumeType/>
+                  <VolumeCodeTable/>
+                </Target>
+              </MLCPlan>
+            </MLCPlans>
+            <Wedges/>
+            <Applicators/>
+          </Field>
+		            <Field ID="Ant Ref" FixedSSD="false" UsingCompensator="false" UsingMLC="false" Setup="true" DRRVisible="true">
+            <Type>BeamLinac</Type>
+            <Target>
+              <VolumeID>P</VolumeID>
+              <VolumeCode/>
+              <VolumeType/>
+              <VolumeCodeTable/>
+            </Target>
+            <TreatmentUnit>CACCRT101</TreatmentUnit>
+            <Technique>STATIC</Technique>
+            <Energy>
+              <Type>X</Type>
+              <EnergyKV>6000</EnergyKV>
+              <MaxEnergyKV xsi:nil="true"/>
+            </Energy>
+            <PrimaryFluenceMode/>
+            <DRRTemplate>Pelvis.dps</DRRTemplate>
+            <DoseRate>600</DoseRate>
+            <SFED>100</SFED>
+            <Gantry>
+              <Rtn>0</Rtn>
+              <StopRtn xsi:nil="true"/>
+              <RtnDirection>NONE</RtnDirection>
+            </Gantry>
+            <Collimator>
+              <Rtn>0</Rtn>
+              <Mode>AsymmetryX&amp;Y</Mode>
+              <X1>-15</X1>
+              <X2>15</X2>
+              <Y1>-15</Y1>
+              <Y2>15</Y2>
+            </Collimator>
+            <TableRtn>0</TableRtn>
+            <ToleranceTableID>CACC Palliative</ToleranceTableID>
+            <Weight>0</Weight>
+            <FieldMargin BEVMarginFlag="false" EllipticalMarginFlag="false" OptimizeCollRtnFlag="false">
+              <Left>0</Left>
+              <Right xsi:nil="true"/>
+              <Top xsi:nil="true"/>
+              <Bottom xsi:nil="true"/>
+            </FieldMargin>
+            <SkinFlashMargin xsi:nil="true"/>
+            <FieldBoluses/>
+            <Isocenter Placement="AIO" X="0" Y="0" Z="0"/>
+            <Blocks/>
+            <MLCPlans/>
+            <Wedges/>
+            <Applicators/>
+          </Field>
+          <Field ID="Lt Lat Ref" FixedSSD="false" UsingCompensator="false" UsingMLC="false" Setup="true" DRRVisible="true">
+            <Type>BeamLinac</Type>
+            <Target>
+              <VolumeID>P</VolumeID>
+              <VolumeCode/>
+              <VolumeType/>
+              <VolumeCodeTable/>
+            </Target>
+            <TreatmentUnit>CACCRT101</TreatmentUnit>
+            <Technique>STATIC</Technique>
+            <Energy>
+              <Type>X</Type>
+              <EnergyKV>6000</EnergyKV>
+              <MaxEnergyKV xsi:nil="true"/>
+            </Energy>
+            <PrimaryFluenceMode/>
+            <DRRTemplate>Pelvis.dps</DRRTemplate>
+            <DoseRate>600</DoseRate>
+            <SFED>100</SFED>
+            <Gantry>
+              <Rtn>90</Rtn>
+              <StopRtn xsi:nil="true"/>
+              <RtnDirection>NONE</RtnDirection>
+            </Gantry>
+            <Collimator>
+              <Rtn>0</Rtn>
+              <Mode>AsymmetryX&amp;Y</Mode>
+              <X1>-15</X1>
+              <X2>15</X2>
+              <Y1>-15</Y1>
+              <Y2>15</Y2>
+            </Collimator>
+            <TableRtn>0</TableRtn>
+            <ToleranceTableID>CACC Palliative</ToleranceTableID>
+            <Weight>0</Weight>
+            <FieldMargin BEVMarginFlag="false" EllipticalMarginFlag="false" OptimizeCollRtnFlag="false">
+              <Left>0</Left>
+              <Right xsi:nil="true"/>
+              <Top xsi:nil="true"/>
+              <Bottom xsi:nil="true"/>
+            </FieldMargin>
+            <SkinFlashMargin xsi:nil="true"/>
+            <FieldBoluses/>
+            <Isocenter Placement="AIO" X="0" Y="0" Z="0"/>
+            <Blocks/>
+            <MLCPlans/>
+            <Wedges/>
+            <Applicators/>
+			</Field>
+			          <Field ID="Rt Lat Ref" FixedSSD="false" UsingCompensator="false" UsingMLC="false" Setup="true" DRRVisible="true">
+            <Type>BeamLinac</Type>
+            <Target>
+              <VolumeID>P</VolumeID>
+              <VolumeCode/>
+              <VolumeType/>
+              <VolumeCodeTable/>
+            </Target>
+            <TreatmentUnit>CACCRT101</TreatmentUnit>
+            <Technique>STATIC</Technique>
+            <Energy>
+              <Type>X</Type>
+              <EnergyKV>6000</EnergyKV>
+              <MaxEnergyKV xsi:nil="true"/>
+            </Energy>
+            <PrimaryFluenceMode/>
+            <DRRTemplate>Pelvis.dps</DRRTemplate>
+            <DoseRate>600</DoseRate>
+            <SFED>100</SFED>
+            <Gantry>
+              <Rtn>270</Rtn>
+              <StopRtn xsi:nil="true"/>
+              <RtnDirection>NONE</RtnDirection>
+            </Gantry>
+            <Collimator>
+              <Rtn>0</Rtn>
+              <Mode>AsymmetryX&amp;Y</Mode>
+              <X1>-15</X1>
+              <X2>15</X2>
+              <Y1>-15</Y1>
+              <Y2>15</Y2>
+            </Collimator>
+            <TableRtn>0</TableRtn>
+            <ToleranceTableID>CACC Palliative</ToleranceTableID>
+            <Weight>0</Weight>
+            <FieldMargin BEVMarginFlag="false" EllipticalMarginFlag="false" OptimizeCollRtnFlag="false">
+              <Left>0</Left>
+              <Right xsi:nil="true"/>
+              <Top xsi:nil="true"/>
+              <Bottom xsi:nil="true"/>
+            </FieldMargin>
+            <SkinFlashMargin xsi:nil="true"/>
+            <FieldBoluses/>
+            <Isocenter Placement="AIO" X="0" Y="0" Z="0"/>
+            <Blocks/>
+            <MLCPlans/>
+            <Wedges/>
+            <Applicators/>
+          </Field>
+          <Field ID="Home" FixedSSD="false" UsingCompensator="false" UsingMLC="false" Setup="true" DRRVisible="true">
+            <Type>BeamLinac</Type>
+            <Target>
+              <VolumeID>P</VolumeID>
+              <VolumeCode/>
+              <VolumeType/>
+              <VolumeCodeTable/>
+            </Target>
+            <TreatmentUnit>CACCRT101</TreatmentUnit>
+            <Technique>STATIC</Technique>
+            <Energy>
+              <Type>X</Type>
+              <EnergyKV>6000</EnergyKV>
+              <MaxEnergyKV xsi:nil="true"/>
+            </Energy>
+            <PrimaryFluenceMode/>
+            <DRRTemplate>Pelvis.dps</DRRTemplate>
+            <DoseRate>600</DoseRate>
+            <SFED>100</SFED>
+            <Gantry>
+              <Rtn>0</Rtn>
+              <StopRtn xsi:nil="true"/>
+              <RtnDirection>NONE</RtnDirection>
+            </Gantry>
+            <Collimator>
+              <Rtn>0</Rtn>
+              <Mode>AsymmetryX&amp;Y</Mode>
+              <X1>-15</X1>
+              <X2>15</X2>
+              <Y1>-15</Y1>
+              <Y2>15</Y2>
+            </Collimator>
+            <TableRtn>0</TableRtn>
+            <ToleranceTableID>CACC Palliative</ToleranceTableID>
+            <Weight>0</Weight>
+            <FieldMargin BEVMarginFlag="false" EllipticalMarginFlag="false" OptimizeCollRtnFlag="false">
+              <Left>0</Left>
+              <Right xsi:nil="true"/>
+              <Top xsi:nil="true"/>
+              <Bottom xsi:nil="true"/>
+            </FieldMargin>
+            <SkinFlashMargin xsi:nil="true"/>
+            <FieldBoluses/>
+            <Isocenter Placement="AIO" X="0" Y="0" Z="0"/>
+            <Blocks/>
+            <MLCPlans/>
+            <Wedges/>
+            <Applicators/>
+          </Field>
+        </Fields>
+      </PlanTemplate>
+      <ObjectiveTemplate>
+        <Type>Helios</Type>
+        <Helios DefaultFixedJaws="false" Interpolate="false" UseColors="false">
+          <DefaultSmoothingX>40</DefaultSmoothingX>
+          <DefaultSmoothingY>30</DefaultSmoothingY>
+          <DefaultMinimizeDose>0</DefaultMinimizeDose>
+          <DefaultOptimizationType>Beamlet</DefaultOptimizationType>
+          <MaxIterations>1000</MaxIterations>
+          <MaxTime>100</MaxTime>
+          <NormalTissueObjective>
+            <Use>false</Use>
+            <Priority>150</Priority>
+            <DistanceFromTargetBorder>1</DistanceFromTargetBorder>
+            <StartDose>105</StartDose>
+            <EndDose>60</EndDose>
+            <FallOff>0.05</FallOff>
+            <Auto>false</Auto>
+          </NormalTissueObjective>
+          <Geos>
+            <InitialFieldDistribution>Coplanar</InitialFieldDistribution>
+            <MinimumNumberOfFields>5</MinimumNumberOfFields>
+            <MaximumNumberOfFields>9</MaximumNumberOfFields>
+            <MaximumElevationAngleForNonCoplanarFields>90</MaximumElevationAngleForNonCoplanarFields>
+            <MaximumCollimatorVariation>0</MaximumCollimatorVariation>
+            <LocalGeometricOptimizationMode>Simplex</LocalGeometricOptimizationMode>
+          </Geos>
+          <Imat UseMU="false" JawTracking="false">
+            <MUWeight>50</MUWeight>
+            <MinMU>0</MinMU>
+            <MaxMU>2000</MaxMU>
+          </Imat>
+        </Helios>
+        <ObjectivesAllStructures/>
+      </ObjectiveTemplate>
+    </Phase>
+	<Phase ID="RA_DoubleArc">
+	      <Mode>Photon</Mode>
+      <DefaultEnergyKV xsi:nil="true"/>
+      <FractionCount>1</FractionCount>
+      <FractionsPerWeek xsi:nil="true"/>
+      <FractionsPerDay xsi:nil="true"/>
+      <TreatmentUnit>CACCRT101</TreatmentUnit>
+      <TreatmentStyle>Dynamic ARC</TreatmentStyle>
+      <ImmobilizationDevice/>
+      <LocalizationTechnique/>
+      <Prescription/>
+      <PlanTemplate>
+        <PrescribedPercentage>1</PrescribedPercentage>
+        <DosePerFraction>1</DosePerFraction>
+        <FractionCount>1</FractionCount>
+        <FieldAlignmentRules/>
+        <PrescriptionSite>
+          <VolumeID/>
+          <VolumeCode/>
+          <VolumeType/>
+          <VolumeCodeTable/>
+        </PrescriptionSite>
+        <Boluses/>
+        <Fields>
+           <Field ID="CW" FixedSSD="false" UsingCompensator="false" UsingMLC="false" Setup="false" DRRVisible="true">
+            <Type>BeamLinac</Type>
+            <Target>
+              <VolumeID/>
+              <VolumeCode/>
+              <VolumeType/>
+              <VolumeCodeTable/>
+            </Target>
+            <TreatmentUnit>CACCRT101</TreatmentUnit>
+            <Technique>ARC</Technique>
+            <Energy>
+              <Type>X</Type>
+              <EnergyKV>6000</EnergyKV>
+              <MaxEnergyKV xsi:nil="true"/>
+            </Energy>
+            <PrimaryFluenceMode/>
+            <DRRTemplate>Pelvis.dps</DRRTemplate>
+            <DoseRate>600</DoseRate>
+            <SFED>100</SFED>
+            <Gantry>
+              <Rtn>181</Rtn>
+              <StopRtn>179</StopRtn>
+              <RtnDirection>CW</RtnDirection>
+            </Gantry>
+            <Collimator>
+              <Rtn>30</Rtn>
+              <Mode>Symmetry</Mode>
+              <X1>-10</X1>
+              <X2>10</X2>
+              <Y1>-10</Y1>
+              <Y2>10</Y2>
+            </Collimator>
+            <TableRtn>0</TableRtn>
+            <ToleranceTableID>CACC Standard</ToleranceTableID>
+            <Weight>1</Weight>
+            <FieldMargin BEVMarginFlag="false" EllipticalMarginFlag="false" OptimizeCollRtnFlag="false">
+              <Left xsi:nil="true"/>
+              <Right xsi:nil="true"/>
+              <Top xsi:nil="true"/>
+              <Bottom xsi:nil="true"/>
+            </FieldMargin>
+            <SkinFlashMargin xsi:nil="true"/>
+            <FieldBoluses/>
+            <Isocenter Placement="AIO" X="0" Y="0" Z="0"/>
+            <Blocks/>
+            <MLCPlans>
+              <MLCPlan ID="MLC" DynamicFlag="true">
+                <ModelName>Millennium 120</ModelName>
+                <SegmentCount>72</SegmentCount>
+                <MLCMargin BEVMarginFlag="false" EllipticalMarginFlag="false" OptimizeCollRtnFlag="false" JawFittingMode="0">
+                  <Left xsi:nil="true"/>
+                  <Right xsi:nil="true"/>
+                  <Top xsi:nil="true"/>
+                  <Bottom xsi:nil="true"/>
+                </MLCMargin>
+                <ContourMeetPoint>Middle</ContourMeetPoint>
+                <ClosedMeetPoint>Center</ClosedMeetPoint>
+                <Target>
+                  <VolumeID/>
+                  <VolumeCode/>
+                  <VolumeType/>
+                  <VolumeCodeTable/>
+                </Target>
+              </MLCPlan>
+            </MLCPlans>
+            <Wedges/>
+            <Applicators/>
+          </Field>
+          <Field ID="CCW" FixedSSD="false" UsingCompensator="false" UsingMLC="false" Setup="false" DRRVisible="true">
+            <Type>BeamLinac</Type>
+            <Target>
+              <VolumeID/>
+              <VolumeCode/>
+              <VolumeType/>
+              <VolumeCodeTable/>
+            </Target>
+            <TreatmentUnit>CACCRT101</TreatmentUnit>
+            <Technique>ARC</Technique>
+            <Energy>
+              <Type>X</Type>
+              <EnergyKV>6000</EnergyKV>
+              <MaxEnergyKV xsi:nil="true"/>
+            </Energy>
+            <PrimaryFluenceMode/>
+            <DRRTemplate>Pelvis.dps</DRRTemplate>
+            <DoseRate>600</DoseRate>
+            <SFED>100</SFED>
+            <Gantry>
+              <Rtn>179</Rtn>
+              <StopRtn>181</StopRtn>
+              <RtnDirection>CC</RtnDirection>
+            </Gantry>
+            <Collimator>
+              <Rtn>330</Rtn>
+              <Mode>Symmetry</Mode>
+              <X1>-10</X1>
+              <X2>10</X2>
+              <Y1>-10</Y1>
+              <Y2>10</Y2>
+            </Collimator>
+            <TableRtn>0</TableRtn>
+            <ToleranceTableID>CACC Standard</ToleranceTableID>
+            <Weight>1</Weight>
+            <FieldMargin BEVMarginFlag="false" EllipticalMarginFlag="false" OptimizeCollRtnFlag="false">
+              <Left xsi:nil="true"/>
+              <Right xsi:nil="true"/>
+              <Top xsi:nil="true"/>
+              <Bottom xsi:nil="true"/>
+            </FieldMargin>
+            <SkinFlashMargin xsi:nil="true"/>
+            <FieldBoluses/>
+            <Isocenter Placement="AIO" X="0" Y="0" Z="0"/>
+            <Blocks/>
+            <MLCPlans>
+              <MLCPlan ID="MLC" DynamicFlag="true">
+                <ModelName>Millennium 120</ModelName>
+                <SegmentCount>72</SegmentCount>
+                <MLCMargin BEVMarginFlag="false" EllipticalMarginFlag="false" OptimizeCollRtnFlag="false" JawFittingMode="0">
+                  <Left xsi:nil="true"/>
+                  <Right xsi:nil="true"/>
+                  <Top xsi:nil="true"/>
+                  <Bottom xsi:nil="true"/>
+                </MLCMargin>
+                <ContourMeetPoint>Middle</ContourMeetPoint>
+                <ClosedMeetPoint>Center</ClosedMeetPoint>
+                <Target>
+                  <VolumeID/>
+                  <VolumeCode/>
+                  <VolumeType/>
+                  <VolumeCodeTable/>
+                </Target>
+              </MLCPlan>
+            </MLCPlans>
+            <Wedges/>
+            <Applicators/>
+          </Field>
+		            <Field ID="Ant Ref" FixedSSD="false" UsingCompensator="false" UsingMLC="false" Setup="true" DRRVisible="true">
+            <Type>BeamLinac</Type>
+            <Target>
+              <VolumeID>P</VolumeID>
+              <VolumeCode/>
+              <VolumeType/>
+              <VolumeCodeTable/>
+            </Target>
+            <TreatmentUnit>CACCRT101</TreatmentUnit>
+            <Technique>STATIC</Technique>
+            <Energy>
+              <Type>X</Type>
+              <EnergyKV>6000</EnergyKV>
+              <MaxEnergyKV xsi:nil="true"/>
+            </Energy>
+            <PrimaryFluenceMode/>
+            <DRRTemplate>Pelvis.dps</DRRTemplate>
+            <DoseRate>600</DoseRate>
+            <SFED>100</SFED>
+            <Gantry>
+              <Rtn>0</Rtn>
+              <StopRtn xsi:nil="true"/>
+              <RtnDirection>NONE</RtnDirection>
+            </Gantry>
+            <Collimator>
+              <Rtn>0</Rtn>
+              <Mode>AsymmetryX&amp;Y</Mode>
+              <X1>-15</X1>
+              <X2>15</X2>
+              <Y1>-15</Y1>
+              <Y2>15</Y2>
+            </Collimator>
+            <TableRtn>0</TableRtn>
+            <ToleranceTableID>CACC Palliative</ToleranceTableID>
+            <Weight>0</Weight>
+            <FieldMargin BEVMarginFlag="false" EllipticalMarginFlag="false" OptimizeCollRtnFlag="false">
+              <Left>0</Left>
+              <Right xsi:nil="true"/>
+              <Top xsi:nil="true"/>
+              <Bottom xsi:nil="true"/>
+            </FieldMargin>
+            <SkinFlashMargin xsi:nil="true"/>
+            <FieldBoluses/>
+            <Isocenter Placement="AIO" X="0" Y="0" Z="0"/>
+            <Blocks/>
+            <MLCPlans/>
+            <Wedges/>
+            <Applicators/>
+          </Field>
+          <Field ID="Lt Lat Ref" FixedSSD="false" UsingCompensator="false" UsingMLC="false" Setup="true" DRRVisible="true">
+            <Type>BeamLinac</Type>
+            <Target>
+              <VolumeID>P</VolumeID>
+              <VolumeCode/>
+              <VolumeType/>
+              <VolumeCodeTable/>
+            </Target>
+            <TreatmentUnit>CACCRT101</TreatmentUnit>
+            <Technique>STATIC</Technique>
+            <Energy>
+              <Type>X</Type>
+              <EnergyKV>6000</EnergyKV>
+              <MaxEnergyKV xsi:nil="true"/>
+            </Energy>
+            <PrimaryFluenceMode/>
+            <DRRTemplate>Pelvis.dps</DRRTemplate>
+            <DoseRate>600</DoseRate>
+            <SFED>100</SFED>
+            <Gantry>
+              <Rtn>90</Rtn>
+              <StopRtn xsi:nil="true"/>
+              <RtnDirection>NONE</RtnDirection>
+            </Gantry>
+            <Collimator>
+              <Rtn>0</Rtn>
+              <Mode>AsymmetryX&amp;Y</Mode>
+              <X1>-15</X1>
+              <X2>15</X2>
+              <Y1>-15</Y1>
+              <Y2>15</Y2>
+            </Collimator>
+            <TableRtn>0</TableRtn>
+            <ToleranceTableID>CACC Palliative</ToleranceTableID>
+            <Weight>0</Weight>
+            <FieldMargin BEVMarginFlag="false" EllipticalMarginFlag="false" OptimizeCollRtnFlag="false">
+              <Left>0</Left>
+              <Right xsi:nil="true"/>
+              <Top xsi:nil="true"/>
+              <Bottom xsi:nil="true"/>
+            </FieldMargin>
+            <SkinFlashMargin xsi:nil="true"/>
+            <FieldBoluses/>
+            <Isocenter Placement="AIO" X="0" Y="0" Z="0"/>
+            <Blocks/>
+            <MLCPlans/>
+            <Wedges/>
+            <Applicators/>
+			</Field>
+			          <Field ID="Rt Lat Ref" FixedSSD="false" UsingCompensator="false" UsingMLC="false" Setup="true" DRRVisible="true">
+            <Type>BeamLinac</Type>
+            <Target>
+              <VolumeID>P</VolumeID>
+              <VolumeCode/>
+              <VolumeType/>
+              <VolumeCodeTable/>
+            </Target>
+            <TreatmentUnit>CACCRT101</TreatmentUnit>
+            <Technique>STATIC</Technique>
+            <Energy>
+              <Type>X</Type>
+              <EnergyKV>6000</EnergyKV>
+              <MaxEnergyKV xsi:nil="true"/>
+            </Energy>
+            <PrimaryFluenceMode/>
+            <DRRTemplate>Pelvis.dps</DRRTemplate>
+            <DoseRate>600</DoseRate>
+            <SFED>100</SFED>
+            <Gantry>
+              <Rtn>270</Rtn>
+              <StopRtn xsi:nil="true"/>
+              <RtnDirection>NONE</RtnDirection>
+            </Gantry>
+            <Collimator>
+              <Rtn>0</Rtn>
+              <Mode>AsymmetryX&amp;Y</Mode>
+              <X1>-15</X1>
+              <X2>15</X2>
+              <Y1>-15</Y1>
+              <Y2>15</Y2>
+            </Collimator>
+            <TableRtn>0</TableRtn>
+            <ToleranceTableID>CACC Palliative</ToleranceTableID>
+            <Weight>0</Weight>
+            <FieldMargin BEVMarginFlag="false" EllipticalMarginFlag="false" OptimizeCollRtnFlag="false">
+              <Left>0</Left>
+              <Right xsi:nil="true"/>
+              <Top xsi:nil="true"/>
+              <Bottom xsi:nil="true"/>
+            </FieldMargin>
+            <SkinFlashMargin xsi:nil="true"/>
+            <FieldBoluses/>
+            <Isocenter Placement="AIO" X="0" Y="0" Z="0"/>
+            <Blocks/>
+            <MLCPlans/>
+            <Wedges/>
+            <Applicators/>
+          </Field>
+          <Field ID="Home" FixedSSD="false" UsingCompensator="false" UsingMLC="false" Setup="true" DRRVisible="true">
+            <Type>BeamLinac</Type>
+            <Target>
+              <VolumeID>P</VolumeID>
+              <VolumeCode/>
+              <VolumeType/>
+              <VolumeCodeTable/>
+            </Target>
+            <TreatmentUnit>CACCRT101</TreatmentUnit>
+            <Technique>STATIC</Technique>
+            <Energy>
+              <Type>X</Type>
+              <EnergyKV>6000</EnergyKV>
+              <MaxEnergyKV xsi:nil="true"/>
+            </Energy>
+            <PrimaryFluenceMode/>
+            <DRRTemplate>Pelvis.dps</DRRTemplate>
+            <DoseRate>600</DoseRate>
+            <SFED>100</SFED>
+            <Gantry>
+              <Rtn>0</Rtn>
+              <StopRtn xsi:nil="true"/>
+              <RtnDirection>NONE</RtnDirection>
+            </Gantry>
+            <Collimator>
+              <Rtn>0</Rtn>
+              <Mode>AsymmetryX&amp;Y</Mode>
+              <X1>-15</X1>
+              <X2>15</X2>
+              <Y1>-15</Y1>
+              <Y2>15</Y2>
+            </Collimator>
+            <TableRtn>0</TableRtn>
+            <ToleranceTableID>CACC Palliative</ToleranceTableID>
+            <Weight>0</Weight>
+            <FieldMargin BEVMarginFlag="false" EllipticalMarginFlag="false" OptimizeCollRtnFlag="false">
+              <Left>0</Left>
+              <Right xsi:nil="true"/>
+              <Top xsi:nil="true"/>
+              <Bottom xsi:nil="true"/>
+            </FieldMargin>
+            <SkinFlashMargin xsi:nil="true"/>
+            <FieldBoluses/>
+            <Isocenter Placement="AIO" X="0" Y="0" Z="0"/>
+            <Blocks/>
+            <MLCPlans/>
+            <Wedges/>
+            <Applicators/>
+          </Field>
+        </Fields>
+      </PlanTemplate>
+      <ObjectiveTemplate>
+        <Type>Helios</Type>
+        <Helios DefaultFixedJaws="false" Interpolate="false" UseColors="false">
+          <DefaultSmoothingX>40</DefaultSmoothingX>
+          <DefaultSmoothingY>30</DefaultSmoothingY>
+          <DefaultMinimizeDose>0</DefaultMinimizeDose>
+          <DefaultOptimizationType>Beamlet</DefaultOptimizationType>
+          <MaxIterations>1000</MaxIterations>
+          <MaxTime>100</MaxTime>
+          <NormalTissueObjective>
+            <Use>false</Use>
+            <Priority>150</Priority>
+            <DistanceFromTargetBorder>1</DistanceFromTargetBorder>
+            <StartDose>105</StartDose>
+            <EndDose>60</EndDose>
+            <FallOff>0.05</FallOff>
+            <Auto>false</Auto>
+          </NormalTissueObjective>
+          <Geos>
+            <InitialFieldDistribution>Coplanar</InitialFieldDistribution>
+            <MinimumNumberOfFields>5</MinimumNumberOfFields>
+            <MaximumNumberOfFields>9</MaximumNumberOfFields>
+            <MaximumElevationAngleForNonCoplanarFields>90</MaximumElevationAngleForNonCoplanarFields>
+            <MaximumCollimatorVariation>0</MaximumCollimatorVariation>
+            <LocalGeometricOptimizationMode>Simplex</LocalGeometricOptimizationMode>
+          </Geos>
+          <Imat UseMU="false" JawTracking="false">
+            <MUWeight>50</MUWeight>
+            <MinMU>0</MinMU>
+            <MaxMU>2000</MaxMU>
+          </Imat>
+        </Helios>
+        <ObjectivesAllStructures/>
+      </ObjectiveTemplate>
+	</Phase>
+  </Phases>
+  <Review ShowMin="true" ShowMax="true" ShowMean="true" ShowModal="false" ShowMedian="false" ShowStdDev="false" ShowEUD="true" ShowTCP="false" ShowNTCP="false" ShowNDR="true" ShowEquivalentSphereDiameter="false" ShowConformityIndex="false" ShowGradientMeasure="false">
+    <ReviewStructures>
+      <ReviewStructure>
+        <Type>Structure</Type>
+        <Item>EyeR</Item>
+      </ReviewStructure>
+      <ReviewStructure>
+        <Type>Structure</Type>
+        <Item>EyeL</Item>
+      </ReviewStructure>
+      <ReviewStructure>
+        <Type>Structure</Type>
+        <Item>GTV</Item>
+      </ReviewStructure>
+      <ReviewStructure>
+        <Type>Structure</Type>
+        <Item>PTV</Item>
+      </ReviewStructure>
+    </ReviewStructures>
+  </Review>
+</Protocol>

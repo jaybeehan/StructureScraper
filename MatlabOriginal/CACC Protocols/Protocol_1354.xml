@@ -1,0 +1,1177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Protocol Version="1.12" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Preview Version="1.2" ID="CACC_ProsSBRT" Type="Protocol" ApprovalStatus="Approved" Diagnosis="" TreatmentSite="" AssignedUsers="varis\jasonh" Description="" LastModified=" July 29 2024 08:10:14:389" ApprovalHistory="varis\jasonh Created [ July 20 2022 08:57:13:701 ];varis\jasonh Approved [ July 29 2024 08:10:14:353 ]"/>
+	<StructureTemplate Version="1.2">
+		<Structures>
+			<Structure ID="Bladder" Name="Bladder">
+				<Identification>
+					<VolumeID/>
+					<VolumeCode/>
+					<VolumeType>Organ</VolumeType>
+					<VolumeCodeTable/>
+					<StructureCode Code="15900" CodeScheme="FMA" CodeSchemeVersion="3.2"/>
+				</Identification>
+				<TypeIndex>2</TypeIndex>
+				<ColorAndStyle>Transluce - Yell</ColorAndStyle>
+				<SearchCTLow xsi:nil="true"/>
+				<SearchCTHigh xsi:nil="true"/>
+				<DVHLineStyle>0</DVHLineStyle>
+				<DVHLineColor>-16777216</DVHLineColor>
+				<DVHLineWidth>1</DVHLineWidth>
+				<EUDAlpha xsi:nil="true"/>
+				<TCPAlpha xsi:nil="true"/>
+				<TCPBeta xsi:nil="true"/>
+				<TCPGamma xsi:nil="true"/>
+			</Structure>
+			<Structure ID="Contrast" Name="Contrast">
+				<Identification>
+					<VolumeID/>
+					<VolumeCode/>
+					<VolumeType>Contrast Agent</VolumeType>
+					<VolumeCodeTable/>
+					<StructureCode Code="11582" CodeScheme="RADLEX" CodeSchemeVersion="3.8"/>
+				</Identification>
+				<TypeIndex>2</TypeIndex>
+				<ColorAndStyle>Transluce - Oran</ColorAndStyle>
+				<SearchCTLow xsi:nil="true"/>
+				<SearchCTHigh xsi:nil="true"/>
+				<DVHLineStyle>0</DVHLineStyle>
+				<DVHLineColor>-16777216</DVHLineColor>
+				<DVHLineWidth>1</DVHLineWidth>
+				<EUDAlpha xsi:nil="true"/>
+				<TCPAlpha xsi:nil="true"/>
+				<TCPBeta xsi:nil="true"/>
+				<TCPGamma xsi:nil="true"/>
+			</Structure>
+			<Structure ID="PenileBulb" Name="PenileBulb">
+				<Identification>
+					<VolumeID/>
+					<VolumeCode/>
+					<VolumeType>Organ</VolumeType>
+					<VolumeCodeTable/>
+					<StructureCode Code="19614" CodeScheme="FMA" CodeSchemeVersion="3.2"/>
+				</Identification>
+				<TypeIndex>2</TypeIndex>
+				<ColorAndStyle>Transluce - Oran</ColorAndStyle>
+				<SearchCTLow xsi:nil="true"/>
+				<SearchCTHigh xsi:nil="true"/>
+				<DVHLineStyle>0</DVHLineStyle>
+				<DVHLineColor>-16777216</DVHLineColor>
+				<DVHLineWidth>1</DVHLineWidth>
+				<EUDAlpha xsi:nil="true"/>
+				<TCPAlpha xsi:nil="true"/>
+				<TCPBeta xsi:nil="true"/>
+				<TCPGamma xsi:nil="true"/>
+			</Structure>
+			<Structure ID="Urethra" Name="Urethra">
+				<Identification>
+					<VolumeID/>
+					<VolumeCode/>
+					<VolumeType>Organ</VolumeType>
+					<VolumeCodeTable/>
+					<StructureCode Code="19667" CodeScheme="FMA" CodeSchemeVersion="3.2"/>
+				</Identification>
+				<TypeIndex>2</TypeIndex>
+				<ColorAndStyle>Transluce - Mag</ColorAndStyle>
+				<SearchCTLow xsi:nil="true"/>
+				<SearchCTHigh xsi:nil="true"/>
+				<DVHLineStyle>0</DVHLineStyle>
+				<DVHLineColor>-16777216</DVHLineColor>
+				<DVHLineWidth>1</DVHLineWidth>
+				<EUDAlpha xsi:nil="true"/>
+				<TCPAlpha xsi:nil="true"/>
+				<TCPBeta xsi:nil="true"/>
+				<TCPGamma xsi:nil="true"/>
+			</Structure>
+			<Structure ID="SmallBowel" Name="SmallBowel">
+				<Identification>
+					<VolumeID/>
+					<VolumeCode/>
+					<VolumeType>Organ</VolumeType>
+					<VolumeCodeTable/>
+					<StructureCode Code="7200" CodeScheme="FMA" CodeSchemeVersion="3.2"/>
+				</Identification>
+				<TypeIndex>2</TypeIndex>
+				<ColorAndStyle>Transluce - D-Bl</ColorAndStyle>
+				<SearchCTLow xsi:nil="true"/>
+				<SearchCTHigh xsi:nil="true"/>
+				<DVHLineStyle>0</DVHLineStyle>
+				<DVHLineColor>-16777216</DVHLineColor>
+				<DVHLineWidth>1</DVHLineWidth>
+				<EUDAlpha xsi:nil="true"/>
+				<TCPAlpha xsi:nil="true"/>
+				<TCPBeta xsi:nil="true"/>
+				<TCPGamma xsi:nil="true"/>
+			</Structure>
+			<Structure ID="LargeBowel" Name="LargeBowel">
+				<Identification>
+					<VolumeID/>
+					<VolumeCode/>
+					<VolumeType>Organ</VolumeType>
+					<VolumeCodeTable/>
+					<StructureCode Code="7201" CodeScheme="FMA" CodeSchemeVersion="3.2"/>
+				</Identification>
+				<TypeIndex>2</TypeIndex>
+				<ColorAndStyle>Transluce - Red</ColorAndStyle>
+				<SearchCTLow xsi:nil="true"/>
+				<SearchCTHigh xsi:nil="true"/>
+				<DVHLineStyle>0</DVHLineStyle>
+				<DVHLineColor>-16777216</DVHLineColor>
+				<DVHLineWidth>1</DVHLineWidth>
+				<EUDAlpha xsi:nil="true"/>
+				<TCPAlpha xsi:nil="true"/>
+				<TCPBeta xsi:nil="true"/>
+				<TCPGamma xsi:nil="true"/>
+			</Structure>
+			<Structure ID="PTV_RectumMRV" Name="PTV_RectumMRV">
+				<Identification>
+					<VolumeID/>
+					<VolumeCode/>
+					<VolumeType>PTV</VolumeType>
+					<VolumeCodeTable/>
+					<StructureCode Code="Control" CodeScheme="99VMS_STRUCTCODE" CodeSchemeVersion="1.0"/>
+				</Identification>
+				<TypeIndex>2</TypeIndex>
+				<ColorAndStyle>Transluce - Red</ColorAndStyle>
+				<SearchCTLow xsi:nil="true"/>
+				<SearchCTHigh xsi:nil="true"/>
+				<DVHLineStyle>0</DVHLineStyle>
+				<DVHLineColor>-16777216</DVHLineColor>
+				<DVHLineWidth>1</DVHLineWidth>
+				<EUDAlpha xsi:nil="true"/>
+				<TCPAlpha xsi:nil="true"/>
+				<TCPBeta xsi:nil="true"/>
+				<TCPGamma xsi:nil="true"/>
+			</Structure>
+			<Structure ID="CTV" Name="CTV">
+				<Identification>
+					<VolumeID/>
+					<VolumeCode/>
+					<VolumeType>CTV</VolumeType>
+					<VolumeCodeTable/>
+					<StructureCode Code="CTV_High" CodeScheme="99VMS_STRUCTCODE" CodeSchemeVersion="1.0"/>
+				</Identification>
+				<TypeIndex>2</TypeIndex>
+				<ColorAndStyle>Transluce - Mag</ColorAndStyle>
+				<SearchCTLow xsi:nil="true"/>
+				<SearchCTHigh xsi:nil="true"/>
+				<DVHLineStyle>0</DVHLineStyle>
+				<DVHLineColor>-16777216</DVHLineColor>
+				<DVHLineWidth>1</DVHLineWidth>
+				<EUDAlpha xsi:nil="true"/>
+				<TCPAlpha xsi:nil="true"/>
+				<TCPBeta xsi:nil="true"/>
+				<TCPGamma xsi:nil="true"/>
+			</Structure>
+			<Structure ID="FemurL" Name="FemurL">
+				<Identification>
+					<VolumeID/>
+					<VolumeCode/>
+					<VolumeType>Organ</VolumeType>
+					<VolumeCodeTable/>
+					<StructureCode Code="24475" CodeScheme="FMA" CodeSchemeVersion="3.2"/>
+				</Identification>
+				<TypeIndex>2</TypeIndex>
+				<ColorAndStyle>Transluce - Gree</ColorAndStyle>
+				<SearchCTLow xsi:nil="true"/>
+				<SearchCTHigh xsi:nil="true"/>
+				<DVHLineStyle>0</DVHLineStyle>
+				<DVHLineColor>-16777216</DVHLineColor>
+				<DVHLineWidth>1</DVHLineWidth>
+				<EUDAlpha xsi:nil="true"/>
+				<TCPAlpha xsi:nil="true"/>
+				<TCPBeta xsi:nil="true"/>
+				<TCPGamma xsi:nil="true"/>
+			</Structure>
+			<Structure ID="FemurR" Name="FemurR">
+				<Identification>
+					<VolumeID/>
+					<VolumeCode/>
+					<VolumeType>Organ</VolumeType>
+					<VolumeCodeTable/>
+					<StructureCode Code="24474" CodeScheme="FMA" CodeSchemeVersion="3.2"/>
+				</Identification>
+				<TypeIndex>2</TypeIndex>
+				<ColorAndStyle>Transluce - D-Gr</ColorAndStyle>
+				<SearchCTLow xsi:nil="true"/>
+				<SearchCTHigh xsi:nil="true"/>
+				<DVHLineStyle>0</DVHLineStyle>
+				<DVHLineColor>-16777216</DVHLineColor>
+				<DVHLineWidth>1</DVHLineWidth>
+				<EUDAlpha xsi:nil="true"/>
+				<TCPAlpha xsi:nil="true"/>
+				<TCPBeta xsi:nil="true"/>
+				<TCPGamma xsi:nil="true"/>
+			</Structure>
+			<Structure ID="Prostate" Name="Prostate">
+				<Identification>
+					<VolumeID/>
+					<VolumeCode/>
+					<VolumeType>Organ</VolumeType>
+					<VolumeCodeTable/>
+					<StructureCode Code="9600" CodeScheme="FMA" CodeSchemeVersion="3.2"/>
+				</Identification>
+				<TypeIndex>2</TypeIndex>
+				<ColorAndStyle>Transluce - Pink</ColorAndStyle>
+				<SearchCTLow xsi:nil="true"/>
+				<SearchCTHigh xsi:nil="true"/>
+				<DVHLineStyle>0</DVHLineStyle>
+				<DVHLineColor>-16777216</DVHLineColor>
+				<DVHLineWidth>1</DVHLineWidth>
+				<EUDAlpha xsi:nil="true"/>
+				<TCPAlpha xsi:nil="true"/>
+				<TCPBeta xsi:nil="true"/>
+				<TCPGamma xsi:nil="true"/>
+			</Structure>
+			<Structure ID="Rectum" Name="Rectum">
+				<Identification>
+					<VolumeID/>
+					<VolumeCode/>
+					<VolumeType>Organ</VolumeType>
+					<VolumeCodeTable/>
+					<StructureCode Code="14544" CodeScheme="FMA" CodeSchemeVersion="3.2"/>
+				</Identification>
+				<TypeIndex>2</TypeIndex>
+				<ColorAndStyle>Transluce - Brow</ColorAndStyle>
+				<SearchCTLow xsi:nil="true"/>
+				<SearchCTHigh xsi:nil="true"/>
+				<DVHLineStyle>0</DVHLineStyle>
+				<DVHLineColor>-16777216</DVHLineColor>
+				<DVHLineWidth>1</DVHLineWidth>
+				<EUDAlpha xsi:nil="true"/>
+				<TCPAlpha xsi:nil="true"/>
+				<TCPBeta xsi:nil="true"/>
+				<TCPGamma xsi:nil="true"/>
+			</Structure>
+			<Structure ID="SV_Distal" Name="SV_Distal">
+				<Identification>
+					<VolumeID/>
+					<VolumeCode/>
+					<VolumeType>Organ</VolumeType>
+					<VolumeCodeTable/>
+					<StructureCode Code="19386" CodeScheme="FMA" CodeSchemeVersion="3.2"/>
+				</Identification>
+				<TypeIndex>2</TypeIndex>
+				<ColorAndStyle>Transluce - L-Gr</ColorAndStyle>
+				<SearchCTLow xsi:nil="true"/>
+				<SearchCTHigh xsi:nil="true"/>
+				<DVHLineStyle>0</DVHLineStyle>
+				<DVHLineColor>-16777216</DVHLineColor>
+				<DVHLineWidth>1</DVHLineWidth>
+				<EUDAlpha xsi:nil="true"/>
+				<TCPAlpha xsi:nil="true"/>
+				<TCPBeta xsi:nil="true"/>
+				<TCPGamma xsi:nil="true"/>
+			</Structure>
+			<Structure ID="Rectum MRV" Name="Rectum MRV">
+				<Identification>
+					<VolumeID/>
+					<VolumeCode/>
+					<VolumeType>Organ</VolumeType>
+					<VolumeCodeTable/>
+					<StructureCode Code="PRV" CodeScheme="99VMS_STRUCTCODE" CodeSchemeVersion="1.0"/>
+				</Identification>
+				<TypeIndex>2</TypeIndex>
+				<ColorAndStyle>Transluce - Mag</ColorAndStyle>
+				<SearchCTLow xsi:nil="true"/>
+				<SearchCTHigh xsi:nil="true"/>
+				<DVHLineStyle>0</DVHLineStyle>
+				<DVHLineColor>-16777216</DVHLineColor>
+				<DVHLineWidth>1</DVHLineWidth>
+				<EUDAlpha xsi:nil="true"/>
+				<TCPAlpha xsi:nil="true"/>
+				<TCPBeta xsi:nil="true"/>
+				<TCPGamma xsi:nil="true"/>
+			</Structure>
+			<Structure ID="PTV" Name="PTV">
+				<Identification>
+					<VolumeID/>
+					<VolumeCode/>
+					<VolumeType>PTV</VolumeType>
+					<VolumeCodeTable/>
+					<StructureCode Code="PTV_High" CodeScheme="99VMS_STRUCTCODE" CodeSchemeVersion="1.0"/>
+				</Identification>
+				<TypeIndex>2</TypeIndex>
+				<ColorAndStyle>Transluce - Cyan</ColorAndStyle>
+				<SearchCTLow xsi:nil="true"/>
+				<SearchCTHigh xsi:nil="true"/>
+				<DVHLineStyle>0</DVHLineStyle>
+				<DVHLineColor>-16777216</DVHLineColor>
+				<DVHLineWidth>1</DVHLineWidth>
+				<EUDAlpha xsi:nil="true"/>
+				<TCPAlpha xsi:nil="true"/>
+				<TCPBeta xsi:nil="true"/>
+				<TCPGamma xsi:nil="true"/>
+			</Structure>
+			<Structure ID="SV_Proximal" Name="SV_Proximal">
+				<Identification>
+					<VolumeID/>
+					<VolumeCode/>
+					<VolumeType>Organ</VolumeType>
+					<VolumeCodeTable/>
+					<StructureCode Code="19386" CodeScheme="FMA" CodeSchemeVersion="3.2"/>
+				</Identification>
+				<TypeIndex>2</TypeIndex>
+				<ColorAndStyle>Transluce - Gree</ColorAndStyle>
+				<SearchCTLow xsi:nil="true"/>
+				<SearchCTHigh xsi:nil="true"/>
+				<DVHLineStyle>0</DVHLineStyle>
+				<DVHLineColor>-16777216</DVHLineColor>
+				<DVHLineWidth>1</DVHLineWidth>
+				<EUDAlpha xsi:nil="true"/>
+				<TCPAlpha xsi:nil="true"/>
+				<TCPBeta xsi:nil="true"/>
+				<TCPGamma xsi:nil="true"/>
+			</Structure>
+			<Structure ID="SV_Total" Name="SV_Total">
+				<Identification>
+					<VolumeID/>
+					<VolumeCode/>
+					<VolumeType>Organ</VolumeType>
+					<VolumeCodeTable/>
+					<StructureCode Code="19386" CodeScheme="FMA" CodeSchemeVersion="3.2"/>
+				</Identification>
+				<TypeIndex>2</TypeIndex>
+				<ColorAndStyle>Transluce - D-Gr</ColorAndStyle>
+				<SearchCTLow xsi:nil="true"/>
+				<SearchCTHigh xsi:nil="true"/>
+				<DVHLineStyle>0</DVHLineStyle>
+				<DVHLineColor>-16777216</DVHLineColor>
+				<DVHLineWidth>1</DVHLineWidth>
+				<EUDAlpha xsi:nil="true"/>
+				<TCPAlpha xsi:nil="true"/>
+				<TCPBeta xsi:nil="true"/>
+				<TCPGamma xsi:nil="true"/>
+			</Structure>
+			<Structure ID="PTV_opti" Name="">
+				<Identification>
+					<VolumeID/>
+					<VolumeCode/>
+					<VolumeType>PTV</VolumeType>
+					<VolumeCodeTable/>
+					<StructureCode Code="Control" CodeScheme="99VMS_STRUCTCODE" CodeSchemeVersion="1.0"/>
+				</Identification>
+				<TypeIndex>2</TypeIndex>
+				<ColorAndStyle>Transluce - D-Bl</ColorAndStyle>
+				<SearchCTLow xsi:nil="true"/>
+				<SearchCTHigh xsi:nil="true"/>
+				<DVHLineStyle>0</DVHLineStyle>
+				<DVHLineColor>-16777216</DVHLineColor>
+				<DVHLineWidth>1</DVHLineWidth>
+				<EUDAlpha xsi:nil="true"/>
+				<TCPAlpha xsi:nil="true"/>
+				<TCPBeta xsi:nil="true"/>
+				<TCPGamma xsi:nil="true"/>
+			</Structure>
+			<Structure ID="Rectum_opti" Name="">
+				<Identification>
+					<VolumeID/>
+					<VolumeCode/>
+					<VolumeType>Organ</VolumeType>
+					<VolumeCodeTable/>
+					<StructureCode Code="Dose" CodeScheme="99VMS_STRUCTCODE" CodeSchemeVersion="1.0"/>
+				</Identification>
+				<TypeIndex>2</TypeIndex>
+				<ColorAndStyle>Transluce - Oran</ColorAndStyle>
+				<SearchCTLow xsi:nil="true"/>
+				<SearchCTHigh xsi:nil="true"/>
+				<DVHLineStyle>0</DVHLineStyle>
+				<DVHLineColor>-16777216</DVHLineColor>
+				<DVHLineWidth>1</DVHLineWidth>
+				<EUDAlpha xsi:nil="true"/>
+				<TCPAlpha xsi:nil="true"/>
+				<TCPBeta xsi:nil="true"/>
+				<TCPGamma xsi:nil="true"/>
+			</Structure>
+			<Structure ID="Bladder_opti" Name="Bladder_opti">
+				<Identification>
+					<VolumeID/>
+					<VolumeCode/>
+					<VolumeType>Organ</VolumeType>
+					<VolumeCodeTable/>
+					<StructureCode Code="Dose" CodeScheme="99VMS_STRUCTCODE" CodeSchemeVersion="1.0"/>
+				</Identification>
+				<TypeIndex>2</TypeIndex>
+				<ColorAndStyle>RGB163177 58</ColorAndStyle>
+				<SearchCTLow xsi:nil="true"/>
+				<SearchCTHigh xsi:nil="true"/>
+				<DVHLineStyle>0</DVHLineStyle>
+				<DVHLineColor>-16777216</DVHLineColor>
+				<DVHLineWidth>1</DVHLineWidth>
+				<EUDAlpha xsi:nil="true"/>
+				<TCPAlpha xsi:nil="true"/>
+				<TCPBeta xsi:nil="true"/>
+				<TCPGamma xsi:nil="true"/>
+			</Structure>
+			<Structure ID="PeritonCav" Name="PeritonCav">
+				<Identification>
+					<VolumeID/>
+					<VolumeCode/>
+					<VolumeType>Organ</VolumeType>
+					<VolumeCodeTable/>
+					<StructureCode Code="7200" CodeScheme="FMA" CodeSchemeVersion="3.2"/>
+				</Identification>
+				<TypeIndex>2</TypeIndex>
+				<ColorAndStyle>Transluce - Mag</ColorAndStyle>
+				<SearchCTLow xsi:nil="true"/>
+				<SearchCTHigh xsi:nil="true"/>
+				<DVHLineStyle>0</DVHLineStyle>
+				<DVHLineColor>-16777216</DVHLineColor>
+				<DVHLineWidth>1</DVHLineWidth>
+				<EUDAlpha xsi:nil="true"/>
+				<TCPAlpha xsi:nil="true"/>
+				<TCPBeta xsi:nil="true"/>
+				<TCPGamma xsi:nil="true"/>
+			</Structure>
+			<Structure ID="PeritonCav_opti" Name="PeritonCav">
+				<Identification>
+					<VolumeID/>
+					<VolumeCode/>
+					<VolumeType>Organ</VolumeType>
+					<VolumeCodeTable/>
+					<StructureCode Code="7200" CodeScheme="FMA" CodeSchemeVersion="3.2"/>
+				</Identification>
+				<TypeIndex>2</TypeIndex>
+				<ColorAndStyle>RGB183162234</ColorAndStyle>
+				<SearchCTLow xsi:nil="true"/>
+				<SearchCTHigh xsi:nil="true"/>
+				<DVHLineStyle>0</DVHLineStyle>
+				<DVHLineColor>-16777216</DVHLineColor>
+				<DVHLineWidth>1</DVHLineWidth>
+				<EUDAlpha xsi:nil="true"/>
+				<TCPAlpha xsi:nil="true"/>
+				<TCPBeta xsi:nil="true"/>
+				<TCPGamma xsi:nil="true"/>
+			</Structure>
+		</Structures>
+	</StructureTemplate>
+	<FieldAlignmentRules/>
+	<Phases>
+		<Phase ID="ProstateSBRT">
+			<Mode>Photon</Mode>
+			<DefaultEnergyKV xsi:nil="true"/>
+			<FractionCount>5</FractionCount>
+			<FractionsPerWeek xsi:nil="true"/>
+			<FractionsPerDay xsi:nil="true"/>
+			<TreatmentUnit>CACCRT101</TreatmentUnit>
+			<TreatmentStyle>Dynamic ARC</TreatmentStyle>
+			<ImmobilizationDevice/>
+			<LocalizationTechnique/>
+			<Prescription Version="1.10">
+				<Item ID="PTV" Primary="false">
+					<Type>0</Type>
+					<Modifier>0</Modifier>
+					<Parameter>95</Parameter>
+					<Dose>7.25</Dose>
+					<TotalDose>36.25</TotalDose>
+				</Item>
+				<Item ID="CTV" Primary="true">
+					<Type>0</Type>
+					<Modifier>0</Modifier>
+					<Parameter>95</Parameter>
+					<Dose>8</Dose>
+					<TotalDose>40</TotalDose>
+				</Item>
+				<MeasureItem ID="Rectum">
+					<Type>3</Type>
+					<Modifier>1</Modifier>
+					<Value>20</Value>
+					<TypeSpecifier>29</TypeSpecifier>
+					<ReportDQPValueInAbsoluteUnits>false</ReportDQPValueInAbsoluteUnits>
+				</MeasureItem>
+				<MeasureItem ID="Rectum">
+					<Type>3</Type>
+					<Modifier>1</Modifier>
+					<Value>50</Value>
+					<TypeSpecifier>18.1</TypeSpecifier>
+					<ReportDQPValueInAbsoluteUnits>false</ReportDQPValueInAbsoluteUnits>
+				</MeasureItem>
+				<MeasureItem ID="Rectum">
+					<Type>3</Type>
+					<Modifier>1</Modifier>
+					<Value>1000</Value>
+					<TypeSpecifier>36</TypeSpecifier>
+					<ReportDQPValueInAbsoluteUnits>true</ReportDQPValueInAbsoluteUnits>
+				</MeasureItem>
+				<MeasureItem ID="Bladder">
+					<Type>3</Type>
+					<Modifier>1</Modifier>
+					<Value>40</Value>
+					<TypeSpecifier>18.1</TypeSpecifier>
+					<ReportDQPValueInAbsoluteUnits>false</ReportDQPValueInAbsoluteUnits>
+				</MeasureItem>
+				<MeasureItem ID="Bladder">
+					<Type>3</Type>
+					<Modifier>1</Modifier>
+					<Value>5000</Value>
+					<TypeSpecifier>37</TypeSpecifier>
+					<ReportDQPValueInAbsoluteUnits>true</ReportDQPValueInAbsoluteUnits>
+				</MeasureItem>
+				<MeasureItem ID="PenileBulb">
+					<Type>3</Type>
+					<Modifier>1</Modifier>
+					<Value>50</Value>
+					<TypeSpecifier>29.5</TypeSpecifier>
+					<ReportDQPValueInAbsoluteUnits>false</ReportDQPValueInAbsoluteUnits>
+				</MeasureItem>
+				<MeasureItem ID="FemurL">
+					<Type>3</Type>
+					<Modifier>1</Modifier>
+					<Value>5</Value>
+					<TypeSpecifier>14.5</TypeSpecifier>
+					<ReportDQPValueInAbsoluteUnits>false</ReportDQPValueInAbsoluteUnits>
+				</MeasureItem>
+				<MeasureItem ID="FemurR">
+					<Type>3</Type>
+					<Modifier>1</Modifier>
+					<Value>5</Value>
+					<TypeSpecifier>14.5</TypeSpecifier>
+					<ReportDQPValueInAbsoluteUnits>false</ReportDQPValueInAbsoluteUnits>
+				</MeasureItem>
+				<MeasureItem ID="SmallBowel">
+					<Type>3</Type>
+					<Modifier>1</Modifier>
+					<Value>1000</Value>
+					<TypeSpecifier>30</TypeSpecifier>
+					<ReportDQPValueInAbsoluteUnits>true</ReportDQPValueInAbsoluteUnits>
+				</MeasureItem>
+				<MeasureItem ID="SmallBowel">
+					<Type>3</Type>
+					<Modifier>1</Modifier>
+					<Value>5000</Value>
+					<TypeSpecifier>18.1</TypeSpecifier>
+					<ReportDQPValueInAbsoluteUnits>true</ReportDQPValueInAbsoluteUnits>
+				</MeasureItem>
+				<MeasureItem ID="LargeBowel">
+					<Type>3</Type>
+					<Modifier>1</Modifier>
+					<Value>1000</Value>
+					<TypeSpecifier>30</TypeSpecifier>
+					<ReportDQPValueInAbsoluteUnits>true</ReportDQPValueInAbsoluteUnits>
+				</MeasureItem>
+				<MeasureItem ID="LargeBowel">
+					<Type>3</Type>
+					<Modifier>1</Modifier>
+					<Value>5000</Value>
+					<TypeSpecifier>18.1</TypeSpecifier>
+					<ReportDQPValueInAbsoluteUnits>true</ReportDQPValueInAbsoluteUnits>
+				</MeasureItem>
+				<MeasureItem ID="PTV">
+					<Type>0</Type>
+					<Modifier>1</Modifier>
+					<Value>1.2</Value>
+					<TypeSpecifier xsi:nil="true"/>
+					<ReportDQPValueInAbsoluteUnits>false</ReportDQPValueInAbsoluteUnits>
+				</MeasureItem>
+				<MeasureItem ID="Urethra">
+					<Type>3</Type>
+					<Modifier>1</Modifier>
+					<Value>50</Value>
+					<TypeSpecifier>42</TypeSpecifier>
+					<ReportDQPValueInAbsoluteUnits>false</ReportDQPValueInAbsoluteUnits>
+				</MeasureItem>
+			</Prescription>
+			<PlanTemplate Version="1.6">
+				<PrescribedPercentage>100</PrescribedPercentage>
+				<DosePerFraction>7.25</DosePerFraction>
+				<FractionCount>5</FractionCount>
+				<FieldAlignmentRules/>
+				<PrescriptionSite>
+					<VolumeID>PTV3625</VolumeID>
+					<VolumeCode/>
+					<VolumeType>PTV</VolumeType>
+					<VolumeCodeTable/>
+				</PrescriptionSite>
+				<Boluses/>
+				<Fields>
+					<Field ID="CW" FixedSSD="false" UsingCompensator="false" UsingMLC="false" Setup="false" DRRVisible="true">
+						<Type>BeamLinac</Type>
+						<Target>
+							<VolumeID/>
+							<VolumeCode/>
+							<VolumeType/>
+							<VolumeCodeTable/>
+						</Target>
+						<TreatmentUnit>CACCRT101</TreatmentUnit>
+						<Technique>ARC</Technique>
+						<Energy>
+							<Type>X</Type>
+							<EnergyKV>6000</EnergyKV>
+							<MaxEnergyKV xsi:nil="true"/>
+						</Energy>
+						<PrimaryFluenceMode/>
+						<DRRTemplate>Pelvis.dps</DRRTemplate>
+						<DoseRate>600</DoseRate>
+						<SFED>100</SFED>
+						<Gantry>
+							<Rtn>181</Rtn>
+							<StopRtn>179</StopRtn>
+							<RtnDirection>CW</RtnDirection>
+						</Gantry>
+						<Collimator>
+							<Rtn>30</Rtn>
+							<Mode>Symmetry</Mode>
+							<X1>-10</X1>
+							<X2>10</X2>
+							<Y1>-10</Y1>
+							<Y2>10</Y2>
+						</Collimator>
+						<TableRtn>0</TableRtn>
+						<ToleranceTableID>CACC Standard</ToleranceTableID>
+						<Weight>1</Weight>
+						<FieldMargin BEVMarginFlag="false" EllipticalMarginFlag="false" OptimizeCollRtnFlag="false">
+							<Left xsi:nil="true"/>
+							<Right xsi:nil="true"/>
+							<Top xsi:nil="true"/>
+							<Bottom xsi:nil="true"/>
+						</FieldMargin>
+						<SkinFlashMargin xsi:nil="true"/>
+						<FieldBoluses/>
+						<Isocenter Placement="AIO" X="0" Y="0" Z="0"/>
+						<Blocks/>
+						<MLCPlans>
+							<MLCPlan ID="MLC" DynamicFlag="true">
+								<ModelName>Millennium 120</ModelName>
+								<SegmentCount>72</SegmentCount>
+								<MLCMargin BEVMarginFlag="false" EllipticalMarginFlag="false" OptimizeCollRtnFlag="false" JawFittingMode="0">
+									<Left xsi:nil="true"/>
+									<Right xsi:nil="true"/>
+									<Top xsi:nil="true"/>
+									<Bottom xsi:nil="true"/>
+								</MLCMargin>
+								<ContourMeetPoint>Middle</ContourMeetPoint>
+								<ClosedMeetPoint>Center</ClosedMeetPoint>
+								<Target>
+									<VolumeID/>
+									<VolumeCode/>
+									<VolumeType/>
+									<VolumeCodeTable/>
+								</Target>
+							</MLCPlan>
+						</MLCPlans>
+						<Wedges/>
+						<Applicators/>
+					</Field>
+					<Field ID="CW2" FixedSSD="false" UsingCompensator="false" UsingMLC="false" Setup="false" DRRVisible="true">
+						<Type>BeamLinac</Type>
+						<Target>
+							<VolumeID/>
+							<VolumeCode/>
+							<VolumeType/>
+							<VolumeCodeTable/>
+						</Target>
+						<TreatmentUnit>CACCRT101</TreatmentUnit>
+						<Technique>ARC</Technique>
+						<Energy>
+							<Type>X</Type>
+							<EnergyKV>6000</EnergyKV>
+							<MaxEnergyKV xsi:nil="true"/>
+						</Energy>
+						<PrimaryFluenceMode/>
+						<DRRTemplate>Pelvis.dps</DRRTemplate>
+						<DoseRate>600</DoseRate>
+						<SFED>100</SFED>
+						<Gantry>
+							<Rtn>181</Rtn>
+							<StopRtn>179</StopRtn>
+							<RtnDirection>CW</RtnDirection>
+						</Gantry>
+						<Collimator>
+							<Rtn>330</Rtn>
+							<Mode>Symmetry</Mode>
+							<X1>-10</X1>
+							<X2>10</X2>
+							<Y1>-10</Y1>
+							<Y2>10</Y2>
+						</Collimator>
+						<TableRtn>0</TableRtn>
+						<ToleranceTableID>CACC Standard</ToleranceTableID>
+						<Weight>1</Weight>
+						<FieldMargin BEVMarginFlag="false" EllipticalMarginFlag="false" OptimizeCollRtnFlag="false">
+							<Left xsi:nil="true"/>
+							<Right xsi:nil="true"/>
+							<Top xsi:nil="true"/>
+							<Bottom xsi:nil="true"/>
+						</FieldMargin>
+						<SkinFlashMargin xsi:nil="true"/>
+						<FieldBoluses/>
+						<Isocenter Placement="AIO" X="0" Y="0" Z="0"/>
+						<Blocks/>
+						<MLCPlans>
+							<MLCPlan ID="MLC" DynamicFlag="true">
+								<ModelName>Millennium 120</ModelName>
+								<SegmentCount>72</SegmentCount>
+								<MLCMargin BEVMarginFlag="false" EllipticalMarginFlag="false" OptimizeCollRtnFlag="false" JawFittingMode="0">
+									<Left xsi:nil="true"/>
+									<Right xsi:nil="true"/>
+									<Top xsi:nil="true"/>
+									<Bottom xsi:nil="true"/>
+								</MLCMargin>
+								<ContourMeetPoint>Middle</ContourMeetPoint>
+								<ClosedMeetPoint>Center</ClosedMeetPoint>
+								<Target>
+									<VolumeID/>
+									<VolumeCode/>
+									<VolumeType/>
+									<VolumeCodeTable/>
+								</Target>
+							</MLCPlan>
+						</MLCPlans>
+						<Wedges/>
+						<Applicators/>
+					</Field>
+				</Fields>
+			</PlanTemplate>
+			<ObjectiveTemplate Version="1.9">
+				<Type>Helios</Type>
+				<Helios DefaultFixedJaws="false" Interpolate="false" UseColors="false" TargetAutocrop="false" Aldo="false">
+					<DefaultSmoothingX>40</DefaultSmoothingX>
+					<DefaultSmoothingY>30</DefaultSmoothingY>
+					<DefaultMinimizeDose>0</DefaultMinimizeDose>
+					<DefaultOptimizationType>Beamlet</DefaultOptimizationType>
+					<MaxIterations>1000</MaxIterations>
+					<MaxTime>100</MaxTime>
+					<NormalTissueObjective>
+						<Use>true</Use>
+						<Priority>110</Priority>
+						<DistanceFromTargetBorder>1</DistanceFromTargetBorder>
+						<StartDose>100</StartDose>
+						<EndDose>45</EndDose>
+						<FallOff>0.05</FallOff>
+						<Mode/>
+						<Auto>false</Auto>
+					</NormalTissueObjective>
+					<Geos>
+						<InitialFieldDistribution>Coplanar</InitialFieldDistribution>
+						<MinimumNumberOfFields>5</MinimumNumberOfFields>
+						<MaximumNumberOfFields>9</MaximumNumberOfFields>
+						<MaximumElevationAngleForNonCoplanarFields>10</MaximumElevationAngleForNonCoplanarFields>
+						<MaximumCollimatorVariation>10</MaximumCollimatorVariation>
+						<LocalGeometricOptimizationMode>None</LocalGeometricOptimizationMode>
+					</Geos>
+					<Imat UseMU="false" JawTracking="true">
+						<MUWeight>50</MUWeight>
+						<MinMU>0</MinMU>
+						<MaxMU>2000</MaxMU>
+					</Imat>
+				</Helios>
+				<ObjectivesAllStructures>
+					<ObjectivesOneStructure ID="Bladder" NAME="" SurfaceOnly="false">
+						<StructureTarget>
+							<VolumeID/>
+							<VolumeCode/>
+							<VolumeType>Organ</VolumeType>
+							<VolumeCodeTable/>
+						</StructureTarget>
+						<Distance>3</Distance>
+						<SamplePoints xsi:nil="true"/>
+						<Color>8388608</Color>
+						<AvoidanceStructureMode/>
+						<StructureObjectives>
+							<Objective>
+								<Type>0</Type>
+								<Operator>0</Operator>
+								<Dose>65</Dose>
+								<Volume>50</Volume>
+								<Priority>0</Priority>
+								<ParameterA xsi:nil="true"/>
+								<Group>0</Group>
+							</Objective>
+							<Objective>
+								<Type>0</Type>
+								<Operator>0</Operator>
+								<Dose>70</Dose>
+								<Volume>35</Volume>
+								<Priority>0</Priority>
+								<ParameterA xsi:nil="true"/>
+								<Group>0</Group>
+							</Objective>
+							<Objective>
+								<Type>0</Type>
+								<Operator>0</Operator>
+								<Dose>75</Dose>
+								<Volume>25</Volume>
+								<Priority>0</Priority>
+								<ParameterA xsi:nil="true"/>
+								<Group>0</Group>
+							</Objective>
+							<Objective>
+								<Type>0</Type>
+								<Operator>0</Operator>
+								<Dose>80</Dose>
+								<Volume>15</Volume>
+								<Priority>0</Priority>
+								<ParameterA xsi:nil="true"/>
+								<Group>0</Group>
+							</Objective>
+						</StructureObjectives>
+					</ObjectivesOneStructure>
+					<ObjectivesOneStructure ID="Bladder_opti" NAME="" SurfaceOnly="false">
+						<StructureTarget>
+							<VolumeID/>
+							<VolumeCode/>
+							<VolumeType>Organ</VolumeType>
+							<VolumeCodeTable/>
+						</StructureTarget>
+						<Distance>3</Distance>
+						<SamplePoints xsi:nil="true"/>
+						<Color>65535</Color>
+						<AvoidanceStructureMode/>
+						<StructureObjectives/>
+					</ObjectivesOneStructure>
+					<ObjectivesOneStructure ID="BladderWall" NAME="" SurfaceOnly="false">
+						<StructureTarget>
+							<VolumeID/>
+							<VolumeCode/>
+							<VolumeType>Organ</VolumeType>
+							<VolumeCodeTable/>
+						</StructureTarget>
+						<Distance>2.41399</Distance>
+						<SamplePoints xsi:nil="true"/>
+						<Color>65280</Color>
+						<AvoidanceStructureMode/>
+						<StructureObjectives/>
+					</ObjectivesOneStructure>
+					<ObjectivesOneStructure ID="BladderWall_opti" NAME="" SurfaceOnly="false">
+						<StructureTarget>
+							<VolumeID/>
+							<VolumeCode/>
+							<VolumeType>Organ</VolumeType>
+							<VolumeCodeTable/>
+						</StructureTarget>
+						<Distance>1</Distance>
+						<SamplePoints xsi:nil="true"/>
+						<Color>16386570</Color>
+						<AvoidanceStructureMode/>
+						<StructureObjectives/>
+					</ObjectivesOneStructure>
+					<ObjectivesOneStructure ID="BODY" NAME="" SurfaceOnly="false">
+						<StructureTarget>
+							<VolumeID/>
+							<VolumeCode>C44.9</VolumeCode>
+							<VolumeType>BODY</VolumeType>
+							<VolumeCodeTable>ICD-O-2</VolumeCodeTable>
+						</StructureTarget>
+						<Distance>4.5</Distance>
+						<SamplePoints xsi:nil="true"/>
+						<Color>65280</Color>
+						<AvoidanceStructureMode/>
+						<StructureObjectives/>
+					</ObjectivesOneStructure>
+					<ObjectivesOneStructure ID="CTV60" NAME="" SurfaceOnly="false">
+						<StructureTarget>
+							<VolumeID/>
+							<VolumeCode/>
+							<VolumeType>CTV</VolumeType>
+							<VolumeCodeTable/>
+						</StructureTarget>
+						<Distance>2.97709</Distance>
+						<SamplePoints xsi:nil="true"/>
+						<Color>16711935</Color>
+						<AvoidanceStructureMode/>
+						<StructureObjectives/>
+					</ObjectivesOneStructure>
+					<ObjectivesOneStructure ID="FemurL" NAME="" SurfaceOnly="false">
+						<StructureTarget>
+							<VolumeID/>
+							<VolumeCode/>
+							<VolumeType>Organ</VolumeType>
+							<VolumeCodeTable/>
+						</StructureTarget>
+						<Distance>3</Distance>
+						<SamplePoints xsi:nil="true"/>
+						<Color>65280</Color>
+						<AvoidanceStructureMode/>
+						<StructureObjectives>
+							<Objective>
+								<Type>0</Type>
+								<Operator>0</Operator>
+								<Dose>43</Dose>
+								<Volume>5</Volume>
+								<Priority>80</Priority>
+								<ParameterA xsi:nil="true"/>
+								<Group>0</Group>
+							</Objective>
+							<Objective>
+								<Type>0</Type>
+								<Operator>0</Operator>
+								<Dose>53.5</Dose>
+								<Volume>0.0001</Volume>
+								<Priority>0</Priority>
+								<ParameterA xsi:nil="true"/>
+								<Group>0</Group>
+							</Objective>
+						</StructureObjectives>
+					</ObjectivesOneStructure>
+					<ObjectivesOneStructure ID="FemurR" NAME="" SurfaceOnly="false">
+						<StructureTarget>
+							<VolumeID/>
+							<VolumeCode/>
+							<VolumeType>Organ</VolumeType>
+							<VolumeCodeTable/>
+						</StructureTarget>
+						<Distance>3</Distance>
+						<SamplePoints xsi:nil="true"/>
+						<Color>65280</Color>
+						<AvoidanceStructureMode/>
+						<StructureObjectives>
+							<Objective>
+								<Type>0</Type>
+								<Operator>0</Operator>
+								<Dose>43</Dose>
+								<Volume>5</Volume>
+								<Priority>80</Priority>
+								<ParameterA xsi:nil="true"/>
+								<Group>0</Group>
+							</Objective>
+							<Objective>
+								<Type>0</Type>
+								<Operator>0</Operator>
+								<Dose>53.5</Dose>
+								<Volume>0.0001</Volume>
+								<Priority>0</Priority>
+								<ParameterA xsi:nil="true"/>
+								<Group>0</Group>
+							</Objective>
+						</StructureObjectives>
+					</ObjectivesOneStructure>
+					<ObjectivesOneStructure ID="PTV_RectumMRV" NAME="" SurfaceOnly="false">
+						<StructureTarget>
+							<VolumeID/>
+							<VolumeCode/>
+							<VolumeType>PTV</VolumeType>
+							<VolumeCodeTable/>
+						</StructureTarget>
+						<Distance>1.98239</Distance>
+						<SamplePoints xsi:nil="true"/>
+						<Color>65535</Color>
+						<AvoidanceStructureMode/>
+						<StructureObjectives>
+							<Objective>
+								<Type>0</Type>
+								<Operator>0</Operator>
+								<Dose>61</Dose>
+								<Volume>0</Volume>
+								<Priority>85</Priority>
+								<ParameterA xsi:nil="true"/>
+								<Group>0</Group>
+							</Objective>
+						</StructureObjectives>
+					</ObjectivesOneStructure>
+					<ObjectivesOneStructure ID="PTV60" NAME="" SurfaceOnly="false">
+						<StructureTarget>
+							<VolumeID/>
+							<VolumeCode/>
+							<VolumeType>PTV</VolumeType>
+							<VolumeCodeTable/>
+						</StructureTarget>
+						<Distance>2.48941</Distance>
+						<SamplePoints xsi:nil="true"/>
+						<Color>16776960</Color>
+						<AvoidanceStructureMode/>
+						<StructureObjectives/>
+					</ObjectivesOneStructure>
+					<ObjectivesOneStructure ID="Rectum_opti" NAME="" SurfaceOnly="false">
+						<StructureTarget>
+							<VolumeID/>
+							<VolumeCode/>
+							<VolumeType>Organ</VolumeType>
+							<VolumeCodeTable/>
+						</StructureTarget>
+						<Distance>2.75776</Distance>
+						<SamplePoints xsi:nil="true"/>
+						<Color>16711808</Color>
+						<AvoidanceStructureMode/>
+						<StructureObjectives/>
+					</ObjectivesOneStructure>
+					<ObjectivesOneStructure ID="RectalWall" NAME="" SurfaceOnly="false">
+						<StructureTarget>
+							<VolumeID/>
+							<VolumeCode/>
+							<VolumeType>Organ</VolumeType>
+							<VolumeCodeTable/>
+						</StructureTarget>
+						<Distance>2.1224</Distance>
+						<SamplePoints xsi:nil="true"/>
+						<Color>65535</Color>
+						<AvoidanceStructureMode/>
+						<StructureObjectives/>
+					</ObjectivesOneStructure>
+					<ObjectivesOneStructure ID="Rectum" NAME="" SurfaceOnly="false">
+						<StructureTarget>
+							<VolumeID/>
+							<VolumeCode/>
+							<VolumeType>Organ</VolumeType>
+							<VolumeCodeTable/>
+						</StructureTarget>
+						<Distance>3</Distance>
+						<SamplePoints xsi:nil="true"/>
+						<Color>4210816</Color>
+						<AvoidanceStructureMode/>
+						<StructureObjectives>
+							<Objective>
+								<Type>0</Type>
+								<Operator>0</Operator>
+								<Dose>50</Dose>
+								<Volume>50</Volume>
+								<Priority>0</Priority>
+								<ParameterA xsi:nil="true"/>
+								<Group>0</Group>
+							</Objective>
+							<Objective>
+								<Type>0</Type>
+								<Operator>0</Operator>
+								<Dose>60</Dose>
+								<Volume>35</Volume>
+								<Priority>0</Priority>
+								<ParameterA xsi:nil="true"/>
+								<Group>0</Group>
+							</Objective>
+							<Objective>
+								<Type>0</Type>
+								<Operator>0</Operator>
+								<Dose>65</Dose>
+								<Volume>25</Volume>
+								<Priority>0</Priority>
+								<ParameterA xsi:nil="true"/>
+								<Group>0</Group>
+							</Objective>
+							<Objective>
+								<Type>0</Type>
+								<Operator>0</Operator>
+								<Dose>70</Dose>
+								<Volume>20</Volume>
+								<Priority>0</Priority>
+								<ParameterA xsi:nil="true"/>
+								<Group>0</Group>
+							</Objective>
+							<Objective>
+								<Type>0</Type>
+								<Operator>0</Operator>
+								<Dose>75</Dose>
+								<Volume>15</Volume>
+								<Priority>0</Priority>
+								<ParameterA xsi:nil="true"/>
+								<Group>0</Group>
+							</Objective>
+							<Objective>
+								<Type>0</Type>
+								<Operator>0</Operator>
+								<Dose>40</Dose>
+								<Volume>60</Volume>
+								<Priority>0</Priority>
+								<ParameterA xsi:nil="true"/>
+								<Group>0</Group>
+							</Objective>
+						</StructureObjectives>
+					</ObjectivesOneStructure>
+					<ObjectivesOneStructure ID="RectumWall_opti" NAME="" SurfaceOnly="false">
+						<StructureTarget>
+							<VolumeID/>
+							<VolumeCode/>
+							<VolumeType>Organ</VolumeType>
+							<VolumeCodeTable/>
+						</StructureTarget>
+						<Distance>1</Distance>
+						<SamplePoints xsi:nil="true"/>
+						<Color>33023</Color>
+						<AvoidanceStructureMode/>
+						<StructureObjectives/>
+					</ObjectivesOneStructure>
+					<ObjectivesOneStructure ID="Prostate" NAME="" SurfaceOnly="false">
+						<StructureTarget>
+							<VolumeID/>
+							<VolumeCode/>
+							<VolumeType>Organ</VolumeType>
+							<VolumeCodeTable/>
+						</StructureTarget>
+						<Distance>2.81426</Distance>
+						<SamplePoints xsi:nil="true"/>
+						<Color>8421631</Color>
+						<AvoidanceStructureMode/>
+						<StructureObjectives/>
+					</ObjectivesOneStructure>
+					<ObjectivesOneStructure ID="Rectum MRV" NAME="" SurfaceOnly="false">
+						<StructureTarget>
+							<VolumeID/>
+							<VolumeCode/>
+							<VolumeType>Organ</VolumeType>
+							<VolumeCodeTable/>
+						</StructureTarget>
+						<Distance>3</Distance>
+						<SamplePoints xsi:nil="true"/>
+						<Color>16711935</Color>
+						<AvoidanceStructureMode/>
+						<StructureObjectives/>
+					</ObjectivesOneStructure>
+					<ObjectivesOneStructure ID="SV_Proximal" NAME="" SurfaceOnly="false">
+						<StructureTarget>
+							<VolumeID/>
+							<VolumeCode/>
+							<VolumeType>Organ</VolumeType>
+							<VolumeCodeTable/>
+						</StructureTarget>
+						<Distance>1.14083</Distance>
+						<SamplePoints xsi:nil="true"/>
+						<Color>65280</Color>
+						<AvoidanceStructureMode/>
+						<StructureObjectives/>
+					</ObjectivesOneStructure>
+					<ObjectivesOneStructure ID="SV_Total" NAME="" SurfaceOnly="false">
+						<StructureTarget>
+							<VolumeID/>
+							<VolumeCode/>
+							<VolumeType>Organ</VolumeType>
+							<VolumeCodeTable/>
+						</StructureTarget>
+						<Distance>1.69573</Distance>
+						<SamplePoints xsi:nil="true"/>
+						<Color>38400</Color>
+						<AvoidanceStructureMode/>
+						<StructureObjectives/>
+					</ObjectivesOneStructure>
+				</ObjectivesAllStructures>
+			</ObjectiveTemplate>
+		</Phase>
+	</Phases>
+	<Review ShowMin="true" ShowMax="true" ShowMean="true" ShowModal="false" ShowMedian="false" ShowStdDev="false" ShowEUD="true" ShowTCP="false" ShowNTCP="false" ShowNDR="true" ShowEquivalentSphereDiameter="false" ShowConformityIndex="false" ShowGradientMeasure="false">
+		<ReviewStructures>
+			<ReviewStructure>
+				<Type>Structure</Type>
+				<Item>Bladder</Item>
+			</ReviewStructure>
+			<ReviewStructure>
+				<Type>Structure</Type>
+				<Item>CTV60</Item>
+			</ReviewStructure>
+			<ReviewStructure>
+				<Type>Structure</Type>
+				<Item>FemurL</Item>
+			</ReviewStructure>
+			<ReviewStructure>
+				<Type>Structure</Type>
+				<Item>FemurR</Item>
+			</ReviewStructure>
+			<ReviewStructure>
+				<Type>Structure</Type>
+				<Item>Rectum</Item>
+			</ReviewStructure>
+			<ReviewStructure>
+				<Type>Structure</Type>
+				<Item>PTV60</Item>
+			</ReviewStructure>
+			<ReviewStructure>
+				<Type>Structure</Type>
+				<Item>PTV78</Item>
+			</ReviewStructure>
+			<ReviewStructure>
+				<Type>Structure</Type>
+				<Item>CTV78</Item>
+			</ReviewStructure>
+			<ReviewStructure>
+				<Type>Structure</Type>
+				<Item>PeritonCav</Item>
+			</ReviewStructure>
+		</ReviewStructures>
+	</Review>
+</Protocol>

@@ -1,0 +1,3504 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Protocol xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="1.9">
+  <Preview ID="CACC_Rectum" Type="Protocol" ApprovalStatus="Approved" Diagnosis="" TreatmentSite="" AssignedUsers="jasonh" Description="From TBCC protocols in Jul2024 with some local changes" LastModified=" Sept 18 2019 09:04:32:647" ApprovalHistory="michaeld Created [ April 20 2017 10:54:55:970 ];jasonh Approved [ Sept 18 2019 09:04:32:647 ]"/>
+  <StructureTemplate>
+    <Structures>
+      <Structure ID="BODY" Name="Body Outline">
+        <Identification>
+          <VolumeID/>
+          <VolumeCode>C44.9</VolumeCode>
+          <VolumeType>BODY</VolumeType>
+          <VolumeCodeTable>ICD-O-2</VolumeCodeTable>
+        </Identification>
+        <TypeIndex>2</TypeIndex>
+        <ColorAndStyle>Skin Rendering</ColorAndStyle>
+        <SearchCTLow>-350</SearchCTLow>
+        <SearchCTHigh>1000</SearchCTHigh>
+        <DVHLineStyle>0</DVHLineStyle>
+        <DVHLineColor>-16777216</DVHLineColor>
+        <DVHLineWidth>1</DVHLineWidth>
+        <EUDAlpha xsi:nil="true"/>
+        <TCPAlpha xsi:nil="true"/>
+        <TCPBeta xsi:nil="true"/>
+        <TCPGamma xsi:nil="true"/>
+      </Structure>
+      <Structure ID="Bladder" Name="Bladder">
+        <Identification>
+          <VolumeID/>
+          <VolumeCode/>
+          <VolumeType>Organ</VolumeType>
+          <VolumeCodeTable/>
+          <StructureCode Code="15900" CodeScheme="FMA" CodeSchemeVersion="3.2"/>
+        </Identification>
+        <TypeIndex>2</TypeIndex>
+        <ColorAndStyle>Transluce - Yell</ColorAndStyle>
+        <SearchCTLow xsi:nil="true"/>
+        <SearchCTHigh xsi:nil="true"/>
+        <DVHLineStyle>0</DVHLineStyle>
+        <DVHLineColor>-16777216</DVHLineColor>
+        <DVHLineWidth>1</DVHLineWidth>
+        <EUDAlpha xsi:nil="true"/>
+        <TCPAlpha xsi:nil="true"/>
+        <TCPBeta xsi:nil="true"/>
+        <TCPGamma xsi:nil="true"/>
+      </Structure>
+ <Structure ID="CTV45" Name="CTV45">
+        <Identification>
+          <VolumeID/>
+          <VolumeCode/>
+          <VolumeType>CTV</VolumeType>
+          <VolumeCodeTable/>
+          <StructureCode Code="CTV_High" CodeScheme="99VMS_STRUCTCODE" CodeSchemeVersion="1.0"/>
+        </Identification>
+        <TypeIndex>2</TypeIndex>
+        <ColorAndStyle>Transluce - Mag</ColorAndStyle>
+        <SearchCTLow xsi:nil="true"/>
+        <SearchCTHigh xsi:nil="true"/>
+        <DVHLineStyle>0</DVHLineStyle>
+        <DVHLineColor>-16777216</DVHLineColor>
+        <DVHLineWidth>1</DVHLineWidth>
+        <EUDAlpha xsi:nil="true"/>
+        <TCPAlpha xsi:nil="true"/>
+        <TCPBeta xsi:nil="true"/>
+        <TCPGamma xsi:nil="true"/>
+      </Structure>
+	   <Structure ID="CTV50" Name="CTV50">
+        <Identification>
+          <VolumeID/>
+          <VolumeCode/>
+          <VolumeType>CTV</VolumeType>
+          <VolumeCodeTable/>
+          <StructureCode Code="CTV_High" CodeScheme="99VMS_STRUCTCODE" CodeSchemeVersion="1.0"/>
+        </Identification>
+        <TypeIndex>2</TypeIndex>
+        <ColorAndStyle>Transluce - Mag</ColorAndStyle>
+        <SearchCTLow xsi:nil="true"/>
+        <SearchCTHigh xsi:nil="true"/>
+        <DVHLineStyle>0</DVHLineStyle>
+        <DVHLineColor>-16777216</DVHLineColor>
+        <DVHLineWidth>1</DVHLineWidth>
+        <EUDAlpha xsi:nil="true"/>
+        <TCPAlpha xsi:nil="true"/>
+        <TCPBeta xsi:nil="true"/>
+        <TCPGamma xsi:nil="true"/>
+      </Structure>
+	  	   <Structure ID="CTV54" Name="CTV54">
+        <Identification>
+          <VolumeID/>
+          <VolumeCode/>
+          <VolumeType>CTV</VolumeType>
+          <VolumeCodeTable/>
+          <StructureCode Code="CTV_High" CodeScheme="99VMS_STRUCTCODE" CodeSchemeVersion="1.0"/>
+        </Identification>
+        <TypeIndex>2</TypeIndex>
+        <ColorAndStyle>Transluce - Mag</ColorAndStyle>
+        <SearchCTLow xsi:nil="true"/>
+        <SearchCTHigh xsi:nil="true"/>
+        <DVHLineStyle>0</DVHLineStyle>
+        <DVHLineColor>-16777216</DVHLineColor>
+        <DVHLineWidth>1</DVHLineWidth>
+        <EUDAlpha xsi:nil="true"/>
+        <TCPAlpha xsi:nil="true"/>
+        <TCPBeta xsi:nil="true"/>
+        <TCPGamma xsi:nil="true"/>
+      </Structure>
+	   <Structure ID="CTV25" Name="CTV25">
+        <Identification>
+          <VolumeID/>
+          <VolumeCode/>
+          <VolumeType>CTV</VolumeType>
+          <VolumeCodeTable/>
+          <StructureCode Code="CTV_High" CodeScheme="99VMS_STRUCTCODE" CodeSchemeVersion="1.0"/>
+        </Identification>
+        <TypeIndex>2</TypeIndex>
+        <ColorAndStyle>Transluce - Mag</ColorAndStyle>
+        <SearchCTLow xsi:nil="true"/>
+        <SearchCTHigh xsi:nil="true"/>
+        <DVHLineStyle>0</DVHLineStyle>
+        <DVHLineColor>-16777216</DVHLineColor>
+        <DVHLineWidth>1</DVHLineWidth>
+        <EUDAlpha xsi:nil="true"/>
+        <TCPAlpha xsi:nil="true"/>
+        <TCPBeta xsi:nil="true"/>
+        <TCPGamma xsi:nil="true"/>
+      </Structure>
+      <Structure ID="GTV" Name="GTV">
+ <Identification>
+          <VolumeID/>
+          <VolumeCode/>
+          <VolumeType>GTV</VolumeType>
+          <VolumeCodeTable/>
+          <StructureCode Code="GTVp" CodeScheme="99VMS_STRUCTCODE" CodeSchemeVersion="1.0"/>
+        </Identification>
+        <TypeIndex>2</TypeIndex>
+        <ColorAndStyle>RGB144 0 0</ColorAndStyle>
+        <SearchCTLow>1000</SearchCTLow>
+        <SearchCTHigh>1000</SearchCTHigh>
+        <DVHLineStyle>0</DVHLineStyle>
+        <DVHLineColor>-16777216</DVHLineColor>
+        <DVHLineWidth>1</DVHLineWidth>
+        <EUDAlpha xsi:nil="true"/>
+        <TCPAlpha xsi:nil="true"/>
+        <TCPBeta xsi:nil="true"/>
+        <TCPGamma xsi:nil="true"/>
+      </Structure>
+      <Structure ID="PTV25" Name="PTV">
+        <Identification>
+          <VolumeID/>
+          <VolumeCode/>
+          <VolumeType>PTV</VolumeType>
+          <VolumeCodeTable/>
+          <StructureCode Code="PTV_High" CodeScheme="99VMS_STRUCTCODE" CodeSchemeVersion="1.0"/>
+        </Identification>
+        <TypeIndex>2</TypeIndex>
+        <ColorAndStyle>Transluce - Cyan</ColorAndStyle>
+        <SearchCTLow xsi:nil="true"/>
+        <SearchCTHigh xsi:nil="true"/>
+        <DVHLineStyle>0</DVHLineStyle>
+        <DVHLineColor>-16777216</DVHLineColor>
+        <DVHLineWidth>1</DVHLineWidth>
+        <EUDAlpha xsi:nil="true"/>
+        <TCPAlpha xsi:nil="true"/>
+        <TCPBeta xsi:nil="true"/>
+        <TCPGamma xsi:nil="true"/>
+      </Structure>
+	  <Structure ID="PTV45" Name="PTV">
+        <Identification>
+          <VolumeID/>
+          <VolumeCode/>
+          <VolumeType>PTV</VolumeType>
+          <VolumeCodeTable/>
+          <StructureCode Code="PTV_High" CodeScheme="99VMS_STRUCTCODE" CodeSchemeVersion="1.0"/>
+        </Identification>
+        <TypeIndex>2</TypeIndex>
+        <ColorAndStyle>Transluce - Cyan</ColorAndStyle>
+        <SearchCTLow xsi:nil="true"/>
+        <SearchCTHigh xsi:nil="true"/>
+        <DVHLineStyle>0</DVHLineStyle>
+        <DVHLineColor>-16777216</DVHLineColor>
+        <DVHLineWidth>1</DVHLineWidth>
+        <EUDAlpha xsi:nil="true"/>
+        <TCPAlpha xsi:nil="true"/>
+        <TCPBeta xsi:nil="true"/>
+        <TCPGamma xsi:nil="true"/>
+      </Structure>
+	  <Structure ID="PTV50" Name="PTV">
+        <Identification>
+          <VolumeID/>
+          <VolumeCode/>
+          <VolumeType>PTV</VolumeType>
+          <VolumeCodeTable/>
+          <StructureCode Code="PTV_High" CodeScheme="99VMS_STRUCTCODE" CodeSchemeVersion="1.0"/>
+        </Identification>
+        <TypeIndex>2</TypeIndex>
+        <ColorAndStyle>Transluce - Cyan</ColorAndStyle>
+        <SearchCTLow xsi:nil="true"/>
+        <SearchCTHigh xsi:nil="true"/>
+        <DVHLineStyle>0</DVHLineStyle>
+        <DVHLineColor>-16777216</DVHLineColor>
+        <DVHLineWidth>1</DVHLineWidth>
+        <EUDAlpha xsi:nil="true"/>
+        <TCPAlpha xsi:nil="true"/>
+        <TCPBeta xsi:nil="true"/>
+        <TCPGamma xsi:nil="true"/>
+      </Structure>
+	  <Structure ID="PTV54" Name="PTV">
+        <Identification>
+          <VolumeID/>
+          <VolumeCode/>
+          <VolumeType>PTV</VolumeType>
+          <VolumeCodeTable/>
+          <StructureCode Code="PTV_High" CodeScheme="99VMS_STRUCTCODE" CodeSchemeVersion="1.0"/>
+        </Identification>
+        <TypeIndex>2</TypeIndex>
+        <ColorAndStyle>Transluce - Cyan</ColorAndStyle>
+        <SearchCTLow xsi:nil="true"/>
+        <SearchCTHigh xsi:nil="true"/>
+        <DVHLineStyle>0</DVHLineStyle>
+        <DVHLineColor>-16777216</DVHLineColor>
+        <DVHLineWidth>1</DVHLineWidth>
+        <EUDAlpha xsi:nil="true"/>
+        <TCPAlpha xsi:nil="true"/>
+        <TCPBeta xsi:nil="true"/>
+        <TCPGamma xsi:nil="true"/>
+      </Structure>
+ <Structure ID="SmallBowel" Name="Small Bowel">
+        <Identification>
+          <VolumeID/>
+          <VolumeCode/>
+          <VolumeType>Organ</VolumeType>
+          <VolumeCodeTable/>
+         <StructureCode Code="7200" CodeScheme="FMA" CodeSchemeVersion="3.2"/>
+        </Identification>
+        <TypeIndex>2</TypeIndex>
+        <ColorAndStyle>Transluce - D-Gr</ColorAndStyle>
+        <SearchCTLow>1000</SearchCTLow>
+        <SearchCTHigh>1000</SearchCTHigh>
+        <DVHLineStyle>0</DVHLineStyle>
+        <DVHLineColor>-16777216</DVHLineColor>
+        <DVHLineWidth>1</DVHLineWidth>
+        <EUDAlpha xsi:nil="true"/>
+        <TCPAlpha xsi:nil="true"/>
+        <TCPBeta xsi:nil="true"/>
+        <TCPGamma xsi:nil="true"/>
+      </Structure>
+	  <Structure ID="Skin" Name="">
+        <Identification>
+          <VolumeID/>
+          <VolumeCode/>
+          <VolumeType>Organ</VolumeType>
+          <VolumeCodeTable/>
+          <StructureCode Code="7163" CodeScheme="FMA" CodeSchemeVersion="3.2"/>
+        </Identification>
+        <TypeIndex>2</TypeIndex>
+        <ColorAndStyle>Transluce - Yell</ColorAndStyle>
+        <SearchCTLow>1000</SearchCTLow>
+        <SearchCTHigh>1000</SearchCTHigh>
+        <DVHLineStyle>0</DVHLineStyle>
+        <DVHLineColor>-16777216</DVHLineColor>
+        <DVHLineWidth>1</DVHLineWidth>
+        <EUDAlpha xsi:nil="true"/>
+        <TCPAlpha xsi:nil="true"/>
+        <TCPBeta xsi:nil="true"/>
+        <TCPGamma xsi:nil="true"/>
+      </Structure>
+	  <Structure ID="AnalMarker" Name="AnalMarker">
+        <Identification>
+          <VolumeID/>
+          <VolumeCode/>
+          <VolumeType>Organ</VolumeType>
+          <VolumeCodeTable/>
+         <StructureCode Code="21930" CodeScheme="FMA" CodeSchemeVersion="3.2"/>
+        </Identification>
+        <TypeIndex>2</TypeIndex>
+        <ColorAndStyle>Transluce - L-Gr</ColorAndStyle>
+        <SearchCTLow>1000</SearchCTLow>
+        <SearchCTHigh>1000</SearchCTHigh>
+        <DVHLineStyle>0</DVHLineStyle>
+        <DVHLineColor>-16777216</DVHLineColor>
+        <DVHLineWidth>1</DVHLineWidth>
+        <EUDAlpha xsi:nil="true"/>
+        <TCPAlpha xsi:nil="true"/>
+        <TCPBeta xsi:nil="true"/>
+        <TCPGamma xsi:nil="true"/>
+      </Structure>
+	  
+	        <Structure ID="Contrast" Name="Contrast">
+        <Identification>
+          <VolumeID/>
+          <VolumeCode/>
+          <VolumeType>Contrast Agent</VolumeType>
+          <VolumeCodeTable/>
+          <StructureCode Code="11582" CodeScheme="RADLEX" CodeSchemeVersion="3.8"/>
+        </Identification>
+        <TypeIndex>2</TypeIndex>
+        <ColorAndStyle>Transluce - Oran</ColorAndStyle>
+        <SearchCTLow xsi:nil="true"/>
+        <SearchCTHigh xsi:nil="true"/>
+        <DVHLineStyle>0</DVHLineStyle>
+        <DVHLineColor>-16777216</DVHLineColor>
+        <DVHLineWidth>1</DVHLineWidth>
+        <EUDAlpha xsi:nil="true"/>
+        <TCPAlpha xsi:nil="true"/>
+        <TCPBeta xsi:nil="true"/>
+        <TCPGamma xsi:nil="true"/>
+      </Structure>
+	  <Structure ID="PeritonCav" Name="PeritonCav">
+        <Identification>
+          <VolumeID/>
+          <VolumeCode/>
+          <VolumeType>Organ</VolumeType>
+          <VolumeCodeTable/>
+          <StructureCode Code="7200" CodeScheme="FMA" CodeSchemeVersion="3.2"/>
+        </Identification>
+        <TypeIndex>2</TypeIndex>
+        <ColorAndStyle>Transluce - Mag</ColorAndStyle>
+        <SearchCTLow xsi:nil="true"/>
+        <SearchCTHigh xsi:nil="true"/>
+        <DVHLineStyle>0</DVHLineStyle>
+        <DVHLineColor>-16777216</DVHLineColor>
+        <DVHLineWidth>1</DVHLineWidth>
+        <EUDAlpha xsi:nil="true"/>
+        <TCPAlpha xsi:nil="true"/>
+        <TCPBeta xsi:nil="true"/>
+        <TCPGamma xsi:nil="true"/>
+      </Structure>
+	  <Structure ID="PeritonCav_opti" Name="PeritonCav">
+        <Identification>
+          <VolumeID/>
+          <VolumeCode/>
+          <VolumeType>Organ</VolumeType>
+          <VolumeCodeTable/>
+          <StructureCode Code="7200" CodeScheme="FMA" CodeSchemeVersion="3.2"/>
+        </Identification>
+        <TypeIndex>2</TypeIndex>
+        <ColorAndStyle>RGB183162234</ColorAndStyle>
+        <SearchCTLow xsi:nil="true"/>
+        <SearchCTHigh xsi:nil="true"/>
+        <DVHLineStyle>0</DVHLineStyle>
+        <DVHLineColor>-16777216</DVHLineColor>
+        <DVHLineWidth>1</DVHLineWidth>
+        <EUDAlpha xsi:nil="true"/>
+        <TCPAlpha xsi:nil="true"/>
+        <TCPBeta xsi:nil="true"/>
+        <TCPGamma xsi:nil="true"/>
+      </Structure>
+      <Structure ID="Vessels" Name="Vessels">
+        <Identification>
+          <VolumeID/>
+          <VolumeCode/>
+          <VolumeType>Organ</VolumeType>
+          <VolumeCodeTable/>
+        </Identification>
+        <TypeIndex>2</TypeIndex>
+        <ColorAndStyle>Transluce - Mag</ColorAndStyle>
+        <SearchCTLow>1000</SearchCTLow>
+        <SearchCTHigh>1000</SearchCTHigh>
+        <DVHLineStyle>0</DVHLineStyle>
+        <DVHLineColor>-16777216</DVHLineColor>
+        <DVHLineWidth>1</DVHLineWidth>
+        <EUDAlpha xsi:nil="true"/>
+        <TCPAlpha xsi:nil="true"/>
+        <TCPBeta xsi:nil="true"/>
+        <TCPGamma xsi:nil="true"/>
+      </Structure>
+      <Structure ID="Node" Name="">
+        <Identification>
+          <VolumeID/>
+          <VolumeCode/>
+          <VolumeType>CTV</VolumeType>
+          <VolumeCodeTable/>
+        </Identification>
+        <TypeIndex>2</TypeIndex>
+        <ColorAndStyle>Transluce - Red</ColorAndStyle>
+        <SearchCTLow xsi:nil="true"/>
+        <SearchCTHigh xsi:nil="true"/>
+        <DVHLineStyle>0</DVHLineStyle>
+        <DVHLineColor>-16777216</DVHLineColor>
+        <DVHLineWidth>1</DVHLineWidth>
+        <EUDAlpha xsi:nil="true"/>
+        <TCPAlpha xsi:nil="true"/>
+        <TCPBeta xsi:nil="true"/>
+        <TCPGamma xsi:nil="true"/>
+      </Structure>
+      <Structure ID="Mesorectum" Name="">
+        <Identification>
+          <VolumeID/>
+          <VolumeCode/>
+          <VolumeType>Organ</VolumeType>
+          <VolumeCodeTable/>
+        </Identification>
+        <TypeIndex>2</TypeIndex>
+        <ColorAndStyle>Transluce - Yell</ColorAndStyle>
+        <SearchCTLow xsi:nil="true"/>
+        <SearchCTHigh xsi:nil="true"/>
+        <DVHLineStyle>0</DVHLineStyle>
+        <DVHLineColor>-16777216</DVHLineColor>
+        <DVHLineWidth>1</DVHLineWidth>
+        <EUDAlpha xsi:nil="true"/>
+        <TCPAlpha xsi:nil="true"/>
+        <TCPBeta xsi:nil="true"/>
+        <TCPGamma xsi:nil="true"/>
+      </Structure>
+      <Structure ID="FemurR" Name="FemurR">
+        <Identification>
+          <VolumeID/>
+          <VolumeCode/>
+          <VolumeType>Organ</VolumeType>
+          <VolumeCodeTable/>
+          <StructureCode Code="24474" CodeScheme="FMA" CodeSchemeVersion="3.2"/>
+        </Identification>
+        <TypeIndex>2</TypeIndex>
+        <ColorAndStyle>Transluce - D-Gr</ColorAndStyle>
+        <SearchCTLow xsi:nil="true"/>
+        <SearchCTHigh xsi:nil="true"/>
+        <DVHLineStyle>0</DVHLineStyle>
+        <DVHLineColor>-16777216</DVHLineColor>
+        <DVHLineWidth>1</DVHLineWidth>
+        <EUDAlpha xsi:nil="true"/>
+        <TCPAlpha xsi:nil="true"/>
+        <TCPBeta xsi:nil="true"/>
+        <TCPGamma xsi:nil="true"/>
+      </Structure>
+      <Structure ID="FemurL" Name="FemurL">
+        <Identification>
+          <VolumeID/>
+          <VolumeCode/>
+          <VolumeType>Organ</VolumeType>
+          <VolumeCodeTable/>
+          <StructureCode Code="24475" CodeScheme="FMA" CodeSchemeVersion="3.2"/>
+        </Identification>
+        <TypeIndex>2</TypeIndex>
+        <ColorAndStyle>Transluce - Gree</ColorAndStyle>
+        <SearchCTLow xsi:nil="true"/>
+        <SearchCTHigh xsi:nil="true"/>
+        <DVHLineStyle>0</DVHLineStyle>
+        <DVHLineColor>-16777216</DVHLineColor>
+        <DVHLineWidth>1</DVHLineWidth>
+        <EUDAlpha xsi:nil="true"/>
+        <TCPAlpha xsi:nil="true"/>
+        <TCPBeta xsi:nil="true"/>
+        <TCPGamma xsi:nil="true"/>
+      </Structure>
+      <Structure ID="Bladder_opti" Name="Bladder_opti">
+      <Identification>
+          <VolumeID/>
+          <VolumeCode/>
+          <VolumeType>Organ</VolumeType>
+          <VolumeCodeTable/>
+          <StructureCode Code="Dose" CodeScheme="99VMS_STRUCTCODE" CodeSchemeVersion="1.0"/>
+        </Identification>
+        <TypeIndex>2</TypeIndex>
+        <ColorAndStyle>RGB163177 58</ColorAndStyle>
+        <SearchCTLow xsi:nil="true"/>
+        <SearchCTHigh xsi:nil="true"/>
+        <DVHLineStyle>0</DVHLineStyle>
+        <DVHLineColor>-16777216</DVHLineColor>
+        <DVHLineWidth>1</DVHLineWidth>
+        <EUDAlpha xsi:nil="true"/>
+        <TCPAlpha xsi:nil="true"/>
+        <TCPBeta xsi:nil="true"/>
+        <TCPGamma xsi:nil="true"/>
+      </Structure>
+      <Structure ID="CTV vessels" Name="">
+        <Identification>
+          <VolumeID/>
+          <VolumeCode/>
+          <VolumeType>CTV</VolumeType>
+          <VolumeCodeTable/>
+        </Identification>
+        <TypeIndex>2</TypeIndex>
+        <ColorAndStyle>Transluce - Red</ColorAndStyle>
+        <SearchCTLow xsi:nil="true"/>
+        <SearchCTHigh xsi:nil="true"/>
+        <DVHLineStyle>0</DVHLineStyle>
+        <DVHLineColor>-16777216</DVHLineColor>
+        <DVHLineWidth>1</DVHLineWidth>
+        <EUDAlpha xsi:nil="true"/>
+        <TCPAlpha xsi:nil="true"/>
+        <TCPBeta xsi:nil="true"/>
+        <TCPGamma xsi:nil="true"/>
+      </Structure>
+	  <Structure ID="Genitals_nonPTV" Name="">
+				<Identification>
+					<VolumeID/>
+					<VolumeCode/>
+					<VolumeType>Organ</VolumeType>
+					<VolumeCodeTable/>
+					<StructureCode Code="45643" CodeScheme="FMA" CodeSchemeVersion="3.2"/>
+				</Identification>
+				<TypeIndex>2</TypeIndex>
+				<ColorAndStyle>Yellow</ColorAndStyle>
+				<SearchCTLow>1000</SearchCTLow>
+				<SearchCTHigh>1000</SearchCTHigh>
+				<DVHLineStyle>0</DVHLineStyle>
+				<DVHLineColor>-16777216</DVHLineColor>
+				<DVHLineWidth>1</DVHLineWidth>
+				<EUDAlpha xsi:nil="true"/>
+				<TCPAlpha xsi:nil="true"/>
+				<TCPBeta xsi:nil="true"/>
+				<TCPGamma xsi:nil="true"/>
+			</Structure>
+    </Structures>
+  </StructureTemplate>
+  <FieldAlignmentRules/>
+  <Phases>
+    <Phase ID="Rectum_Short">
+      <Mode>Photon</Mode>
+      <DefaultEnergyKV xsi:nil="true"/>
+      <FractionCount>5</FractionCount>
+      <FractionsPerWeek xsi:nil="true"/>
+      <FractionsPerDay xsi:nil="true"/>
+      <TreatmentUnit>CACCRT101</TreatmentUnit>
+      <TreatmentStyle>Dynamic ARC</TreatmentStyle>
+      <ImmobilizationDevice/>
+      <LocalizationTechnique/>
+      <Prescription>
+        <Item ID="PTV25" Primary="false">
+					<Type>0</Type>
+					<Modifier>0</Modifier>
+					<Parameter>95</Parameter>
+					<Dose>4.75</Dose>
+					<TotalDose>23.75</TotalDose>
+				</Item>
+				<Item ID="PTV25" Primary="true">
+					<Type>0</Type>
+					<Modifier>0</Modifier>
+					<Parameter>95</Parameter>
+					<Dose>5</Dose>
+					<TotalDose>25</TotalDose>
+				</Item>
+				<Item ID="GTV" Primary="false">
+					<Type>0</Type>
+					<Modifier>0</Modifier>
+					<Parameter>98</Parameter>
+					<Dose>5</Dose>
+					<TotalDose>25</TotalDose>
+				</Item>
+								<Item ID="CTV25" Primary="false">
+					<Type>0</Type>
+					<Modifier>0</Modifier>
+					<Parameter>98</Parameter>
+					<Dose>5</Dose>
+					<TotalDose>25</TotalDose>
+				</Item>
+				<Item ID="PeritonCav" Primary="false">
+					<Type>0</Type>
+					<Modifier>10</Modifier>
+					<Parameter>0</Parameter>
+					<Dose>5.2</Dose>
+					<TotalDose>26</TotalDose>
+				</Item>
+				<Item ID="Bladder" Primary="false">
+					<Type>0</Type>
+					<Modifier>10</Modifier>
+					<Parameter>0</Parameter>
+					<Dose>5.25</Dose>
+					<TotalDose>26.25</TotalDose>
+				</Item>
+				<Item ID="Genitals_nonPTV" Primary="false">
+					<Type>0</Type>
+					<Modifier>8</Modifier>
+					<Parameter>0</Parameter>
+					<Dose>4.5</Dose>
+					<TotalDose>22.5</TotalDose>
+				</Item>
+				<MeasureItem ID="PeritonCav">
+					<Type>3</Type>
+					<Modifier>1</Modifier>
+					<Value>275000</Value>
+					<TypeSpecifier>10</TypeSpecifier>
+					<ReportDQPValueInAbsoluteUnits>true</ReportDQPValueInAbsoluteUnits>
+				</MeasureItem>
+				<MeasureItem ID="PeritonCav">
+					<Type>3</Type>
+					<Modifier>1</Modifier>
+					<Value>5000</Value>
+					<TypeSpecifier>25</TypeSpecifier>
+					<ReportDQPValueInAbsoluteUnits>true</ReportDQPValueInAbsoluteUnits>
+				</MeasureItem>
+				<MeasureItem ID="FemurR">
+					<Type>3</Type>
+					<Modifier>1</Modifier>
+					<Value>5</Value>
+					<TypeSpecifier>25</TypeSpecifier>
+					<ReportDQPValueInAbsoluteUnits>false</ReportDQPValueInAbsoluteUnits>
+				</MeasureItem>
+				<MeasureItem ID="FemurL">
+					<Type>3</Type>
+					<Modifier>1</Modifier>
+					<Value>5</Value>
+					<TypeSpecifier>25</TypeSpecifier>
+					<ReportDQPValueInAbsoluteUnits>false</ReportDQPValueInAbsoluteUnits>
+				</MeasureItem>
+      </Prescription>
+      <PlanTemplate>
+        <PrescribedPercentage>1</PrescribedPercentage>
+        <DosePerFraction>2</DosePerFraction>
+        <FractionCount>5</FractionCount>
+        <FieldAlignmentRules/>
+        <PrescriptionSite>
+          <VolumeID>PTV</VolumeID>
+          <VolumeCode/>
+          <VolumeType>PTV</VolumeType>
+          <VolumeCodeTable/>
+        </PrescriptionSite>
+        <Boluses/>
+        <Fields>
+          <Field ID="CW" FixedSSD="false" UsingCompensator="false" UsingMLC="false" Setup="false" DRRVisible="true">
+            <Type>BeamLinac</Type>
+            <Target>
+              <VolumeID/>
+              <VolumeCode/>
+              <VolumeType/>
+              <VolumeCodeTable/>
+            </Target>
+            <TreatmentUnit>CACCRT101</TreatmentUnit>
+            <Technique>ARC</Technique>
+            <Energy>
+              <Type>X</Type>
+              <EnergyKV>6000</EnergyKV>
+              <MaxEnergyKV xsi:nil="true"/>
+            </Energy>
+            <PrimaryFluenceMode/>
+            <DRRTemplate>Pelvis.dps</DRRTemplate>
+            <DoseRate>600</DoseRate>
+            <SFED>100</SFED>
+            <Gantry>
+              <Rtn>181</Rtn>
+              <StopRtn>179</StopRtn>
+              <RtnDirection>CW</RtnDirection>
+            </Gantry>
+            <Collimator>
+              <Rtn>30</Rtn>
+              <Mode>Symmetry</Mode>
+              <X1>-10</X1>
+              <X2>10</X2>
+              <Y1>-10</Y1>
+              <Y2>10</Y2>
+            </Collimator>
+            <TableRtn>0</TableRtn>
+            <ToleranceTableID>CACC Standard</ToleranceTableID>
+            <Weight>1</Weight>
+            <FieldMargin BEVMarginFlag="false" EllipticalMarginFlag="false" OptimizeCollRtnFlag="false">
+              <Left xsi:nil="true"/>
+              <Right xsi:nil="true"/>
+              <Top xsi:nil="true"/>
+              <Bottom xsi:nil="true"/>
+            </FieldMargin>
+            <SkinFlashMargin xsi:nil="true"/>
+            <FieldBoluses/>
+            <Isocenter Placement="AIO" X="0" Y="0" Z="0"/>
+            <Blocks/>
+            <MLCPlans>
+              <MLCPlan ID="MLC" DynamicFlag="true">
+                <ModelName>Millennium 120</ModelName>
+                <SegmentCount>72</SegmentCount>
+                <MLCMargin BEVMarginFlag="false" EllipticalMarginFlag="false" OptimizeCollRtnFlag="false" JawFittingMode="0">
+                  <Left xsi:nil="true"/>
+                  <Right xsi:nil="true"/>
+                  <Top xsi:nil="true"/>
+                  <Bottom xsi:nil="true"/>
+                </MLCMargin>
+                <ContourMeetPoint>Middle</ContourMeetPoint>
+                <ClosedMeetPoint>Center</ClosedMeetPoint>
+                <Target>
+                  <VolumeID/>
+                  <VolumeCode/>
+                  <VolumeType/>
+                  <VolumeCodeTable/>
+                </Target>
+              </MLCPlan>
+            </MLCPlans>
+            <Wedges/>
+            <Applicators/>
+          </Field>
+          <Field ID="CCW" FixedSSD="false" UsingCompensator="false" UsingMLC="false" Setup="false" DRRVisible="true">
+            <Type>BeamLinac</Type>
+            <Target>
+              <VolumeID/>
+              <VolumeCode/>
+              <VolumeType/>
+              <VolumeCodeTable/>
+            </Target>
+            <TreatmentUnit>CACCRT101</TreatmentUnit>
+            <Technique>ARC</Technique>
+            <Energy>
+              <Type>X</Type>
+              <EnergyKV>6000</EnergyKV>
+              <MaxEnergyKV xsi:nil="true"/>
+            </Energy>
+            <PrimaryFluenceMode/>
+            <DRRTemplate>Pelvis.dps</DRRTemplate>
+            <DoseRate>600</DoseRate>
+            <SFED>100</SFED>
+            <Gantry>
+              <Rtn>179</Rtn>
+              <StopRtn>181</StopRtn>
+              <RtnDirection>CC</RtnDirection>
+            </Gantry>
+            <Collimator>
+              <Rtn>330</Rtn>
+              <Mode>Symmetry</Mode>
+              <X1>-10</X1>
+              <X2>10</X2>
+              <Y1>-10</Y1>
+              <Y2>10</Y2>
+            </Collimator>
+            <TableRtn>0</TableRtn>
+            <ToleranceTableID>CACC Standard</ToleranceTableID>
+            <Weight>1</Weight>
+            <FieldMargin BEVMarginFlag="false" EllipticalMarginFlag="false" OptimizeCollRtnFlag="false">
+              <Left xsi:nil="true"/>
+              <Right xsi:nil="true"/>
+              <Top xsi:nil="true"/>
+              <Bottom xsi:nil="true"/>
+            </FieldMargin>
+            <SkinFlashMargin xsi:nil="true"/>
+            <FieldBoluses/>
+            <Isocenter Placement="AIO" X="0" Y="0" Z="0"/>
+            <Blocks/>
+            <MLCPlans>
+              <MLCPlan ID="MLC" DynamicFlag="true">
+                <ModelName>Millennium 120</ModelName>
+                <SegmentCount>72</SegmentCount>
+                <MLCMargin BEVMarginFlag="false" EllipticalMarginFlag="false" OptimizeCollRtnFlag="false" JawFittingMode="0">
+                  <Left xsi:nil="true"/>
+                  <Right xsi:nil="true"/>
+                  <Top xsi:nil="true"/>
+                  <Bottom xsi:nil="true"/>
+                </MLCMargin>
+                <ContourMeetPoint>Middle</ContourMeetPoint>
+                <ClosedMeetPoint>Center</ClosedMeetPoint>
+                <Target>
+                  <VolumeID/>
+                  <VolumeCode/>
+                  <VolumeType/>
+                  <VolumeCodeTable/>
+                </Target>
+              </MLCPlan>
+            </MLCPlans>
+            <Wedges/>
+            <Applicators/>
+          </Field>
+		            <Field ID="Ant Ref" FixedSSD="false" UsingCompensator="false" UsingMLC="false" Setup="true" DRRVisible="true">
+            <Type>BeamLinac</Type>
+            <Target>
+              <VolumeID>P</VolumeID>
+              <VolumeCode/>
+              <VolumeType/>
+              <VolumeCodeTable/>
+            </Target>
+            <TreatmentUnit>CACCRT101</TreatmentUnit>
+            <Technique>STATIC</Technique>
+            <Energy>
+              <Type>X</Type>
+              <EnergyKV>6000</EnergyKV>
+              <MaxEnergyKV xsi:nil="true"/>
+            </Energy>
+            <PrimaryFluenceMode/>
+            <DRRTemplate>Pelvis.dps</DRRTemplate>
+            <DoseRate>600</DoseRate>
+            <SFED>100</SFED>
+            <Gantry>
+              <Rtn>0</Rtn>
+              <StopRtn xsi:nil="true"/>
+              <RtnDirection>NONE</RtnDirection>
+            </Gantry>
+            <Collimator>
+              <Rtn>0</Rtn>
+              <Mode>AsymmetryX&amp;Y</Mode>
+              <X1>-15</X1>
+              <X2>15</X2>
+              <Y1>-15</Y1>
+              <Y2>15</Y2>
+            </Collimator>
+            <TableRtn>0</TableRtn>
+            <ToleranceTableID>CACC Standard</ToleranceTableID>
+            <Weight>0</Weight>
+            <FieldMargin BEVMarginFlag="false" EllipticalMarginFlag="false" OptimizeCollRtnFlag="false">
+              <Left>0</Left>
+              <Right xsi:nil="true"/>
+              <Top xsi:nil="true"/>
+              <Bottom xsi:nil="true"/>
+            </FieldMargin>
+            <SkinFlashMargin xsi:nil="true"/>
+            <FieldBoluses/>
+            <Isocenter Placement="AIO" X="0" Y="0" Z="0"/>
+            <Blocks/>
+            <MLCPlans/>
+            <Wedges/>
+            <Applicators/>
+          </Field>
+          <Field ID="Lt Lat Ref" FixedSSD="false" UsingCompensator="false" UsingMLC="false" Setup="true" DRRVisible="true">
+            <Type>BeamLinac</Type>
+            <Target>
+              <VolumeID>P</VolumeID>
+              <VolumeCode/>
+              <VolumeType/>
+              <VolumeCodeTable/>
+            </Target>
+            <TreatmentUnit>CACCRT101</TreatmentUnit>
+            <Technique>STATIC</Technique>
+            <Energy>
+              <Type>X</Type>
+              <EnergyKV>6000</EnergyKV>
+              <MaxEnergyKV xsi:nil="true"/>
+            </Energy>
+            <PrimaryFluenceMode/>
+            <DRRTemplate>Pelvis.dps</DRRTemplate>
+            <DoseRate>600</DoseRate>
+            <SFED>100</SFED>
+            <Gantry>
+              <Rtn>90</Rtn>
+              <StopRtn xsi:nil="true"/>
+              <RtnDirection>NONE</RtnDirection>
+            </Gantry>
+            <Collimator>
+              <Rtn>0</Rtn>
+              <Mode>AsymmetryX&amp;Y</Mode>
+              <X1>-15</X1>
+              <X2>15</X2>
+              <Y1>-15</Y1>
+              <Y2>15</Y2>
+            </Collimator>
+            <TableRtn>0</TableRtn>
+            <ToleranceTableID>CACC Standard</ToleranceTableID>
+            <Weight>0</Weight>
+            <FieldMargin BEVMarginFlag="false" EllipticalMarginFlag="false" OptimizeCollRtnFlag="false">
+              <Left>0</Left>
+              <Right xsi:nil="true"/>
+              <Top xsi:nil="true"/>
+              <Bottom xsi:nil="true"/>
+            </FieldMargin>
+            <SkinFlashMargin xsi:nil="true"/>
+            <FieldBoluses/>
+            <Isocenter Placement="AIO" X="0" Y="0" Z="0"/>
+            <Blocks/>
+            <MLCPlans/>
+            <Wedges/>
+            <Applicators/>
+			</Field>
+			          <Field ID="Rt Lat Ref" FixedSSD="false" UsingCompensator="false" UsingMLC="false" Setup="true" DRRVisible="true">
+            <Type>BeamLinac</Type>
+            <Target>
+              <VolumeID>P</VolumeID>
+              <VolumeCode/>
+              <VolumeType/>
+              <VolumeCodeTable/>
+            </Target>
+            <TreatmentUnit>CACCRT101</TreatmentUnit>
+            <Technique>STATIC</Technique>
+            <Energy>
+              <Type>X</Type>
+              <EnergyKV>6000</EnergyKV>
+              <MaxEnergyKV xsi:nil="true"/>
+            </Energy>
+            <PrimaryFluenceMode/>
+            <DRRTemplate>Pelvis.dps</DRRTemplate>
+            <DoseRate>600</DoseRate>
+            <SFED>100</SFED>
+            <Gantry>
+              <Rtn>270</Rtn>
+              <StopRtn xsi:nil="true"/>
+              <RtnDirection>NONE</RtnDirection>
+            </Gantry>
+            <Collimator>
+              <Rtn>0</Rtn>
+              <Mode>AsymmetryX&amp;Y</Mode>
+              <X1>-15</X1>
+              <X2>15</X2>
+              <Y1>-15</Y1>
+              <Y2>15</Y2>
+            </Collimator>
+            <TableRtn>0</TableRtn>
+            <ToleranceTableID>CACC Standard</ToleranceTableID>
+            <Weight>0</Weight>
+            <FieldMargin BEVMarginFlag="false" EllipticalMarginFlag="false" OptimizeCollRtnFlag="false">
+              <Left>0</Left>
+              <Right xsi:nil="true"/>
+              <Top xsi:nil="true"/>
+              <Bottom xsi:nil="true"/>
+            </FieldMargin>
+            <SkinFlashMargin xsi:nil="true"/>
+            <FieldBoluses/>
+            <Isocenter Placement="AIO" X="0" Y="0" Z="0"/>
+            <Blocks/>
+            <MLCPlans/>
+            <Wedges/>
+            <Applicators/>
+          </Field>
+          <Field ID="Home" FixedSSD="false" UsingCompensator="false" UsingMLC="false" Setup="true" DRRVisible="true">
+            <Type>BeamLinac</Type>
+            <Target>
+              <VolumeID>P</VolumeID>
+              <VolumeCode/>
+              <VolumeType/>
+              <VolumeCodeTable/>
+            </Target>
+            <TreatmentUnit>CACCRT101</TreatmentUnit>
+            <Technique>STATIC</Technique>
+            <Energy>
+              <Type>X</Type>
+              <EnergyKV>6000</EnergyKV>
+              <MaxEnergyKV xsi:nil="true"/>
+            </Energy>
+            <PrimaryFluenceMode/>
+            <DRRTemplate>Pelvis.dps</DRRTemplate>
+            <DoseRate>600</DoseRate>
+            <SFED>100</SFED>
+            <Gantry>
+              <Rtn>0</Rtn>
+              <StopRtn xsi:nil="true"/>
+              <RtnDirection>NONE</RtnDirection>
+            </Gantry>
+            <Collimator>
+              <Rtn>0</Rtn>
+              <Mode>AsymmetryX&amp;Y</Mode>
+              <X1>-15</X1>
+              <X2>15</X2>
+              <Y1>-15</Y1>
+              <Y2>15</Y2>
+            </Collimator>
+            <TableRtn>0</TableRtn>
+            <ToleranceTableID>CACC Standard</ToleranceTableID>
+            <Weight>0</Weight>
+            <FieldMargin BEVMarginFlag="false" EllipticalMarginFlag="false" OptimizeCollRtnFlag="false">
+              <Left>0</Left>
+              <Right xsi:nil="true"/>
+              <Top xsi:nil="true"/>
+              <Bottom xsi:nil="true"/>
+            </FieldMargin>
+            <SkinFlashMargin xsi:nil="true"/>
+            <FieldBoluses/>
+            <Isocenter Placement="AIO" X="0" Y="0" Z="0"/>
+            <Blocks/>
+            <MLCPlans/>
+            <Wedges/>
+            <Applicators/>
+          </Field>
+        </Fields>
+      </PlanTemplate>
+      <ObjectiveTemplate>
+        <Type>Helios</Type>
+        <Helios DefaultFixedJaws="false" Interpolate="false" UseColors="false">
+          <DefaultSmoothingX>40</DefaultSmoothingX>
+          <DefaultSmoothingY>30</DefaultSmoothingY>
+          <DefaultMinimizeDose>0</DefaultMinimizeDose>
+          <DefaultOptimizationType>Beamlet</DefaultOptimizationType>
+          <MaxIterations>1000</MaxIterations>
+          <MaxTime>100</MaxTime>
+          <NormalTissueObjective>
+            <Use>true</Use>
+            <Priority>150</Priority>
+            <DistanceFromTargetBorder>1</DistanceFromTargetBorder>
+            <StartDose>105</StartDose>
+            <EndDose>60</EndDose>
+            <FallOff>0.05</FallOff>
+            <Auto>true</Auto>
+          </NormalTissueObjective>
+          <Geos>
+            <InitialFieldDistribution>Coplanar</InitialFieldDistribution>
+            <MinimumNumberOfFields>5</MinimumNumberOfFields>
+            <MaximumNumberOfFields>9</MaximumNumberOfFields>
+            <MaximumElevationAngleForNonCoplanarFields>90</MaximumElevationAngleForNonCoplanarFields>
+            <MaximumCollimatorVariation>0</MaximumCollimatorVariation>
+            <LocalGeometricOptimizationMode>Simplex</LocalGeometricOptimizationMode>
+          </Geos>
+          <Imat UseMU="false" JawTracking="true">
+            <MUWeight>50</MUWeight>
+            <MinMU>0</MinMU>
+            <MaxMU>2000</MaxMU>
+          </Imat>
+        </Helios>
+        <ObjectivesAllStructures>
+          <ObjectivesOneStructure ID="Bladder" NAME="" SurfaceOnly="false">
+            <StructureTarget>
+              <VolumeID/>
+              <VolumeCode/>
+              <VolumeType>Organ</VolumeType>
+              <VolumeCodeTable/>
+            </StructureTarget>
+            <Distance>3</Distance>
+            <SamplePoints xsi:nil="true"/>
+            <Color>8388608</Color>
+            <StructureObjectives/>
+          </ObjectivesOneStructure>
+          <ObjectivesOneStructure ID="Bladder_opti" NAME="" SurfaceOnly="false">
+            <StructureTarget>
+              <VolumeID/>
+              <VolumeCode/>
+              <VolumeType>Control</VolumeType>
+              <VolumeCodeTable/>
+            </StructureTarget>
+            <Distance>3</Distance>
+            <SamplePoints xsi:nil="true"/>
+            <Color>8454143</Color>
+            <StructureObjectives>
+              <Objective>
+                <Type>0</Type>
+                <Operator>0</Operator>
+                <Dose>25.6227</Dose>
+                <Volume>72.4793</Volume>
+                <Priority>80</Priority>
+                <ParameterA xsi:nil="true"/>
+                <Group>0</Group>
+              </Objective>
+              <Objective>
+                <Type>0</Type>
+                <Operator>0</Operator>
+                <Dose>33.1331</Dose>
+                <Volume>42.5562</Volume>
+                <Priority>80</Priority>
+                <ParameterA xsi:nil="true"/>
+                <Group>0</Group>
+              </Objective>
+              <Objective>
+                <Type>0</Type>
+                <Operator>0</Operator>
+                <Dose>43.6725</Dose>
+                <Volume>12.3373</Volume>
+                <Priority>80</Priority>
+                <ParameterA xsi:nil="true"/>
+                <Group>0</Group>
+              </Objective>
+            </StructureObjectives>
+          </ObjectivesOneStructure>
+          <ObjectivesOneStructure ID="BODY" NAME="" SurfaceOnly="false">
+            <StructureTarget>
+              <VolumeID/>
+              <VolumeCode>C44.9</VolumeCode>
+              <VolumeType>BODY</VolumeType>
+              <VolumeCodeTable>ICD-O-2</VolumeCodeTable>
+            </StructureTarget>
+            <Distance>4.5</Distance>
+            <SamplePoints xsi:nil="true"/>
+            <Color>65280</Color>
+            <StructureObjectives/>
+          </ObjectivesOneStructure>
+          <ObjectivesOneStructure ID="CTV" NAME="" SurfaceOnly="false">
+            <StructureTarget>
+              <VolumeID/>
+              <VolumeCode/>
+              <VolumeType>CTV</VolumeType>
+              <VolumeCodeTable/>
+            </StructureTarget>
+            <Distance>3</Distance>
+            <SamplePoints xsi:nil="true"/>
+            <Color>16711808</Color>
+            <StructureObjectives/>
+          </ObjectivesOneStructure>
+          <ObjectivesOneStructure ID="CTV vessels" NAME="" SurfaceOnly="false">
+            <StructureTarget>
+              <VolumeID/>
+              <VolumeCode/>
+              <VolumeType>CTV</VolumeType>
+              <VolumeCodeTable/>
+            </StructureTarget>
+            <Distance>3</Distance>
+            <SamplePoints xsi:nil="true"/>
+            <Color>255</Color>
+            <StructureObjectives/>
+          </ObjectivesOneStructure>
+          <ObjectivesOneStructure ID="FemurL" NAME="" SurfaceOnly="false">
+            <StructureTarget>
+              <VolumeID/>
+              <VolumeCode/>
+              <VolumeType>Organ</VolumeType>
+              <VolumeCodeTable/>
+            </StructureTarget>
+            <Distance>3</Distance>
+            <SamplePoints xsi:nil="true"/>
+            <Color>65280</Color>
+            <StructureObjectives>
+              <Objective>
+                <Type>0</Type>
+                <Operator>0</Operator>
+                <Dose>12.3924</Dose>
+                <Volume>55.3314</Volume>
+                <Priority>80</Priority>
+                <ParameterA xsi:nil="true"/>
+                <Group>0</Group>
+              </Objective>
+              <Objective>
+                <Type>0</Type>
+                <Operator>0</Operator>
+                <Dose>20.6777</Dose>
+                <Volume>18.8994</Volume>
+                <Priority>80</Priority>
+                <ParameterA xsi:nil="true"/>
+                <Group>0</Group>
+              </Objective>
+            </StructureObjectives>
+          </ObjectivesOneStructure>
+          <ObjectivesOneStructure ID="FemurR" NAME="" SurfaceOnly="false">
+            <StructureTarget>
+              <VolumeID/>
+              <VolumeCode/>
+              <VolumeType>Organ</VolumeType>
+              <VolumeCodeTable/>
+            </StructureTarget>
+            <Distance>3</Distance>
+            <SamplePoints xsi:nil="true"/>
+            <Color>65280</Color>
+            <StructureObjectives>
+              <Objective>
+                <Type>0</Type>
+                <Operator>0</Operator>
+                <Dose>12.6643</Dose>
+                <Volume>55.7988</Volume>
+                <Priority>80</Priority>
+                <ParameterA xsi:nil="true"/>
+                <Group>0</Group>
+              </Objective>
+              <Objective>
+                <Type>0</Type>
+                <Operator>0</Operator>
+                <Dose>22.7811</Dose>
+                <Volume>21.7337</Volume>
+                <Priority>80</Priority>
+                <ParameterA xsi:nil="true"/>
+                <Group>0</Group>
+              </Objective>
+            </StructureObjectives>
+          </ObjectivesOneStructure>
+          <ObjectivesOneStructure ID="GTV" NAME="" SurfaceOnly="false">
+            <StructureTarget>
+              <VolumeID/>
+              <VolumeCode/>
+              <VolumeType>GTV</VolumeType>
+              <VolumeCodeTable/>
+            </StructureTarget>
+            <Distance>3</Distance>
+            <SamplePoints xsi:nil="true"/>
+            <Color>255</Color>
+            <StructureObjectives/>
+          </ObjectivesOneStructure>
+          <ObjectivesOneStructure ID="Mesorectum" NAME="" SurfaceOnly="false">
+            <StructureTarget>
+              <VolumeID/>
+              <VolumeCode/>
+              <VolumeType>Organ</VolumeType>
+              <VolumeCodeTable/>
+            </StructureTarget>
+            <Distance>3</Distance>
+            <SamplePoints xsi:nil="true"/>
+            <Color>65535</Color>
+            <StructureObjectives/>
+          </ObjectivesOneStructure>
+          <ObjectivesOneStructure ID="Node" NAME="" SurfaceOnly="false">
+            <StructureTarget>
+              <VolumeID/>
+              <VolumeCode/>
+              <VolumeType>CTV</VolumeType>
+              <VolumeCodeTable/>
+            </StructureTarget>
+            <Distance>1.35498</Distance>
+            <SamplePoints xsi:nil="true"/>
+            <Color>255</Color>
+            <StructureObjectives/>
+          </ObjectivesOneStructure>
+          <ObjectivesOneStructure ID="PTV" NAME="" SurfaceOnly="false">
+            <StructureTarget>
+              <VolumeID/>
+              <VolumeCode/>
+              <VolumeType>PTV</VolumeType>
+              <VolumeCodeTable/>
+            </StructureTarget>
+            <Distance>3</Distance>
+            <SamplePoints xsi:nil="true"/>
+            <Color>16776960</Color>
+            <StructureObjectives>
+              <Objective>
+                <Type>0</Type>
+                <Operator>0</Operator>
+                <Dose>52.4</Dose>
+                <Volume>0</Volume>
+                <Priority>200</Priority>
+                <ParameterA xsi:nil="true"/>
+                <Group>0</Group>
+              </Objective>
+              <Objective>
+                <Type>0</Type>
+                <Operator>1</Operator>
+                <Dose>51.4</Dose>
+                <Volume>100</Volume>
+                <Priority>200</Priority>
+                <ParameterA xsi:nil="true"/>
+                <Group>0</Group>
+              </Objective>
+            </StructureObjectives>
+          </ObjectivesOneStructure>
+          <ObjectivesOneStructure ID="SmallBowel" NAME="" SurfaceOnly="false">
+            <StructureTarget>
+              <VolumeID/>
+              <VolumeCode/>
+              <VolumeType>Organ</VolumeType>
+              <VolumeCodeTable/>
+            </StructureTarget>
+            <Distance>3</Distance>
+            <SamplePoints xsi:nil="true"/>
+            <Color>38400</Color>
+            <StructureObjectives>
+              <Objective>
+                <Type>0</Type>
+                <Operator>0</Operator>
+                <Dose>4.50019</Dose>
+                <Volume>40.9467</Volume>
+                <Priority>80</Priority>
+                <ParameterA xsi:nil="true"/>
+                <Group>0</Group>
+              </Objective>
+              <Objective>
+                <Type>0</Type>
+                <Operator>0</Operator>
+                <Dose>16.5893</Dose>
+                <Volume>19.0118</Volume>
+                <Priority>80</Priority>
+                <ParameterA xsi:nil="true"/>
+                <Group>0</Group>
+              </Objective>
+              <Objective>
+                <Type>0</Type>
+                <Operator>0</Operator>
+                <Dose>30</Dose>
+                <Volume>0</Volume>
+                <Priority>80</Priority>
+                <ParameterA xsi:nil="true"/>
+                <Group>0</Group>
+              </Objective>
+            </StructureObjectives>
+          </ObjectivesOneStructure>
+          <ObjectivesOneStructure ID="Vessels" NAME="" SurfaceOnly="false">
+            <StructureTarget>
+              <VolumeID/>
+              <VolumeCode/>
+              <VolumeType>Organ</VolumeType>
+              <VolumeCodeTable/>
+            </StructureTarget>
+            <Distance>3</Distance>
+            <SamplePoints xsi:nil="true"/>
+            <Color>16711935</Color>
+            <StructureObjectives/>
+          </ObjectivesOneStructure>
+        </ObjectivesAllStructures>
+      </ObjectiveTemplate>
+    </Phase>
+    <Phase ID="Rectum_45in25">
+      <Mode>Photon</Mode>
+      <DefaultEnergyKV xsi:nil="true"/>
+      <FractionCount>25</FractionCount>
+      <FractionsPerWeek xsi:nil="true"/>
+      <FractionsPerDay xsi:nil="true"/>
+      <TreatmentUnit>CACCRT101</TreatmentUnit>
+      <TreatmentStyle>Dynamic ARC</TreatmentStyle>
+      <ImmobilizationDevice/>
+      <LocalizationTechnique/>
+      <Prescription>
+        <Item ID="PTV45" Primary="false">
+				<Type>0</Type>
+					<Modifier>0</Modifier>
+					<Parameter>95</Parameter>
+					<Dose>1.71</Dose>
+					<TotalDose>42.75</TotalDose>
+				</Item>
+				<Item ID="PTV45" Primary="true">
+				<Type>0</Type>
+					<Modifier>0</Modifier>
+					<Parameter>95</Parameter>
+					<Dose>1.8</Dose>
+					<TotalDose>45</TotalDose>
+				</Item>
+				<Item ID="GTV" Primary="false">
+					<Type>0</Type>
+					<Modifier>0</Modifier>
+					<Parameter>98</Parameter>
+					<Dose>1.8</Dose>
+					<TotalDose>45</TotalDose>
+					</Item>
+				<Item ID="CTV45" Primary="false">
+					<Type>0</Type>
+					<Modifier>0</Modifier>
+					<Parameter>98</Parameter>
+					<Dose>1.8</Dose>
+					<TotalDose>45</TotalDose>
+				</Item>
+				<Item ID="FemurR" Primary="false">
+					<Type>0</Type>
+					<Modifier>10</Modifier>
+					<Parameter>0</Parameter>
+					<Dose>2</Dose>
+					<TotalDose>50</TotalDose>
+				</Item>
+				<Item ID="FemurL" Primary="false">
+					<Type>0</Type>
+					<Modifier>10</Modifier>
+					<Parameter>0</Parameter>
+					<Dose>2</Dose>
+					<TotalDose>50</TotalDose>
+				</Item>
+				<Item ID="Bladder" Primary="false">
+					<Type>0</Type>
+					<Modifier>10</Modifier>
+					<Parameter>0</Parameter>
+					<Dose>1.89</Dose>
+					<TotalDose>47.25</TotalDose>
+				</Item>
+				<Item ID="Genitals_nonPTV" Primary="false">
+					<Type>0</Type>
+					<Modifier>8</Modifier>
+					<Parameter>0</Parameter>
+					<Dose>1.2</Dose>
+					<TotalDose>30</TotalDose>
+				</Item>
+				<MeasureItem ID="PeritonCav">
+					<Type>3</Type>
+					<Modifier>1</Modifier>
+					<Value>600000</Value>
+					<TypeSpecifier>15</TypeSpecifier>
+					<ReportDQPValueInAbsoluteUnits>true</ReportDQPValueInAbsoluteUnits>
+				</MeasureItem>
+				<MeasureItem ID="PeritonCav">
+					<Type>3</Type>
+					<Modifier>1</Modifier>
+					<Value>6000</Value>
+					<TypeSpecifier>48</TypeSpecifier>
+					<ReportDQPValueInAbsoluteUnits>true</ReportDQPValueInAbsoluteUnits>
+				</MeasureItem>
+      </Prescription>
+      <PlanTemplate>
+        <PrescribedPercentage>1</PrescribedPercentage>
+        <DosePerFraction>1.8</DosePerFraction>
+        <FractionCount>25</FractionCount>
+        <FieldAlignmentRules/>
+        <PrescriptionSite>
+          <VolumeID>PTV45</VolumeID>
+          <VolumeCode/>
+          <VolumeType>PTV</VolumeType>
+          <VolumeCodeTable/>
+        </PrescriptionSite>
+        <Boluses/>
+        <Fields>
+          <Field ID="CW" FixedSSD="false" UsingCompensator="false" UsingMLC="false" Setup="false" DRRVisible="true">
+            <Type>BeamLinac</Type>
+            <Target>
+              <VolumeID/>
+              <VolumeCode/>
+              <VolumeType/>
+              <VolumeCodeTable/>
+            </Target>
+            <TreatmentUnit>CACCRT101</TreatmentUnit>
+            <Technique>ARC</Technique>
+            <Energy>
+              <Type>X</Type>
+              <EnergyKV>6000</EnergyKV>
+              <MaxEnergyKV xsi:nil="true"/>
+            </Energy>
+            <PrimaryFluenceMode/>
+            <DRRTemplate>Pelvis.dps</DRRTemplate>
+            <DoseRate>600</DoseRate>
+            <SFED>100</SFED>
+            <Gantry>
+              <Rtn>181</Rtn>
+              <StopRtn>179</StopRtn>
+              <RtnDirection>CW</RtnDirection>
+            </Gantry>
+            <Collimator>
+              <Rtn>30</Rtn>
+              <Mode>Symmetry</Mode>
+              <X1>-10</X1>
+              <X2>10</X2>
+              <Y1>-10</Y1>
+              <Y2>10</Y2>
+            </Collimator>
+            <TableRtn>0</TableRtn>
+            <ToleranceTableID>CACC Standard</ToleranceTableID>
+            <Weight>1</Weight>
+            <FieldMargin BEVMarginFlag="false" EllipticalMarginFlag="false" OptimizeCollRtnFlag="false">
+              <Left xsi:nil="true"/>
+              <Right xsi:nil="true"/>
+              <Top xsi:nil="true"/>
+              <Bottom xsi:nil="true"/>
+            </FieldMargin>
+            <SkinFlashMargin xsi:nil="true"/>
+            <FieldBoluses/>
+            <Isocenter Placement="AIO" X="0" Y="0" Z="0"/>
+            <Blocks/>
+            <MLCPlans>
+              <MLCPlan ID="MLC" DynamicFlag="true">
+                <ModelName>Millennium 120</ModelName>
+                <SegmentCount>72</SegmentCount>
+                <MLCMargin BEVMarginFlag="false" EllipticalMarginFlag="false" OptimizeCollRtnFlag="false" JawFittingMode="0">
+                  <Left xsi:nil="true"/>
+                  <Right xsi:nil="true"/>
+                  <Top xsi:nil="true"/>
+                  <Bottom xsi:nil="true"/>
+                </MLCMargin>
+                <ContourMeetPoint>Middle</ContourMeetPoint>
+                <ClosedMeetPoint>Center</ClosedMeetPoint>
+                <Target>
+                  <VolumeID/>
+                  <VolumeCode/>
+                  <VolumeType/>
+                  <VolumeCodeTable/>
+                </Target>
+              </MLCPlan>
+            </MLCPlans>
+            <Wedges/>
+            <Applicators/>
+          </Field>
+          <Field ID="CCW" FixedSSD="false" UsingCompensator="false" UsingMLC="false" Setup="false" DRRVisible="true">
+            <Type>BeamLinac</Type>
+            <Target>
+              <VolumeID/>
+              <VolumeCode/>
+              <VolumeType/>
+              <VolumeCodeTable/>
+            </Target>
+            <TreatmentUnit>CACCRT101</TreatmentUnit>
+            <Technique>ARC</Technique>
+            <Energy>
+              <Type>X</Type>
+              <EnergyKV>6000</EnergyKV>
+              <MaxEnergyKV xsi:nil="true"/>
+            </Energy>
+            <PrimaryFluenceMode/>
+            <DRRTemplate>Pelvis.dps</DRRTemplate>
+            <DoseRate>600</DoseRate>
+            <SFED>100</SFED>
+            <Gantry>
+              <Rtn>179</Rtn>
+              <StopRtn>181</StopRtn>
+              <RtnDirection>CC</RtnDirection>
+            </Gantry>
+            <Collimator>
+              <Rtn>330</Rtn>
+              <Mode>Symmetry</Mode>
+              <X1>-10</X1>
+              <X2>10</X2>
+              <Y1>-10</Y1>
+              <Y2>10</Y2>
+            </Collimator>
+            <TableRtn>0</TableRtn>
+            <ToleranceTableID>CACC Standard</ToleranceTableID>
+            <Weight>1</Weight>
+            <FieldMargin BEVMarginFlag="false" EllipticalMarginFlag="false" OptimizeCollRtnFlag="false">
+              <Left xsi:nil="true"/>
+              <Right xsi:nil="true"/>
+              <Top xsi:nil="true"/>
+              <Bottom xsi:nil="true"/>
+            </FieldMargin>
+            <SkinFlashMargin xsi:nil="true"/>
+            <FieldBoluses/>
+            <Isocenter Placement="AIO" X="0" Y="0" Z="0"/>
+            <Blocks/>
+            <MLCPlans>
+              <MLCPlan ID="MLC" DynamicFlag="true">
+                <ModelName>Millennium 120</ModelName>
+                <SegmentCount>72</SegmentCount>
+                <MLCMargin BEVMarginFlag="false" EllipticalMarginFlag="false" OptimizeCollRtnFlag="false" JawFittingMode="0">
+                  <Left xsi:nil="true"/>
+                  <Right xsi:nil="true"/>
+                  <Top xsi:nil="true"/>
+                  <Bottom xsi:nil="true"/>
+                </MLCMargin>
+                <ContourMeetPoint>Middle</ContourMeetPoint>
+                <ClosedMeetPoint>Center</ClosedMeetPoint>
+                <Target>
+                  <VolumeID/>
+                  <VolumeCode/>
+                  <VolumeType/>
+                  <VolumeCodeTable/>
+                </Target>
+              </MLCPlan>
+            </MLCPlans>
+            <Wedges/>
+            <Applicators/>
+          </Field>
+		            <Field ID="Ant Ref" FixedSSD="false" UsingCompensator="false" UsingMLC="false" Setup="true" DRRVisible="true">
+            <Type>BeamLinac</Type>
+            <Target>
+              <VolumeID>P</VolumeID>
+              <VolumeCode/>
+              <VolumeType/>
+              <VolumeCodeTable/>
+            </Target>
+            <TreatmentUnit>CACCRT101</TreatmentUnit>
+            <Technique>STATIC</Technique>
+            <Energy>
+              <Type>X</Type>
+              <EnergyKV>6000</EnergyKV>
+              <MaxEnergyKV xsi:nil="true"/>
+            </Energy>
+            <PrimaryFluenceMode/>
+            <DRRTemplate>Pelvis.dps</DRRTemplate>
+            <DoseRate>600</DoseRate>
+            <SFED>100</SFED>
+            <Gantry>
+              <Rtn>0</Rtn>
+              <StopRtn xsi:nil="true"/>
+              <RtnDirection>NONE</RtnDirection>
+            </Gantry>
+            <Collimator>
+              <Rtn>0</Rtn>
+              <Mode>AsymmetryX&amp;Y</Mode>
+              <X1>-15</X1>
+              <X2>15</X2>
+              <Y1>-15</Y1>
+              <Y2>15</Y2>
+            </Collimator>
+            <TableRtn>0</TableRtn>
+            <ToleranceTableID>CACC Standard</ToleranceTableID>
+            <Weight>0</Weight>
+            <FieldMargin BEVMarginFlag="false" EllipticalMarginFlag="false" OptimizeCollRtnFlag="false">
+              <Left>0</Left>
+              <Right xsi:nil="true"/>
+              <Top xsi:nil="true"/>
+              <Bottom xsi:nil="true"/>
+            </FieldMargin>
+            <SkinFlashMargin xsi:nil="true"/>
+            <FieldBoluses/>
+            <Isocenter Placement="AIO" X="0" Y="0" Z="0"/>
+            <Blocks/>
+            <MLCPlans/>
+            <Wedges/>
+            <Applicators/>
+          </Field>
+          <Field ID="Lt Lat Ref" FixedSSD="false" UsingCompensator="false" UsingMLC="false" Setup="true" DRRVisible="true">
+            <Type>BeamLinac</Type>
+            <Target>
+              <VolumeID>P</VolumeID>
+              <VolumeCode/>
+              <VolumeType/>
+              <VolumeCodeTable/>
+            </Target>
+            <TreatmentUnit>CACCRT101</TreatmentUnit>
+            <Technique>STATIC</Technique>
+            <Energy>
+              <Type>X</Type>
+              <EnergyKV>6000</EnergyKV>
+              <MaxEnergyKV xsi:nil="true"/>
+            </Energy>
+            <PrimaryFluenceMode/>
+            <DRRTemplate>Pelvis.dps</DRRTemplate>
+            <DoseRate>600</DoseRate>
+            <SFED>100</SFED>
+            <Gantry>
+              <Rtn>90</Rtn>
+              <StopRtn xsi:nil="true"/>
+              <RtnDirection>NONE</RtnDirection>
+            </Gantry>
+            <Collimator>
+              <Rtn>0</Rtn>
+              <Mode>AsymmetryX&amp;Y</Mode>
+              <X1>-15</X1>
+              <X2>15</X2>
+              <Y1>-15</Y1>
+              <Y2>15</Y2>
+            </Collimator>
+            <TableRtn>0</TableRtn>
+            <ToleranceTableID>CACC Standard</ToleranceTableID>
+            <Weight>0</Weight>
+            <FieldMargin BEVMarginFlag="false" EllipticalMarginFlag="false" OptimizeCollRtnFlag="false">
+              <Left>0</Left>
+              <Right xsi:nil="true"/>
+              <Top xsi:nil="true"/>
+              <Bottom xsi:nil="true"/>
+            </FieldMargin>
+            <SkinFlashMargin xsi:nil="true"/>
+            <FieldBoluses/>
+            <Isocenter Placement="AIO" X="0" Y="0" Z="0"/>
+            <Blocks/>
+            <MLCPlans/>
+            <Wedges/>
+            <Applicators/>
+			</Field>
+			          <Field ID="Rt Lat Ref" FixedSSD="false" UsingCompensator="false" UsingMLC="false" Setup="true" DRRVisible="true">
+            <Type>BeamLinac</Type>
+            <Target>
+              <VolumeID>P</VolumeID>
+              <VolumeCode/>
+              <VolumeType/>
+              <VolumeCodeTable/>
+            </Target>
+            <TreatmentUnit>CACCRT101</TreatmentUnit>
+            <Technique>STATIC</Technique>
+            <Energy>
+              <Type>X</Type>
+              <EnergyKV>6000</EnergyKV>
+              <MaxEnergyKV xsi:nil="true"/>
+            </Energy>
+            <PrimaryFluenceMode/>
+            <DRRTemplate>Pelvis.dps</DRRTemplate>
+            <DoseRate>600</DoseRate>
+            <SFED>100</SFED>
+            <Gantry>
+              <Rtn>270</Rtn>
+              <StopRtn xsi:nil="true"/>
+              <RtnDirection>NONE</RtnDirection>
+            </Gantry>
+            <Collimator>
+              <Rtn>0</Rtn>
+              <Mode>AsymmetryX&amp;Y</Mode>
+              <X1>-15</X1>
+              <X2>15</X2>
+              <Y1>-15</Y1>
+              <Y2>15</Y2>
+            </Collimator>
+            <TableRtn>0</TableRtn>
+            <ToleranceTableID>CACC Standard</ToleranceTableID>
+            <Weight>0</Weight>
+            <FieldMargin BEVMarginFlag="false" EllipticalMarginFlag="false" OptimizeCollRtnFlag="false">
+              <Left>0</Left>
+              <Right xsi:nil="true"/>
+              <Top xsi:nil="true"/>
+              <Bottom xsi:nil="true"/>
+            </FieldMargin>
+            <SkinFlashMargin xsi:nil="true"/>
+            <FieldBoluses/>
+            <Isocenter Placement="AIO" X="0" Y="0" Z="0"/>
+            <Blocks/>
+            <MLCPlans/>
+            <Wedges/>
+            <Applicators/>
+          </Field>
+          <Field ID="Home" FixedSSD="false" UsingCompensator="false" UsingMLC="false" Setup="true" DRRVisible="true">
+            <Type>BeamLinac</Type>
+            <Target>
+              <VolumeID>P</VolumeID>
+              <VolumeCode/>
+              <VolumeType/>
+              <VolumeCodeTable/>
+            </Target>
+            <TreatmentUnit>CACCRT101</TreatmentUnit>
+            <Technique>STATIC</Technique>
+            <Energy>
+              <Type>X</Type>
+              <EnergyKV>6000</EnergyKV>
+              <MaxEnergyKV xsi:nil="true"/>
+            </Energy>
+            <PrimaryFluenceMode/>
+            <DRRTemplate>Pelvis.dps</DRRTemplate>
+            <DoseRate>600</DoseRate>
+            <SFED>100</SFED>
+            <Gantry>
+              <Rtn>0</Rtn>
+              <StopRtn xsi:nil="true"/>
+              <RtnDirection>NONE</RtnDirection>
+            </Gantry>
+            <Collimator>
+              <Rtn>0</Rtn>
+              <Mode>AsymmetryX&amp;Y</Mode>
+              <X1>-15</X1>
+              <X2>15</X2>
+              <Y1>-15</Y1>
+              <Y2>15</Y2>
+            </Collimator>
+            <TableRtn>0</TableRtn>
+            <ToleranceTableID>CACC Standard</ToleranceTableID>
+            <Weight>0</Weight>
+            <FieldMargin BEVMarginFlag="false" EllipticalMarginFlag="false" OptimizeCollRtnFlag="false">
+              <Left>0</Left>
+              <Right xsi:nil="true"/>
+              <Top xsi:nil="true"/>
+              <Bottom xsi:nil="true"/>
+            </FieldMargin>
+            <SkinFlashMargin xsi:nil="true"/>
+            <FieldBoluses/>
+            <Isocenter Placement="AIO" X="0" Y="0" Z="0"/>
+            <Blocks/>
+            <MLCPlans/>
+            <Wedges/>
+            <Applicators/>
+          </Field>
+        </Fields>
+      </PlanTemplate>
+      <ObjectiveTemplate>
+        <Type>Helios</Type>
+        <Helios DefaultFixedJaws="false" Interpolate="false" UseColors="false">
+          <DefaultSmoothingX>40</DefaultSmoothingX>
+          <DefaultSmoothingY>30</DefaultSmoothingY>
+          <DefaultMinimizeDose>0</DefaultMinimizeDose>
+          <DefaultOptimizationType>Beamlet</DefaultOptimizationType>
+          <MaxIterations>1000</MaxIterations>
+          <MaxTime>100</MaxTime>
+          <NormalTissueObjective>
+            <Use>true</Use>
+            <Priority>150</Priority>
+            <DistanceFromTargetBorder>1</DistanceFromTargetBorder>
+            <StartDose>105</StartDose>
+            <EndDose>60</EndDose>
+            <FallOff>0.05</FallOff>
+            <Auto>true</Auto>
+          </NormalTissueObjective>
+          <Geos>
+            <InitialFieldDistribution>Coplanar</InitialFieldDistribution>
+            <MinimumNumberOfFields>5</MinimumNumberOfFields>
+            <MaximumNumberOfFields>9</MaximumNumberOfFields>
+            <MaximumElevationAngleForNonCoplanarFields>90</MaximumElevationAngleForNonCoplanarFields>
+            <MaximumCollimatorVariation>0</MaximumCollimatorVariation>
+            <LocalGeometricOptimizationMode>Simplex</LocalGeometricOptimizationMode>
+          </Geos>
+          <Imat UseMU="false" JawTracking="true">
+            <MUWeight>50</MUWeight>
+            <MinMU>0</MinMU>
+            <MaxMU>2000</MaxMU>
+          </Imat>
+        </Helios>
+        <ObjectivesAllStructures>
+          <ObjectivesOneStructure ID="Bladder" NAME="" SurfaceOnly="false">
+            <StructureTarget>
+              <VolumeID/>
+              <VolumeCode/>
+              <VolumeType>Organ</VolumeType>
+              <VolumeCodeTable/>
+            </StructureTarget>
+            <Distance>3</Distance>
+            <SamplePoints xsi:nil="true"/>
+            <Color>8388608</Color>
+            <StructureObjectives/>
+          </ObjectivesOneStructure>
+          <ObjectivesOneStructure ID="Bladder_opti" NAME="" SurfaceOnly="false">
+            <StructureTarget>
+              <VolumeID/>
+              <VolumeCode/>
+              <VolumeType>Control</VolumeType>
+              <VolumeCodeTable/>
+            </StructureTarget>
+            <Distance>3</Distance>
+            <SamplePoints xsi:nil="true"/>
+            <Color>8454143</Color>
+            <StructureObjectives>
+              <Objective>
+                <Type>0</Type>
+                <Operator>0</Operator>
+                <Dose>25.6227</Dose>
+                <Volume>72.4793</Volume>
+                <Priority>80</Priority>
+                <ParameterA xsi:nil="true"/>
+                <Group>0</Group>
+              </Objective>
+              <Objective>
+                <Type>0</Type>
+                <Operator>0</Operator>
+                <Dose>33.1331</Dose>
+                <Volume>42.5562</Volume>
+                <Priority>80</Priority>
+                <ParameterA xsi:nil="true"/>
+                <Group>0</Group>
+              </Objective>
+              <Objective>
+                <Type>0</Type>
+                <Operator>0</Operator>
+                <Dose>43.6725</Dose>
+                <Volume>12.3373</Volume>
+                <Priority>80</Priority>
+                <ParameterA xsi:nil="true"/>
+                <Group>0</Group>
+              </Objective>
+            </StructureObjectives>
+          </ObjectivesOneStructure>
+          <ObjectivesOneStructure ID="BODY" NAME="" SurfaceOnly="false">
+            <StructureTarget>
+              <VolumeID/>
+              <VolumeCode>C44.9</VolumeCode>
+              <VolumeType>BODY</VolumeType>
+              <VolumeCodeTable>ICD-O-2</VolumeCodeTable>
+            </StructureTarget>
+            <Distance>4.5</Distance>
+            <SamplePoints xsi:nil="true"/>
+            <Color>65280</Color>
+            <StructureObjectives/>
+          </ObjectivesOneStructure>
+          <ObjectivesOneStructure ID="CTV" NAME="" SurfaceOnly="false">
+            <StructureTarget>
+              <VolumeID/>
+              <VolumeCode/>
+              <VolumeType>CTV</VolumeType>
+              <VolumeCodeTable/>
+            </StructureTarget>
+            <Distance>3</Distance>
+            <SamplePoints xsi:nil="true"/>
+            <Color>16711808</Color>
+            <StructureObjectives/>
+          </ObjectivesOneStructure>
+          <ObjectivesOneStructure ID="CTV vessels" NAME="" SurfaceOnly="false">
+            <StructureTarget>
+              <VolumeID/>
+              <VolumeCode/>
+              <VolumeType>CTV</VolumeType>
+              <VolumeCodeTable/>
+            </StructureTarget>
+            <Distance>3</Distance>
+            <SamplePoints xsi:nil="true"/>
+            <Color>255</Color>
+            <StructureObjectives/>
+          </ObjectivesOneStructure>
+          <ObjectivesOneStructure ID="FemurL" NAME="" SurfaceOnly="false">
+            <StructureTarget>
+              <VolumeID/>
+              <VolumeCode/>
+              <VolumeType>Organ</VolumeType>
+              <VolumeCodeTable/>
+            </StructureTarget>
+            <Distance>3</Distance>
+            <SamplePoints xsi:nil="true"/>
+            <Color>65280</Color>
+            <StructureObjectives>
+              <Objective>
+                <Type>0</Type>
+                <Operator>0</Operator>
+                <Dose>12.3924</Dose>
+                <Volume>55.3314</Volume>
+                <Priority>80</Priority>
+                <ParameterA xsi:nil="true"/>
+                <Group>0</Group>
+              </Objective>
+              <Objective>
+                <Type>0</Type>
+                <Operator>0</Operator>
+                <Dose>20.6777</Dose>
+                <Volume>18.8994</Volume>
+                <Priority>80</Priority>
+                <ParameterA xsi:nil="true"/>
+                <Group>0</Group>
+              </Objective>
+            </StructureObjectives>
+          </ObjectivesOneStructure>
+          <ObjectivesOneStructure ID="FemurR" NAME="" SurfaceOnly="false">
+            <StructureTarget>
+              <VolumeID/>
+              <VolumeCode/>
+              <VolumeType>Organ</VolumeType>
+              <VolumeCodeTable/>
+            </StructureTarget>
+            <Distance>3</Distance>
+            <SamplePoints xsi:nil="true"/>
+            <Color>65280</Color>
+            <StructureObjectives>
+              <Objective>
+                <Type>0</Type>
+                <Operator>0</Operator>
+                <Dose>12.6643</Dose>
+                <Volume>55.7988</Volume>
+                <Priority>80</Priority>
+                <ParameterA xsi:nil="true"/>
+                <Group>0</Group>
+              </Objective>
+              <Objective>
+                <Type>0</Type>
+                <Operator>0</Operator>
+                <Dose>22.7811</Dose>
+                <Volume>21.7337</Volume>
+                <Priority>80</Priority>
+                <ParameterA xsi:nil="true"/>
+                <Group>0</Group>
+              </Objective>
+            </StructureObjectives>
+          </ObjectivesOneStructure>
+          <ObjectivesOneStructure ID="GTV" NAME="" SurfaceOnly="false">
+            <StructureTarget>
+              <VolumeID/>
+              <VolumeCode/>
+              <VolumeType>GTV</VolumeType>
+              <VolumeCodeTable/>
+            </StructureTarget>
+            <Distance>3</Distance>
+            <SamplePoints xsi:nil="true"/>
+            <Color>255</Color>
+            <StructureObjectives/>
+          </ObjectivesOneStructure>
+          <ObjectivesOneStructure ID="Mesorectum" NAME="" SurfaceOnly="false">
+            <StructureTarget>
+              <VolumeID/>
+              <VolumeCode/>
+              <VolumeType>Organ</VolumeType>
+              <VolumeCodeTable/>
+            </StructureTarget>
+            <Distance>3</Distance>
+            <SamplePoints xsi:nil="true"/>
+            <Color>65535</Color>
+            <StructureObjectives/>
+          </ObjectivesOneStructure>
+          <ObjectivesOneStructure ID="Node" NAME="" SurfaceOnly="false">
+            <StructureTarget>
+              <VolumeID/>
+              <VolumeCode/>
+              <VolumeType>CTV</VolumeType>
+              <VolumeCodeTable/>
+            </StructureTarget>
+            <Distance>1.35498</Distance>
+            <SamplePoints xsi:nil="true"/>
+            <Color>255</Color>
+            <StructureObjectives/>
+          </ObjectivesOneStructure>
+          <ObjectivesOneStructure ID="PTV" NAME="" SurfaceOnly="false">
+            <StructureTarget>
+              <VolumeID/>
+              <VolumeCode/>
+              <VolumeType>PTV</VolumeType>
+              <VolumeCodeTable/>
+            </StructureTarget>
+            <Distance>3</Distance>
+            <SamplePoints xsi:nil="true"/>
+            <Color>16776960</Color>
+            <StructureObjectives>
+              <Objective>
+                <Type>0</Type>
+                <Operator>0</Operator>
+                <Dose>52.4</Dose>
+                <Volume>0</Volume>
+                <Priority>200</Priority>
+                <ParameterA xsi:nil="true"/>
+                <Group>0</Group>
+              </Objective>
+              <Objective>
+                <Type>0</Type>
+                <Operator>1</Operator>
+                <Dose>51.4</Dose>
+                <Volume>100</Volume>
+                <Priority>200</Priority>
+                <ParameterA xsi:nil="true"/>
+                <Group>0</Group>
+              </Objective>
+            </StructureObjectives>
+          </ObjectivesOneStructure>
+          <ObjectivesOneStructure ID="SmallBowel" NAME="" SurfaceOnly="false">
+            <StructureTarget>
+              <VolumeID/>
+              <VolumeCode/>
+              <VolumeType>Organ</VolumeType>
+              <VolumeCodeTable/>
+            </StructureTarget>
+            <Distance>3</Distance>
+            <SamplePoints xsi:nil="true"/>
+            <Color>38400</Color>
+            <StructureObjectives>
+              <Objective>
+                <Type>0</Type>
+                <Operator>0</Operator>
+                <Dose>4.50019</Dose>
+                <Volume>40.9467</Volume>
+                <Priority>80</Priority>
+                <ParameterA xsi:nil="true"/>
+                <Group>0</Group>
+              </Objective>
+              <Objective>
+                <Type>0</Type>
+                <Operator>0</Operator>
+                <Dose>16.5893</Dose>
+                <Volume>19.0118</Volume>
+                <Priority>80</Priority>
+                <ParameterA xsi:nil="true"/>
+                <Group>0</Group>
+              </Objective>
+              <Objective>
+                <Type>0</Type>
+                <Operator>0</Operator>
+                <Dose>30</Dose>
+                <Volume>0</Volume>
+                <Priority>80</Priority>
+                <ParameterA xsi:nil="true"/>
+                <Group>0</Group>
+              </Objective>
+            </StructureObjectives>
+          </ObjectivesOneStructure>
+          <ObjectivesOneStructure ID="Vessels" NAME="" SurfaceOnly="false">
+            <StructureTarget>
+              <VolumeID/>
+              <VolumeCode/>
+              <VolumeType>Organ</VolumeType>
+              <VolumeCodeTable/>
+            </StructureTarget>
+            <Distance>3</Distance>
+            <SamplePoints xsi:nil="true"/>
+            <Color>16711935</Color>
+            <StructureObjectives/>
+          </ObjectivesOneStructure>
+        </ObjectivesAllStructures>
+      </ObjectiveTemplate>
+    </Phase>
+	<Phase ID="Rectum_45/50in25">
+      <Mode>Photon</Mode>
+      <DefaultEnergyKV xsi:nil="true"/>
+      <FractionCount>25</FractionCount>
+      <FractionsPerWeek xsi:nil="true"/>
+      <FractionsPerDay xsi:nil="true"/>
+      <TreatmentUnit>CACCRT101</TreatmentUnit>
+      <TreatmentStyle>Dynamic ARC</TreatmentStyle>
+      <ImmobilizationDevice/>
+      <LocalizationTechnique/>
+      <Prescription>
+	  <Item ID="PTV50" Primary="false">
+				<Type>0</Type>
+					<Modifier>0</Modifier>
+					<Parameter>95</Parameter>
+					<Dose>1.90</Dose>
+					<TotalDose>47.50</TotalDose>
+					</Item>
+						  <Item ID="PTV50" Primary="true">
+				<Type>0</Type>
+					<Modifier>0</Modifier>
+					<Parameter>95</Parameter>
+					<Dose>2</Dose>
+					<TotalDose>50</TotalDose>
+					</Item>
+        <Item ID="PTV45" Primary="false">
+				<Type>0</Type>
+					<Modifier>0</Modifier>
+					<Parameter>95</Parameter>
+					<Dose>1.71</Dose>
+					<TotalDose>42.75</TotalDose>
+				</Item>
+				        <Item ID="PTV45" Primary="false">
+				<Type>0</Type>
+					<Modifier>0</Modifier>
+					<Parameter>95</Parameter>
+					<Dose>1.8</Dose>
+					<TotalDose>45</TotalDose>
+				</Item>
+				<Item ID="GTV" Primary="false">
+					<Type>0</Type>
+					<Modifier>0</Modifier>
+					<Parameter>98</Parameter>
+					<Dose>1.8</Dose>
+					<TotalDose>45</TotalDose>
+				</Item>
+								<Item ID="CTV45" Primary="false">
+					<Type>0</Type>
+					<Modifier>0</Modifier>
+					<Parameter>98</Parameter>
+					<Dose>1.8</Dose>
+					<TotalDose>45</TotalDose>
+				</Item>
+								<Item ID="CTV50" Primary="false">
+					<Type>0</Type>
+					<Modifier>0</Modifier>
+					<Parameter>98</Parameter>
+					<Dose>2</Dose>
+					<TotalDose>50</TotalDose>
+				</Item>
+				<Item ID="FemurR" Primary="false">
+					<Type>0</Type>
+					<Modifier>10</Modifier>
+					<Parameter>0</Parameter>
+					<Dose>2</Dose>
+					<TotalDose>50</TotalDose>
+				</Item>
+				<Item ID="FemurL" Primary="false">
+					<Type>0</Type>
+					<Modifier>10</Modifier>
+					<Parameter>0</Parameter>
+					<Dose>2</Dose>
+					<TotalDose>50</TotalDose>
+				</Item>
+				<Item ID="Bladder" Primary="false">
+					<Type>0</Type>
+					<Modifier>10</Modifier>
+					<Parameter>0</Parameter>
+					<Dose>2.10</Dose>
+					<TotalDose>52.50</TotalDose>
+				</Item>
+				<Item ID="Genitals_nonPTV" Primary="false">
+					<Type>0</Type>
+					<Modifier>8</Modifier>
+					<Parameter>0</Parameter>
+					<Dose>1.2</Dose>
+					<TotalDose>30</TotalDose>
+				</Item>
+				<MeasureItem ID="PeritonCav">
+					<Type>3</Type>
+					<Modifier>1</Modifier>
+					<Value>600000</Value>
+					<TypeSpecifier>15</TypeSpecifier>
+					<ReportDQPValueInAbsoluteUnits>true</ReportDQPValueInAbsoluteUnits>
+				</MeasureItem>
+				<MeasureItem ID="PeritonCav">
+					<Type>3</Type>
+					<Modifier>1</Modifier>
+					<Value>6000</Value>
+					<TypeSpecifier>48</TypeSpecifier>
+					<ReportDQPValueInAbsoluteUnits>true</ReportDQPValueInAbsoluteUnits>
+				</MeasureItem>
+      </Prescription>
+      <PlanTemplate>
+        <PrescribedPercentage>1</PrescribedPercentage>
+        <DosePerFraction>2</DosePerFraction>
+        <FractionCount>25</FractionCount>
+        <FieldAlignmentRules/>
+        <PrescriptionSite>
+          <VolumeID>PTV50</VolumeID>
+          <VolumeCode/>
+          <VolumeType>PTV</VolumeType>
+          <VolumeCodeTable/>
+        </PrescriptionSite>
+        <Boluses/>
+        <Fields>
+          <Field ID="CW" FixedSSD="false" UsingCompensator="false" UsingMLC="false" Setup="false" DRRVisible="true">
+            <Type>BeamLinac</Type>
+            <Target>
+              <VolumeID/>
+              <VolumeCode/>
+              <VolumeType/>
+              <VolumeCodeTable/>
+            </Target>
+            <TreatmentUnit>CACCRT101</TreatmentUnit>
+            <Technique>ARC</Technique>
+            <Energy>
+              <Type>X</Type>
+              <EnergyKV>6000</EnergyKV>
+              <MaxEnergyKV xsi:nil="true"/>
+            </Energy>
+            <PrimaryFluenceMode/>
+            <DRRTemplate>Pelvis.dps</DRRTemplate>
+            <DoseRate>600</DoseRate>
+            <SFED>100</SFED>
+            <Gantry>
+              <Rtn>181</Rtn>
+              <StopRtn>179</StopRtn>
+              <RtnDirection>CW</RtnDirection>
+            </Gantry>
+            <Collimator>
+              <Rtn>30</Rtn>
+              <Mode>Symmetry</Mode>
+              <X1>-10</X1>
+              <X2>10</X2>
+              <Y1>-10</Y1>
+              <Y2>10</Y2>
+            </Collimator>
+            <TableRtn>0</TableRtn>
+            <ToleranceTableID>CACC Standard</ToleranceTableID>
+            <Weight>1</Weight>
+            <FieldMargin BEVMarginFlag="false" EllipticalMarginFlag="false" OptimizeCollRtnFlag="false">
+              <Left xsi:nil="true"/>
+              <Right xsi:nil="true"/>
+              <Top xsi:nil="true"/>
+              <Bottom xsi:nil="true"/>
+            </FieldMargin>
+            <SkinFlashMargin xsi:nil="true"/>
+            <FieldBoluses/>
+            <Isocenter Placement="AIO" X="0" Y="0" Z="0"/>
+            <Blocks/>
+            <MLCPlans>
+              <MLCPlan ID="MLC" DynamicFlag="true">
+                <ModelName>Millennium 120</ModelName>
+                <SegmentCount>72</SegmentCount>
+                <MLCMargin BEVMarginFlag="false" EllipticalMarginFlag="false" OptimizeCollRtnFlag="false" JawFittingMode="0">
+                  <Left xsi:nil="true"/>
+                  <Right xsi:nil="true"/>
+                  <Top xsi:nil="true"/>
+                  <Bottom xsi:nil="true"/>
+                </MLCMargin>
+                <ContourMeetPoint>Middle</ContourMeetPoint>
+                <ClosedMeetPoint>Center</ClosedMeetPoint>
+                <Target>
+                  <VolumeID/>
+                  <VolumeCode/>
+                  <VolumeType/>
+                  <VolumeCodeTable/>
+                </Target>
+              </MLCPlan>
+            </MLCPlans>
+            <Wedges/>
+            <Applicators/>
+          </Field>
+          <Field ID="CCW" FixedSSD="false" UsingCompensator="false" UsingMLC="false" Setup="false" DRRVisible="true">
+            <Type>BeamLinac</Type>
+            <Target>
+              <VolumeID/>
+              <VolumeCode/>
+              <VolumeType/>
+              <VolumeCodeTable/>
+            </Target>
+            <TreatmentUnit>CACCRT101</TreatmentUnit>
+            <Technique>ARC</Technique>
+            <Energy>
+              <Type>X</Type>
+              <EnergyKV>6000</EnergyKV>
+              <MaxEnergyKV xsi:nil="true"/>
+            </Energy>
+            <PrimaryFluenceMode/>
+            <DRRTemplate>Pelvis.dps</DRRTemplate>
+            <DoseRate>600</DoseRate>
+            <SFED>100</SFED>
+            <Gantry>
+              <Rtn>179</Rtn>
+              <StopRtn>181</StopRtn>
+              <RtnDirection>CC</RtnDirection>
+            </Gantry>
+            <Collimator>
+              <Rtn>330</Rtn>
+              <Mode>Symmetry</Mode>
+              <X1>-10</X1>
+              <X2>10</X2>
+              <Y1>-10</Y1>
+              <Y2>10</Y2>
+            </Collimator>
+            <TableRtn>0</TableRtn>
+            <ToleranceTableID>CACC Standard</ToleranceTableID>
+            <Weight>1</Weight>
+            <FieldMargin BEVMarginFlag="false" EllipticalMarginFlag="false" OptimizeCollRtnFlag="false">
+              <Left xsi:nil="true"/>
+              <Right xsi:nil="true"/>
+              <Top xsi:nil="true"/>
+              <Bottom xsi:nil="true"/>
+            </FieldMargin>
+            <SkinFlashMargin xsi:nil="true"/>
+            <FieldBoluses/>
+            <Isocenter Placement="AIO" X="0" Y="0" Z="0"/>
+            <Blocks/>
+            <MLCPlans>
+              <MLCPlan ID="MLC" DynamicFlag="true">
+                <ModelName>Millennium 120</ModelName>
+                <SegmentCount>72</SegmentCount>
+                <MLCMargin BEVMarginFlag="false" EllipticalMarginFlag="false" OptimizeCollRtnFlag="false" JawFittingMode="0">
+                  <Left xsi:nil="true"/>
+                  <Right xsi:nil="true"/>
+                  <Top xsi:nil="true"/>
+                  <Bottom xsi:nil="true"/>
+                </MLCMargin>
+                <ContourMeetPoint>Middle</ContourMeetPoint>
+                <ClosedMeetPoint>Center</ClosedMeetPoint>
+                <Target>
+                  <VolumeID/>
+                  <VolumeCode/>
+                  <VolumeType/>
+                  <VolumeCodeTable/>
+                </Target>
+              </MLCPlan>
+            </MLCPlans>
+            <Wedges/>
+            <Applicators/>
+          </Field>
+		            <Field ID="Ant Ref" FixedSSD="false" UsingCompensator="false" UsingMLC="false" Setup="true" DRRVisible="true">
+            <Type>BeamLinac</Type>
+            <Target>
+              <VolumeID>P</VolumeID>
+              <VolumeCode/>
+              <VolumeType/>
+              <VolumeCodeTable/>
+            </Target>
+            <TreatmentUnit>CACCRT101</TreatmentUnit>
+            <Technique>STATIC</Technique>
+            <Energy>
+              <Type>X</Type>
+              <EnergyKV>6000</EnergyKV>
+              <MaxEnergyKV xsi:nil="true"/>
+            </Energy>
+            <PrimaryFluenceMode/>
+            <DRRTemplate>Pelvis.dps</DRRTemplate>
+            <DoseRate>600</DoseRate>
+            <SFED>100</SFED>
+            <Gantry>
+              <Rtn>0</Rtn>
+              <StopRtn xsi:nil="true"/>
+              <RtnDirection>NONE</RtnDirection>
+            </Gantry>
+            <Collimator>
+              <Rtn>0</Rtn>
+              <Mode>AsymmetryX&amp;Y</Mode>
+              <X1>-15</X1>
+              <X2>15</X2>
+              <Y1>-15</Y1>
+              <Y2>15</Y2>
+            </Collimator>
+            <TableRtn>0</TableRtn>
+            <ToleranceTableID>CACC Standard</ToleranceTableID>
+            <Weight>0</Weight>
+            <FieldMargin BEVMarginFlag="false" EllipticalMarginFlag="false" OptimizeCollRtnFlag="false">
+              <Left>0</Left>
+              <Right xsi:nil="true"/>
+              <Top xsi:nil="true"/>
+              <Bottom xsi:nil="true"/>
+            </FieldMargin>
+            <SkinFlashMargin xsi:nil="true"/>
+            <FieldBoluses/>
+            <Isocenter Placement="AIO" X="0" Y="0" Z="0"/>
+            <Blocks/>
+            <MLCPlans/>
+            <Wedges/>
+            <Applicators/>
+          </Field>
+          <Field ID="Lt Lat Ref" FixedSSD="false" UsingCompensator="false" UsingMLC="false" Setup="true" DRRVisible="true">
+            <Type>BeamLinac</Type>
+            <Target>
+              <VolumeID>P</VolumeID>
+              <VolumeCode/>
+              <VolumeType/>
+              <VolumeCodeTable/>
+            </Target>
+            <TreatmentUnit>CACCRT101</TreatmentUnit>
+            <Technique>STATIC</Technique>
+            <Energy>
+              <Type>X</Type>
+              <EnergyKV>6000</EnergyKV>
+              <MaxEnergyKV xsi:nil="true"/>
+            </Energy>
+            <PrimaryFluenceMode/>
+            <DRRTemplate>Pelvis.dps</DRRTemplate>
+            <DoseRate>600</DoseRate>
+            <SFED>100</SFED>
+            <Gantry>
+              <Rtn>90</Rtn>
+              <StopRtn xsi:nil="true"/>
+              <RtnDirection>NONE</RtnDirection>
+            </Gantry>
+            <Collimator>
+              <Rtn>0</Rtn>
+              <Mode>AsymmetryX&amp;Y</Mode>
+              <X1>-15</X1>
+              <X2>15</X2>
+              <Y1>-15</Y1>
+              <Y2>15</Y2>
+            </Collimator>
+            <TableRtn>0</TableRtn>
+            <ToleranceTableID>CACC Standard</ToleranceTableID>
+            <Weight>0</Weight>
+            <FieldMargin BEVMarginFlag="false" EllipticalMarginFlag="false" OptimizeCollRtnFlag="false">
+              <Left>0</Left>
+              <Right xsi:nil="true"/>
+              <Top xsi:nil="true"/>
+              <Bottom xsi:nil="true"/>
+            </FieldMargin>
+            <SkinFlashMargin xsi:nil="true"/>
+            <FieldBoluses/>
+            <Isocenter Placement="AIO" X="0" Y="0" Z="0"/>
+            <Blocks/>
+            <MLCPlans/>
+            <Wedges/>
+            <Applicators/>
+			</Field>
+			          <Field ID="Rt Lat Ref" FixedSSD="false" UsingCompensator="false" UsingMLC="false" Setup="true" DRRVisible="true">
+            <Type>BeamLinac</Type>
+            <Target>
+              <VolumeID>P</VolumeID>
+              <VolumeCode/>
+              <VolumeType/>
+              <VolumeCodeTable/>
+            </Target>
+            <TreatmentUnit>CACCRT101</TreatmentUnit>
+            <Technique>STATIC</Technique>
+            <Energy>
+              <Type>X</Type>
+              <EnergyKV>6000</EnergyKV>
+              <MaxEnergyKV xsi:nil="true"/>
+            </Energy>
+            <PrimaryFluenceMode/>
+            <DRRTemplate>Pelvis.dps</DRRTemplate>
+            <DoseRate>600</DoseRate>
+            <SFED>100</SFED>
+            <Gantry>
+              <Rtn>270</Rtn>
+              <StopRtn xsi:nil="true"/>
+              <RtnDirection>NONE</RtnDirection>
+            </Gantry>
+            <Collimator>
+              <Rtn>0</Rtn>
+              <Mode>AsymmetryX&amp;Y</Mode>
+              <X1>-15</X1>
+              <X2>15</X2>
+              <Y1>-15</Y1>
+              <Y2>15</Y2>
+            </Collimator>
+            <TableRtn>0</TableRtn>
+            <ToleranceTableID>CACC Standard</ToleranceTableID>
+            <Weight>0</Weight>
+            <FieldMargin BEVMarginFlag="false" EllipticalMarginFlag="false" OptimizeCollRtnFlag="false">
+              <Left>0</Left>
+              <Right xsi:nil="true"/>
+              <Top xsi:nil="true"/>
+              <Bottom xsi:nil="true"/>
+            </FieldMargin>
+            <SkinFlashMargin xsi:nil="true"/>
+            <FieldBoluses/>
+            <Isocenter Placement="AIO" X="0" Y="0" Z="0"/>
+            <Blocks/>
+            <MLCPlans/>
+            <Wedges/>
+            <Applicators/>
+          </Field>
+          <Field ID="Home" FixedSSD="false" UsingCompensator="false" UsingMLC="false" Setup="true" DRRVisible="true">
+            <Type>BeamLinac</Type>
+            <Target>
+              <VolumeID>P</VolumeID>
+              <VolumeCode/>
+              <VolumeType/>
+              <VolumeCodeTable/>
+            </Target>
+            <TreatmentUnit>CACCRT101</TreatmentUnit>
+            <Technique>STATIC</Technique>
+            <Energy>
+              <Type>X</Type>
+              <EnergyKV>6000</EnergyKV>
+              <MaxEnergyKV xsi:nil="true"/>
+            </Energy>
+            <PrimaryFluenceMode/>
+            <DRRTemplate>Pelvis.dps</DRRTemplate>
+            <DoseRate>600</DoseRate>
+            <SFED>100</SFED>
+            <Gantry>
+              <Rtn>0</Rtn>
+              <StopRtn xsi:nil="true"/>
+              <RtnDirection>NONE</RtnDirection>
+            </Gantry>
+            <Collimator>
+              <Rtn>0</Rtn>
+              <Mode>AsymmetryX&amp;Y</Mode>
+              <X1>-15</X1>
+              <X2>15</X2>
+              <Y1>-15</Y1>
+              <Y2>15</Y2>
+            </Collimator>
+            <TableRtn>0</TableRtn>
+            <ToleranceTableID>CACC Standard</ToleranceTableID>
+            <Weight>0</Weight>
+            <FieldMargin BEVMarginFlag="false" EllipticalMarginFlag="false" OptimizeCollRtnFlag="false">
+              <Left>0</Left>
+              <Right xsi:nil="true"/>
+              <Top xsi:nil="true"/>
+              <Bottom xsi:nil="true"/>
+            </FieldMargin>
+            <SkinFlashMargin xsi:nil="true"/>
+            <FieldBoluses/>
+            <Isocenter Placement="AIO" X="0" Y="0" Z="0"/>
+            <Blocks/>
+            <MLCPlans/>
+            <Wedges/>
+            <Applicators/>
+          </Field>
+        </Fields>
+      </PlanTemplate>
+      <ObjectiveTemplate>
+        <Type>Helios</Type>
+        <Helios DefaultFixedJaws="false" Interpolate="false" UseColors="false">
+          <DefaultSmoothingX>40</DefaultSmoothingX>
+          <DefaultSmoothingY>30</DefaultSmoothingY>
+          <DefaultMinimizeDose>0</DefaultMinimizeDose>
+          <DefaultOptimizationType>Beamlet</DefaultOptimizationType>
+          <MaxIterations>1000</MaxIterations>
+          <MaxTime>100</MaxTime>
+          <NormalTissueObjective>
+            <Use>true</Use>
+            <Priority>150</Priority>
+            <DistanceFromTargetBorder>1</DistanceFromTargetBorder>
+            <StartDose>105</StartDose>
+            <EndDose>60</EndDose>
+            <FallOff>0.05</FallOff>
+            <Auto>true</Auto>
+          </NormalTissueObjective>
+          <Geos>
+            <InitialFieldDistribution>Coplanar</InitialFieldDistribution>
+            <MinimumNumberOfFields>5</MinimumNumberOfFields>
+            <MaximumNumberOfFields>9</MaximumNumberOfFields>
+            <MaximumElevationAngleForNonCoplanarFields>90</MaximumElevationAngleForNonCoplanarFields>
+            <MaximumCollimatorVariation>0</MaximumCollimatorVariation>
+            <LocalGeometricOptimizationMode>Simplex</LocalGeometricOptimizationMode>
+          </Geos>
+          <Imat UseMU="false" JawTracking="true">
+            <MUWeight>50</MUWeight>
+            <MinMU>0</MinMU>
+            <MaxMU>2000</MaxMU>
+          </Imat>
+        </Helios>
+        <ObjectivesAllStructures>
+          <ObjectivesOneStructure ID="Bladder" NAME="" SurfaceOnly="false">
+            <StructureTarget>
+              <VolumeID/>
+              <VolumeCode/>
+              <VolumeType>Organ</VolumeType>
+              <VolumeCodeTable/>
+            </StructureTarget>
+            <Distance>3</Distance>
+            <SamplePoints xsi:nil="true"/>
+            <Color>8388608</Color>
+            <StructureObjectives/>
+          </ObjectivesOneStructure>
+          <ObjectivesOneStructure ID="Bladder_opti" NAME="" SurfaceOnly="false">
+            <StructureTarget>
+              <VolumeID/>
+              <VolumeCode/>
+              <VolumeType>Control</VolumeType>
+              <VolumeCodeTable/>
+            </StructureTarget>
+            <Distance>3</Distance>
+            <SamplePoints xsi:nil="true"/>
+            <Color>8454143</Color>
+            <StructureObjectives>
+              <Objective>
+                <Type>0</Type>
+                <Operator>0</Operator>
+                <Dose>25.6227</Dose>
+                <Volume>72.4793</Volume>
+                <Priority>80</Priority>
+                <ParameterA xsi:nil="true"/>
+                <Group>0</Group>
+              </Objective>
+              <Objective>
+                <Type>0</Type>
+                <Operator>0</Operator>
+                <Dose>33.1331</Dose>
+                <Volume>42.5562</Volume>
+                <Priority>80</Priority>
+                <ParameterA xsi:nil="true"/>
+                <Group>0</Group>
+              </Objective>
+              <Objective>
+                <Type>0</Type>
+                <Operator>0</Operator>
+                <Dose>43.6725</Dose>
+                <Volume>12.3373</Volume>
+                <Priority>80</Priority>
+                <ParameterA xsi:nil="true"/>
+                <Group>0</Group>
+              </Objective>
+            </StructureObjectives>
+          </ObjectivesOneStructure>
+          <ObjectivesOneStructure ID="BODY" NAME="" SurfaceOnly="false">
+            <StructureTarget>
+              <VolumeID/>
+              <VolumeCode>C44.9</VolumeCode>
+              <VolumeType>BODY</VolumeType>
+              <VolumeCodeTable>ICD-O-2</VolumeCodeTable>
+            </StructureTarget>
+            <Distance>4.5</Distance>
+            <SamplePoints xsi:nil="true"/>
+            <Color>65280</Color>
+            <StructureObjectives/>
+          </ObjectivesOneStructure>
+          <ObjectivesOneStructure ID="CTV" NAME="" SurfaceOnly="false">
+            <StructureTarget>
+              <VolumeID/>
+              <VolumeCode/>
+              <VolumeType>CTV</VolumeType>
+              <VolumeCodeTable/>
+            </StructureTarget>
+            <Distance>3</Distance>
+            <SamplePoints xsi:nil="true"/>
+            <Color>16711808</Color>
+            <StructureObjectives/>
+          </ObjectivesOneStructure>
+          <ObjectivesOneStructure ID="CTV vessels" NAME="" SurfaceOnly="false">
+            <StructureTarget>
+              <VolumeID/>
+              <VolumeCode/>
+              <VolumeType>CTV</VolumeType>
+              <VolumeCodeTable/>
+            </StructureTarget>
+            <Distance>3</Distance>
+            <SamplePoints xsi:nil="true"/>
+            <Color>255</Color>
+            <StructureObjectives/>
+          </ObjectivesOneStructure>
+          <ObjectivesOneStructure ID="FemurL" NAME="" SurfaceOnly="false">
+            <StructureTarget>
+              <VolumeID/>
+              <VolumeCode/>
+              <VolumeType>Organ</VolumeType>
+              <VolumeCodeTable/>
+            </StructureTarget>
+            <Distance>3</Distance>
+            <SamplePoints xsi:nil="true"/>
+            <Color>65280</Color>
+            <StructureObjectives>
+              <Objective>
+                <Type>0</Type>
+                <Operator>0</Operator>
+                <Dose>12.3924</Dose>
+                <Volume>55.3314</Volume>
+                <Priority>80</Priority>
+                <ParameterA xsi:nil="true"/>
+                <Group>0</Group>
+              </Objective>
+              <Objective>
+                <Type>0</Type>
+                <Operator>0</Operator>
+                <Dose>20.6777</Dose>
+                <Volume>18.8994</Volume>
+                <Priority>80</Priority>
+                <ParameterA xsi:nil="true"/>
+                <Group>0</Group>
+              </Objective>
+            </StructureObjectives>
+          </ObjectivesOneStructure>
+          <ObjectivesOneStructure ID="FemurR" NAME="" SurfaceOnly="false">
+            <StructureTarget>
+              <VolumeID/>
+              <VolumeCode/>
+              <VolumeType>Organ</VolumeType>
+              <VolumeCodeTable/>
+            </StructureTarget>
+            <Distance>3</Distance>
+            <SamplePoints xsi:nil="true"/>
+            <Color>65280</Color>
+            <StructureObjectives>
+              <Objective>
+                <Type>0</Type>
+                <Operator>0</Operator>
+                <Dose>12.6643</Dose>
+                <Volume>55.7988</Volume>
+                <Priority>80</Priority>
+                <ParameterA xsi:nil="true"/>
+                <Group>0</Group>
+              </Objective>
+              <Objective>
+                <Type>0</Type>
+                <Operator>0</Operator>
+                <Dose>22.7811</Dose>
+                <Volume>21.7337</Volume>
+                <Priority>80</Priority>
+                <ParameterA xsi:nil="true"/>
+                <Group>0</Group>
+              </Objective>
+            </StructureObjectives>
+          </ObjectivesOneStructure>
+          <ObjectivesOneStructure ID="GTV" NAME="" SurfaceOnly="false">
+            <StructureTarget>
+              <VolumeID/>
+              <VolumeCode/>
+              <VolumeType>GTV</VolumeType>
+              <VolumeCodeTable/>
+            </StructureTarget>
+            <Distance>3</Distance>
+            <SamplePoints xsi:nil="true"/>
+            <Color>255</Color>
+            <StructureObjectives/>
+          </ObjectivesOneStructure>
+          <ObjectivesOneStructure ID="Mesorectum" NAME="" SurfaceOnly="false">
+            <StructureTarget>
+              <VolumeID/>
+              <VolumeCode/>
+              <VolumeType>Organ</VolumeType>
+              <VolumeCodeTable/>
+            </StructureTarget>
+            <Distance>3</Distance>
+            <SamplePoints xsi:nil="true"/>
+            <Color>65535</Color>
+            <StructureObjectives/>
+          </ObjectivesOneStructure>
+          <ObjectivesOneStructure ID="Node" NAME="" SurfaceOnly="false">
+            <StructureTarget>
+              <VolumeID/>
+              <VolumeCode/>
+              <VolumeType>CTV</VolumeType>
+              <VolumeCodeTable/>
+            </StructureTarget>
+            <Distance>1.35498</Distance>
+            <SamplePoints xsi:nil="true"/>
+            <Color>255</Color>
+            <StructureObjectives/>
+          </ObjectivesOneStructure>
+          <ObjectivesOneStructure ID="PTV" NAME="" SurfaceOnly="false">
+            <StructureTarget>
+              <VolumeID/>
+              <VolumeCode/>
+              <VolumeType>PTV</VolumeType>
+              <VolumeCodeTable/>
+            </StructureTarget>
+            <Distance>3</Distance>
+            <SamplePoints xsi:nil="true"/>
+            <Color>16776960</Color>
+            <StructureObjectives>
+              <Objective>
+                <Type>0</Type>
+                <Operator>0</Operator>
+                <Dose>52.4</Dose>
+                <Volume>0</Volume>
+                <Priority>200</Priority>
+                <ParameterA xsi:nil="true"/>
+                <Group>0</Group>
+              </Objective>
+              <Objective>
+                <Type>0</Type>
+                <Operator>1</Operator>
+                <Dose>51.4</Dose>
+                <Volume>100</Volume>
+                <Priority>200</Priority>
+                <ParameterA xsi:nil="true"/>
+                <Group>0</Group>
+              </Objective>
+            </StructureObjectives>
+          </ObjectivesOneStructure>
+          <ObjectivesOneStructure ID="SmallBowel" NAME="" SurfaceOnly="false">
+            <StructureTarget>
+              <VolumeID/>
+              <VolumeCode/>
+              <VolumeType>Organ</VolumeType>
+              <VolumeCodeTable/>
+            </StructureTarget>
+            <Distance>3</Distance>
+            <SamplePoints xsi:nil="true"/>
+            <Color>38400</Color>
+            <StructureObjectives>
+              <Objective>
+                <Type>0</Type>
+                <Operator>0</Operator>
+                <Dose>4.50019</Dose>
+                <Volume>40.9467</Volume>
+                <Priority>80</Priority>
+                <ParameterA xsi:nil="true"/>
+                <Group>0</Group>
+              </Objective>
+              <Objective>
+                <Type>0</Type>
+                <Operator>0</Operator>
+                <Dose>16.5893</Dose>
+                <Volume>19.0118</Volume>
+                <Priority>80</Priority>
+                <ParameterA xsi:nil="true"/>
+                <Group>0</Group>
+              </Objective>
+              <Objective>
+                <Type>0</Type>
+                <Operator>0</Operator>
+                <Dose>30</Dose>
+                <Volume>0</Volume>
+                <Priority>80</Priority>
+                <ParameterA xsi:nil="true"/>
+                <Group>0</Group>
+              </Objective>
+            </StructureObjectives>
+          </ObjectivesOneStructure>
+          <ObjectivesOneStructure ID="Vessels" NAME="" SurfaceOnly="false">
+            <StructureTarget>
+              <VolumeID/>
+              <VolumeCode/>
+              <VolumeType>Organ</VolumeType>
+              <VolumeCodeTable/>
+            </StructureTarget>
+            <Distance>3</Distance>
+            <SamplePoints xsi:nil="true"/>
+            <Color>16711935</Color>
+            <StructureObjectives/>
+          </ObjectivesOneStructure>
+        </ObjectivesAllStructures>
+      </ObjectiveTemplate>
+    </Phase>
+	<Phase ID="Rectum_45/54in25">
+      <Mode>Photon</Mode>
+      <DefaultEnergyKV xsi:nil="true"/>
+      <FractionCount>25</FractionCount>
+      <FractionsPerWeek xsi:nil="true"/>
+      <FractionsPerDay xsi:nil="true"/>
+      <TreatmentUnit>CACCRT101</TreatmentUnit>
+      <TreatmentStyle>Dynamic ARC</TreatmentStyle>
+      <ImmobilizationDevice/>
+      <LocalizationTechnique/>
+      <Prescription>
+	  <Item ID="PTV54" Primary="false">
+				<Type>0</Type>
+					<Modifier>0</Modifier>
+					<Parameter>95</Parameter>
+					<Dose>2.052</Dose>
+					<TotalDose>51.30</TotalDose>
+					</Item>
+						  <Item ID="PTV54" Primary="true">
+				<Type>0</Type>
+					<Modifier>0</Modifier>
+					<Parameter>95</Parameter>
+					<Dose>2.16</Dose>
+					<TotalDose>54</TotalDose>
+					</Item>
+        <Item ID="PTV45" Primary="false">
+				<Type>0</Type>
+					<Modifier>0</Modifier>
+					<Parameter>95</Parameter>
+					<Dose>1.71</Dose>
+					<TotalDose>42.75</TotalDose>
+				</Item>
+				        <Item ID="PTV45" Primary="false">
+				<Type>0</Type>
+					<Modifier>0</Modifier>
+					<Parameter>95</Parameter>
+					<Dose>1.8</Dose>
+					<TotalDose>45</TotalDose>
+				</Item>
+				<Item ID="GTV" Primary="false">
+					<Type>0</Type>
+					<Modifier>0</Modifier>
+					<Parameter>98</Parameter>
+					<Dose>1.8</Dose>
+					<TotalDose>45</TotalDose>
+				</Item>
+								<Item ID="CTV45" Primary="false">
+					<Type>0</Type>
+					<Modifier>0</Modifier>
+					<Parameter>98</Parameter>
+					<Dose>1.8</Dose>
+					<TotalDose>45</TotalDose>
+				</Item>
+												<Item ID="CTV54" Primary="false">
+					<Type>0</Type>
+					<Modifier>0</Modifier>
+					<Parameter>98</Parameter>
+					<Dose>2.16</Dose>
+					<TotalDose>54</TotalDose>
+				</Item>
+				<Item ID="FemurR" Primary="false">
+					<Type>0</Type>
+					<Modifier>10</Modifier>
+					<Parameter>0</Parameter>
+					<Dose>2</Dose>
+					<TotalDose>50</TotalDose>
+				</Item>
+				<Item ID="FemurL" Primary="false">
+					<Type>0</Type>
+					<Modifier>10</Modifier>
+					<Parameter>0</Parameter>
+					<Dose>2</Dose>
+					<TotalDose>50</TotalDose>
+				</Item>
+				<Item ID="Bladder" Primary="false">
+					<Type>0</Type>
+					<Modifier>10</Modifier>
+					<Parameter>0</Parameter>
+					<Dose>2.268</Dose>
+					<TotalDose>56.70</TotalDose>
+				</Item>
+				<Item ID="Genitals_nonPTV" Primary="false">
+					<Type>0</Type>
+					<Modifier>8</Modifier>
+					<Parameter>0</Parameter>
+					<Dose>1.2</Dose>
+					<TotalDose>30</TotalDose>
+				</Item>
+				<MeasureItem ID="PeritonCav">
+					<Type>3</Type>
+					<Modifier>1</Modifier>
+					<Value>600000</Value>
+					<TypeSpecifier>15</TypeSpecifier>
+					<ReportDQPValueInAbsoluteUnits>true</ReportDQPValueInAbsoluteUnits>
+				</MeasureItem>
+				<MeasureItem ID="PeritonCav">
+					<Type>3</Type>
+					<Modifier>1</Modifier>
+					<Value>6000</Value>
+					<TypeSpecifier>48</TypeSpecifier>
+					<ReportDQPValueInAbsoluteUnits>true</ReportDQPValueInAbsoluteUnits>
+				</MeasureItem>
+      </Prescription>
+      <PlanTemplate>
+        <PrescribedPercentage>1</PrescribedPercentage>
+        <DosePerFraction>2.052</DosePerFraction>
+        <FractionCount>25</FractionCount>
+        <FieldAlignmentRules/>
+        <PrescriptionSite>
+          <VolumeID>PTV54</VolumeID>
+          <VolumeCode/>
+          <VolumeType>PTV</VolumeType>
+          <VolumeCodeTable/>
+        </PrescriptionSite>
+        <Boluses/>
+        <Fields>
+          <Field ID="CW" FixedSSD="false" UsingCompensator="false" UsingMLC="false" Setup="false" DRRVisible="true">
+            <Type>BeamLinac</Type>
+            <Target>
+              <VolumeID/>
+              <VolumeCode/>
+              <VolumeType/>
+              <VolumeCodeTable/>
+            </Target>
+            <TreatmentUnit>CACCRT101</TreatmentUnit>
+            <Technique>ARC</Technique>
+            <Energy>
+              <Type>X</Type>
+              <EnergyKV>6000</EnergyKV>
+              <MaxEnergyKV xsi:nil="true"/>
+            </Energy>
+            <PrimaryFluenceMode/>
+            <DRRTemplate>Pelvis.dps</DRRTemplate>
+            <DoseRate>600</DoseRate>
+            <SFED>100</SFED>
+            <Gantry>
+              <Rtn>181</Rtn>
+              <StopRtn>179</StopRtn>
+              <RtnDirection>CW</RtnDirection>
+            </Gantry>
+            <Collimator>
+              <Rtn>30</Rtn>
+              <Mode>Symmetry</Mode>
+              <X1>-10</X1>
+              <X2>10</X2>
+              <Y1>-10</Y1>
+              <Y2>10</Y2>
+            </Collimator>
+            <TableRtn>0</TableRtn>
+            <ToleranceTableID>CACC Standard</ToleranceTableID>
+            <Weight>1</Weight>
+            <FieldMargin BEVMarginFlag="false" EllipticalMarginFlag="false" OptimizeCollRtnFlag="false">
+              <Left xsi:nil="true"/>
+              <Right xsi:nil="true"/>
+              <Top xsi:nil="true"/>
+              <Bottom xsi:nil="true"/>
+            </FieldMargin>
+            <SkinFlashMargin xsi:nil="true"/>
+            <FieldBoluses/>
+            <Isocenter Placement="AIO" X="0" Y="0" Z="0"/>
+            <Blocks/>
+            <MLCPlans>
+              <MLCPlan ID="MLC" DynamicFlag="true">
+                <ModelName>Millennium 120</ModelName>
+                <SegmentCount>72</SegmentCount>
+                <MLCMargin BEVMarginFlag="false" EllipticalMarginFlag="false" OptimizeCollRtnFlag="false" JawFittingMode="0">
+                  <Left xsi:nil="true"/>
+                  <Right xsi:nil="true"/>
+                  <Top xsi:nil="true"/>
+                  <Bottom xsi:nil="true"/>
+                </MLCMargin>
+                <ContourMeetPoint>Middle</ContourMeetPoint>
+                <ClosedMeetPoint>Center</ClosedMeetPoint>
+                <Target>
+                  <VolumeID/>
+                  <VolumeCode/>
+                  <VolumeType/>
+                  <VolumeCodeTable/>
+                </Target>
+              </MLCPlan>
+            </MLCPlans>
+            <Wedges/>
+            <Applicators/>
+          </Field>
+          <Field ID="CCW" FixedSSD="false" UsingCompensator="false" UsingMLC="false" Setup="false" DRRVisible="true">
+            <Type>BeamLinac</Type>
+            <Target>
+              <VolumeID/>
+              <VolumeCode/>
+              <VolumeType/>
+              <VolumeCodeTable/>
+            </Target>
+            <TreatmentUnit>CACCRT101</TreatmentUnit>
+            <Technique>ARC</Technique>
+            <Energy>
+              <Type>X</Type>
+              <EnergyKV>6000</EnergyKV>
+              <MaxEnergyKV xsi:nil="true"/>
+            </Energy>
+            <PrimaryFluenceMode/>
+            <DRRTemplate>Pelvis.dps</DRRTemplate>
+            <DoseRate>600</DoseRate>
+            <SFED>100</SFED>
+            <Gantry>
+              <Rtn>179</Rtn>
+              <StopRtn>181</StopRtn>
+              <RtnDirection>CC</RtnDirection>
+            </Gantry>
+            <Collimator>
+              <Rtn>330</Rtn>
+              <Mode>Symmetry</Mode>
+              <X1>-10</X1>
+              <X2>10</X2>
+              <Y1>-10</Y1>
+              <Y2>10</Y2>
+            </Collimator>
+            <TableRtn>0</TableRtn>
+            <ToleranceTableID>CACC Standard</ToleranceTableID>
+            <Weight>1</Weight>
+            <FieldMargin BEVMarginFlag="false" EllipticalMarginFlag="false" OptimizeCollRtnFlag="false">
+              <Left xsi:nil="true"/>
+              <Right xsi:nil="true"/>
+              <Top xsi:nil="true"/>
+              <Bottom xsi:nil="true"/>
+            </FieldMargin>
+            <SkinFlashMargin xsi:nil="true"/>
+            <FieldBoluses/>
+            <Isocenter Placement="AIO" X="0" Y="0" Z="0"/>
+            <Blocks/>
+            <MLCPlans>
+              <MLCPlan ID="MLC" DynamicFlag="true">
+                <ModelName>Millennium 120</ModelName>
+                <SegmentCount>72</SegmentCount>
+                <MLCMargin BEVMarginFlag="false" EllipticalMarginFlag="false" OptimizeCollRtnFlag="false" JawFittingMode="0">
+                  <Left xsi:nil="true"/>
+                  <Right xsi:nil="true"/>
+                  <Top xsi:nil="true"/>
+                  <Bottom xsi:nil="true"/>
+                </MLCMargin>
+                <ContourMeetPoint>Middle</ContourMeetPoint>
+                <ClosedMeetPoint>Center</ClosedMeetPoint>
+                <Target>
+                  <VolumeID/>
+                  <VolumeCode/>
+                  <VolumeType/>
+                  <VolumeCodeTable/>
+                </Target>
+              </MLCPlan>
+            </MLCPlans>
+            <Wedges/>
+            <Applicators/>
+          </Field>
+		            <Field ID="Ant Ref" FixedSSD="false" UsingCompensator="false" UsingMLC="false" Setup="true" DRRVisible="true">
+            <Type>BeamLinac</Type>
+            <Target>
+              <VolumeID>P</VolumeID>
+              <VolumeCode/>
+              <VolumeType/>
+              <VolumeCodeTable/>
+            </Target>
+            <TreatmentUnit>CACCRT101</TreatmentUnit>
+            <Technique>STATIC</Technique>
+            <Energy>
+              <Type>X</Type>
+              <EnergyKV>6000</EnergyKV>
+              <MaxEnergyKV xsi:nil="true"/>
+            </Energy>
+            <PrimaryFluenceMode/>
+            <DRRTemplate>Pelvis.dps</DRRTemplate>
+            <DoseRate>600</DoseRate>
+            <SFED>100</SFED>
+            <Gantry>
+              <Rtn>0</Rtn>
+              <StopRtn xsi:nil="true"/>
+              <RtnDirection>NONE</RtnDirection>
+            </Gantry>
+            <Collimator>
+              <Rtn>0</Rtn>
+              <Mode>AsymmetryX&amp;Y</Mode>
+              <X1>-15</X1>
+              <X2>15</X2>
+              <Y1>-15</Y1>
+              <Y2>15</Y2>
+            </Collimator>
+            <TableRtn>0</TableRtn>
+            <ToleranceTableID>CACC Standard</ToleranceTableID>
+            <Weight>0</Weight>
+            <FieldMargin BEVMarginFlag="false" EllipticalMarginFlag="false" OptimizeCollRtnFlag="false">
+              <Left>0</Left>
+              <Right xsi:nil="true"/>
+              <Top xsi:nil="true"/>
+              <Bottom xsi:nil="true"/>
+            </FieldMargin>
+            <SkinFlashMargin xsi:nil="true"/>
+            <FieldBoluses/>
+            <Isocenter Placement="AIO" X="0" Y="0" Z="0"/>
+            <Blocks/>
+            <MLCPlans/>
+            <Wedges/>
+            <Applicators/>
+          </Field>
+          <Field ID="Lt Lat Ref" FixedSSD="false" UsingCompensator="false" UsingMLC="false" Setup="true" DRRVisible="true">
+            <Type>BeamLinac</Type>
+            <Target>
+              <VolumeID>P</VolumeID>
+              <VolumeCode/>
+              <VolumeType/>
+              <VolumeCodeTable/>
+            </Target>
+            <TreatmentUnit>CACCRT101</TreatmentUnit>
+            <Technique>STATIC</Technique>
+            <Energy>
+              <Type>X</Type>
+              <EnergyKV>6000</EnergyKV>
+              <MaxEnergyKV xsi:nil="true"/>
+            </Energy>
+            <PrimaryFluenceMode/>
+            <DRRTemplate>Pelvis.dps</DRRTemplate>
+            <DoseRate>600</DoseRate>
+            <SFED>100</SFED>
+            <Gantry>
+              <Rtn>90</Rtn>
+              <StopRtn xsi:nil="true"/>
+              <RtnDirection>NONE</RtnDirection>
+            </Gantry>
+            <Collimator>
+              <Rtn>0</Rtn>
+              <Mode>AsymmetryX&amp;Y</Mode>
+              <X1>-15</X1>
+              <X2>15</X2>
+              <Y1>-15</Y1>
+              <Y2>15</Y2>
+            </Collimator>
+            <TableRtn>0</TableRtn>
+            <ToleranceTableID>CACC Standard</ToleranceTableID>
+            <Weight>0</Weight>
+            <FieldMargin BEVMarginFlag="false" EllipticalMarginFlag="false" OptimizeCollRtnFlag="false">
+              <Left>0</Left>
+              <Right xsi:nil="true"/>
+              <Top xsi:nil="true"/>
+              <Bottom xsi:nil="true"/>
+            </FieldMargin>
+            <SkinFlashMargin xsi:nil="true"/>
+            <FieldBoluses/>
+            <Isocenter Placement="AIO" X="0" Y="0" Z="0"/>
+            <Blocks/>
+            <MLCPlans/>
+            <Wedges/>
+            <Applicators/>
+			</Field>
+			          <Field ID="Rt Lat Ref" FixedSSD="false" UsingCompensator="false" UsingMLC="false" Setup="true" DRRVisible="true">
+            <Type>BeamLinac</Type>
+            <Target>
+              <VolumeID>P</VolumeID>
+              <VolumeCode/>
+              <VolumeType/>
+              <VolumeCodeTable/>
+            </Target>
+            <TreatmentUnit>CACCRT101</TreatmentUnit>
+            <Technique>STATIC</Technique>
+            <Energy>
+              <Type>X</Type>
+              <EnergyKV>6000</EnergyKV>
+              <MaxEnergyKV xsi:nil="true"/>
+            </Energy>
+            <PrimaryFluenceMode/>
+            <DRRTemplate>Pelvis.dps</DRRTemplate>
+            <DoseRate>600</DoseRate>
+            <SFED>100</SFED>
+            <Gantry>
+              <Rtn>270</Rtn>
+              <StopRtn xsi:nil="true"/>
+              <RtnDirection>NONE</RtnDirection>
+            </Gantry>
+            <Collimator>
+              <Rtn>0</Rtn>
+              <Mode>AsymmetryX&amp;Y</Mode>
+              <X1>-15</X1>
+              <X2>15</X2>
+              <Y1>-15</Y1>
+              <Y2>15</Y2>
+            </Collimator>
+            <TableRtn>0</TableRtn>
+            <ToleranceTableID>CACC Standard</ToleranceTableID>
+            <Weight>0</Weight>
+            <FieldMargin BEVMarginFlag="false" EllipticalMarginFlag="false" OptimizeCollRtnFlag="false">
+              <Left>0</Left>
+              <Right xsi:nil="true"/>
+              <Top xsi:nil="true"/>
+              <Bottom xsi:nil="true"/>
+            </FieldMargin>
+            <SkinFlashMargin xsi:nil="true"/>
+            <FieldBoluses/>
+            <Isocenter Placement="AIO" X="0" Y="0" Z="0"/>
+            <Blocks/>
+            <MLCPlans/>
+            <Wedges/>
+            <Applicators/>
+          </Field>
+          <Field ID="Home" FixedSSD="false" UsingCompensator="false" UsingMLC="false" Setup="true" DRRVisible="true">
+            <Type>BeamLinac</Type>
+            <Target>
+              <VolumeID>P</VolumeID>
+              <VolumeCode/>
+              <VolumeType/>
+              <VolumeCodeTable/>
+            </Target>
+            <TreatmentUnit>CACCRT101</TreatmentUnit>
+            <Technique>STATIC</Technique>
+            <Energy>
+              <Type>X</Type>
+              <EnergyKV>6000</EnergyKV>
+              <MaxEnergyKV xsi:nil="true"/>
+            </Energy>
+            <PrimaryFluenceMode/>
+            <DRRTemplate>Pelvis.dps</DRRTemplate>
+            <DoseRate>600</DoseRate>
+            <SFED>100</SFED>
+            <Gantry>
+              <Rtn>0</Rtn>
+              <StopRtn xsi:nil="true"/>
+              <RtnDirection>NONE</RtnDirection>
+            </Gantry>
+            <Collimator>
+              <Rtn>0</Rtn>
+              <Mode>AsymmetryX&amp;Y</Mode>
+              <X1>-15</X1>
+              <X2>15</X2>
+              <Y1>-15</Y1>
+              <Y2>15</Y2>
+            </Collimator>
+            <TableRtn>0</TableRtn>
+            <ToleranceTableID>CACC Standard</ToleranceTableID>
+            <Weight>0</Weight>
+            <FieldMargin BEVMarginFlag="false" EllipticalMarginFlag="false" OptimizeCollRtnFlag="false">
+              <Left>0</Left>
+              <Right xsi:nil="true"/>
+              <Top xsi:nil="true"/>
+              <Bottom xsi:nil="true"/>
+            </FieldMargin>
+            <SkinFlashMargin xsi:nil="true"/>
+            <FieldBoluses/>
+            <Isocenter Placement="AIO" X="0" Y="0" Z="0"/>
+            <Blocks/>
+            <MLCPlans/>
+            <Wedges/>
+            <Applicators/>
+          </Field>
+        </Fields>
+      </PlanTemplate>
+      <ObjectiveTemplate>
+        <Type>Helios</Type>
+        <Helios DefaultFixedJaws="false" Interpolate="false" UseColors="false">
+          <DefaultSmoothingX>40</DefaultSmoothingX>
+          <DefaultSmoothingY>30</DefaultSmoothingY>
+          <DefaultMinimizeDose>0</DefaultMinimizeDose>
+          <DefaultOptimizationType>Beamlet</DefaultOptimizationType>
+          <MaxIterations>1000</MaxIterations>
+          <MaxTime>100</MaxTime>
+          <NormalTissueObjective>
+            <Use>true</Use>
+            <Priority>150</Priority>
+            <DistanceFromTargetBorder>1</DistanceFromTargetBorder>
+            <StartDose>105</StartDose>
+            <EndDose>60</EndDose>
+            <FallOff>0.05</FallOff>
+            <Auto>true</Auto>
+          </NormalTissueObjective>
+          <Geos>
+            <InitialFieldDistribution>Coplanar</InitialFieldDistribution>
+            <MinimumNumberOfFields>5</MinimumNumberOfFields>
+            <MaximumNumberOfFields>9</MaximumNumberOfFields>
+            <MaximumElevationAngleForNonCoplanarFields>90</MaximumElevationAngleForNonCoplanarFields>
+            <MaximumCollimatorVariation>0</MaximumCollimatorVariation>
+            <LocalGeometricOptimizationMode>Simplex</LocalGeometricOptimizationMode>
+          </Geos>
+          <Imat UseMU="false" JawTracking="true">
+            <MUWeight>50</MUWeight>
+            <MinMU>0</MinMU>
+            <MaxMU>2000</MaxMU>
+          </Imat>
+        </Helios>
+        <ObjectivesAllStructures>
+          <ObjectivesOneStructure ID="Bladder" NAME="" SurfaceOnly="false">
+            <StructureTarget>
+              <VolumeID/>
+              <VolumeCode/>
+              <VolumeType>Organ</VolumeType>
+              <VolumeCodeTable/>
+            </StructureTarget>
+            <Distance>3</Distance>
+            <SamplePoints xsi:nil="true"/>
+            <Color>8388608</Color>
+            <StructureObjectives/>
+          </ObjectivesOneStructure>
+          <ObjectivesOneStructure ID="Bladder_opti" NAME="" SurfaceOnly="false">
+            <StructureTarget>
+              <VolumeID/>
+              <VolumeCode/>
+              <VolumeType>Control</VolumeType>
+              <VolumeCodeTable/>
+            </StructureTarget>
+            <Distance>3</Distance>
+            <SamplePoints xsi:nil="true"/>
+            <Color>8454143</Color>
+            <StructureObjectives>
+              <Objective>
+                <Type>0</Type>
+                <Operator>0</Operator>
+                <Dose>25.6227</Dose>
+                <Volume>72.4793</Volume>
+                <Priority>80</Priority>
+                <ParameterA xsi:nil="true"/>
+                <Group>0</Group>
+              </Objective>
+              <Objective>
+                <Type>0</Type>
+                <Operator>0</Operator>
+                <Dose>33.1331</Dose>
+                <Volume>42.5562</Volume>
+                <Priority>80</Priority>
+                <ParameterA xsi:nil="true"/>
+                <Group>0</Group>
+              </Objective>
+              <Objective>
+                <Type>0</Type>
+                <Operator>0</Operator>
+                <Dose>43.6725</Dose>
+                <Volume>12.3373</Volume>
+                <Priority>80</Priority>
+                <ParameterA xsi:nil="true"/>
+                <Group>0</Group>
+              </Objective>
+            </StructureObjectives>
+          </ObjectivesOneStructure>
+          <ObjectivesOneStructure ID="BODY" NAME="" SurfaceOnly="false">
+            <StructureTarget>
+              <VolumeID/>
+              <VolumeCode>C44.9</VolumeCode>
+              <VolumeType>BODY</VolumeType>
+              <VolumeCodeTable>ICD-O-2</VolumeCodeTable>
+            </StructureTarget>
+            <Distance>4.5</Distance>
+            <SamplePoints xsi:nil="true"/>
+            <Color>65280</Color>
+            <StructureObjectives/>
+          </ObjectivesOneStructure>
+          <ObjectivesOneStructure ID="CTV" NAME="" SurfaceOnly="false">
+            <StructureTarget>
+              <VolumeID/>
+              <VolumeCode/>
+              <VolumeType>CTV</VolumeType>
+              <VolumeCodeTable/>
+            </StructureTarget>
+            <Distance>3</Distance>
+            <SamplePoints xsi:nil="true"/>
+            <Color>16711808</Color>
+            <StructureObjectives/>
+          </ObjectivesOneStructure>
+          <ObjectivesOneStructure ID="CTV vessels" NAME="" SurfaceOnly="false">
+            <StructureTarget>
+              <VolumeID/>
+              <VolumeCode/>
+              <VolumeType>CTV</VolumeType>
+              <VolumeCodeTable/>
+            </StructureTarget>
+            <Distance>3</Distance>
+            <SamplePoints xsi:nil="true"/>
+            <Color>255</Color>
+            <StructureObjectives/>
+          </ObjectivesOneStructure>
+          <ObjectivesOneStructure ID="FemurL" NAME="" SurfaceOnly="false">
+            <StructureTarget>
+              <VolumeID/>
+              <VolumeCode/>
+              <VolumeType>Organ</VolumeType>
+              <VolumeCodeTable/>
+            </StructureTarget>
+            <Distance>3</Distance>
+            <SamplePoints xsi:nil="true"/>
+            <Color>65280</Color>
+            <StructureObjectives>
+              <Objective>
+                <Type>0</Type>
+                <Operator>0</Operator>
+                <Dose>12.3924</Dose>
+                <Volume>55.3314</Volume>
+                <Priority>80</Priority>
+                <ParameterA xsi:nil="true"/>
+                <Group>0</Group>
+              </Objective>
+              <Objective>
+                <Type>0</Type>
+                <Operator>0</Operator>
+                <Dose>20.6777</Dose>
+                <Volume>18.8994</Volume>
+                <Priority>80</Priority>
+                <ParameterA xsi:nil="true"/>
+                <Group>0</Group>
+              </Objective>
+            </StructureObjectives>
+          </ObjectivesOneStructure>
+          <ObjectivesOneStructure ID="FemurR" NAME="" SurfaceOnly="false">
+            <StructureTarget>
+              <VolumeID/>
+              <VolumeCode/>
+              <VolumeType>Organ</VolumeType>
+              <VolumeCodeTable/>
+            </StructureTarget>
+            <Distance>3</Distance>
+            <SamplePoints xsi:nil="true"/>
+            <Color>65280</Color>
+            <StructureObjectives>
+              <Objective>
+                <Type>0</Type>
+                <Operator>0</Operator>
+                <Dose>12.6643</Dose>
+                <Volume>55.7988</Volume>
+                <Priority>80</Priority>
+                <ParameterA xsi:nil="true"/>
+                <Group>0</Group>
+              </Objective>
+              <Objective>
+                <Type>0</Type>
+                <Operator>0</Operator>
+                <Dose>22.7811</Dose>
+                <Volume>21.7337</Volume>
+                <Priority>80</Priority>
+                <ParameterA xsi:nil="true"/>
+                <Group>0</Group>
+              </Objective>
+            </StructureObjectives>
+          </ObjectivesOneStructure>
+          <ObjectivesOneStructure ID="GTV" NAME="" SurfaceOnly="false">
+            <StructureTarget>
+              <VolumeID/>
+              <VolumeCode/>
+              <VolumeType>GTV</VolumeType>
+              <VolumeCodeTable/>
+            </StructureTarget>
+            <Distance>3</Distance>
+            <SamplePoints xsi:nil="true"/>
+            <Color>255</Color>
+            <StructureObjectives/>
+          </ObjectivesOneStructure>
+          <ObjectivesOneStructure ID="Mesorectum" NAME="" SurfaceOnly="false">
+            <StructureTarget>
+              <VolumeID/>
+              <VolumeCode/>
+              <VolumeType>Organ</VolumeType>
+              <VolumeCodeTable/>
+            </StructureTarget>
+            <Distance>3</Distance>
+            <SamplePoints xsi:nil="true"/>
+            <Color>65535</Color>
+            <StructureObjectives/>
+          </ObjectivesOneStructure>
+          <ObjectivesOneStructure ID="Node" NAME="" SurfaceOnly="false">
+            <StructureTarget>
+              <VolumeID/>
+              <VolumeCode/>
+              <VolumeType>CTV</VolumeType>
+              <VolumeCodeTable/>
+            </StructureTarget>
+            <Distance>1.35498</Distance>
+            <SamplePoints xsi:nil="true"/>
+            <Color>255</Color>
+            <StructureObjectives/>
+          </ObjectivesOneStructure>
+          <ObjectivesOneStructure ID="PTV" NAME="" SurfaceOnly="false">
+            <StructureTarget>
+              <VolumeID/>
+              <VolumeCode/>
+              <VolumeType>PTV</VolumeType>
+              <VolumeCodeTable/>
+            </StructureTarget>
+            <Distance>3</Distance>
+            <SamplePoints xsi:nil="true"/>
+            <Color>16776960</Color>
+            <StructureObjectives>
+              <Objective>
+                <Type>0</Type>
+                <Operator>0</Operator>
+                <Dose>52.4</Dose>
+                <Volume>0</Volume>
+                <Priority>200</Priority>
+                <ParameterA xsi:nil="true"/>
+                <Group>0</Group>
+              </Objective>
+              <Objective>
+                <Type>0</Type>
+                <Operator>1</Operator>
+                <Dose>51.4</Dose>
+                <Volume>100</Volume>
+                <Priority>200</Priority>
+                <ParameterA xsi:nil="true"/>
+                <Group>0</Group>
+              </Objective>
+            </StructureObjectives>
+          </ObjectivesOneStructure>
+          <ObjectivesOneStructure ID="SmallBowel" NAME="" SurfaceOnly="false">
+            <StructureTarget>
+              <VolumeID/>
+              <VolumeCode/>
+              <VolumeType>Organ</VolumeType>
+              <VolumeCodeTable/>
+            </StructureTarget>
+            <Distance>3</Distance>
+            <SamplePoints xsi:nil="true"/>
+            <Color>38400</Color>
+            <StructureObjectives>
+              <Objective>
+                <Type>0</Type>
+                <Operator>0</Operator>
+                <Dose>4.50019</Dose>
+                <Volume>40.9467</Volume>
+                <Priority>80</Priority>
+                <ParameterA xsi:nil="true"/>
+                <Group>0</Group>
+              </Objective>
+              <Objective>
+                <Type>0</Type>
+                <Operator>0</Operator>
+                <Dose>16.5893</Dose>
+                <Volume>19.0118</Volume>
+                <Priority>80</Priority>
+                <ParameterA xsi:nil="true"/>
+                <Group>0</Group>
+              </Objective>
+              <Objective>
+                <Type>0</Type>
+                <Operator>0</Operator>
+                <Dose>30</Dose>
+                <Volume>0</Volume>
+                <Priority>80</Priority>
+                <ParameterA xsi:nil="true"/>
+                <Group>0</Group>
+              </Objective>
+            </StructureObjectives>
+          </ObjectivesOneStructure>
+          <ObjectivesOneStructure ID="Vessels" NAME="" SurfaceOnly="false">
+            <StructureTarget>
+              <VolumeID/>
+              <VolumeCode/>
+              <VolumeType>Organ</VolumeType>
+              <VolumeCodeTable/>
+            </StructureTarget>
+            <Distance>3</Distance>
+            <SamplePoints xsi:nil="true"/>
+            <Color>16711935</Color>
+            <StructureObjectives/>
+          </ObjectivesOneStructure>
+        </ObjectivesAllStructures>
+      </ObjectiveTemplate>
+    </Phase>
+  </Phases>
+  <Review ShowMin="true" ShowMax="true" ShowMean="true" ShowModal="false" ShowMedian="false" ShowStdDev="false" ShowEUD="true" ShowTCP="false" ShowNTCP="false" ShowNDR="false" ShowEquivalentSphereDiameter="false" ShowConformityIndex="false" ShowGradientMeasure="false">
+    <ReviewStructures>
+      <ReviewStructure>
+        <Type>Structure</Type>
+        <Item>PTV</Item>
+      </ReviewStructure>
+      <ReviewStructure>
+        <Type>Structure</Type>
+        <Item>Bladder</Item>
+      </ReviewStructure>
+    </ReviewStructures>
+  </Review>
+</Protocol>
