@@ -121,6 +121,8 @@ PAGE = r"""<!doctype html>
 <div class="row">
   <label>Search Structure ID (partial match):</label>
   <input type="text" id="q" autocomplete="off">
+  <label>Protocol name:</label>
+  <input type="text" id="pq" autocomplete="off">
   <label><input type="checkbox" id="cs"> Case-sensitive</label>
 </div>
 
@@ -129,6 +131,7 @@ PAGE = r"""<!doctype html>
   <section class="pane">
     <h2 class="row" style="justify-content:space-between">
       <span>Selected &lt;Structure&gt; block (pretty)</span>
+      <span id="fileName" class="unc" style="flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap"></span>
       <span class="row"><button id="copy" disabled>Copy</button><button id="save" disabled>Save…</button></span>
     </h2>
     <pre id="block"></pre>
@@ -184,7 +187,7 @@ async function load(files) {
   const r = await fetch('/api/scrape', { method:'POST', body: JSON.stringify({ files: payload }) });
   const d = await r.json();
   all = d.structures;
-  $('q').value = '';
+  $('q').value = ''; $('pq').value = '';
   filter();
   const withS = d.files.filter(f => f.structures).length;
   status(`scraped ${all.length} structures from ${withS} of ${d.files.length} files.`);
@@ -192,8 +195,10 @@ async function load(files) {
 
 // ---- list / filter ----
 function filter() {
-  const q = $('q').value, cs = $('cs').checked;
-  shown = !q ? all : all.filter(s => cs ? s.id.includes(q) : s.id.toLowerCase().includes(q.toLowerCase()));
+  const cs = $('cs').checked;
+  const has = (v, q) => !q || (cs ? (v || '').includes(q) : (v || '').toLowerCase().includes(q.toLowerCase()));
+  const q = $('q').value, pq = $('pq').value;
+  shown = all.filter(s => has(s.id, q) && has(s.previewID, pq));
   $('listHdr').textContent = `Matches (${shown.length})`;
   const list = $('list'); list.textContent = '';
   if (!shown.length) {
@@ -213,9 +218,11 @@ function select(i) {
   sel = i;
   [...$('list').children].forEach((c, k) => c.classList.toggle('sel', k === i));
   $('block').textContent = i >= 0 ? shown[i].pretty : '';
+  $('fileName').textContent = i >= 0 ? 'File: ' + shown[i].file : '';
+  $('fileName').title = i >= 0 ? shown[i].file : '';
   $('copy').disabled = $('save').disabled = i < 0;
 }
-$('q').oninput = $('cs').onchange = filter;
+$('q').oninput = $('pq').oninput = $('cs').onchange = filter;
 
 // ---- copy / save ----
 async function clip(text) {
